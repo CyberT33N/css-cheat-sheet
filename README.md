@@ -12,7 +12,7 @@ top: 50%;
 -ms-transform: translateY(-50%);
 transform: translateY(-50%);
 
-/* Method #1 */
+/* Method #2 */
 .outer {
   position: absolute;
   display: table;
