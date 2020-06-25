@@ -24,6 +24,22 @@ transform: translateY(-50%);
   display: table-cell;
   vertical-align: middle;
 }
+
+/* Method #3 */
+.parent {
+    width: 400px;
+    height:200px;
+    background: blue;
+    display: flex;
+}
+
+.child {
+    width: 75px;
+    height: 75px;
+    background: yellow;
+    margin:auto;
+}
+
 ```  
 
 
