@@ -52,3 +52,25 @@ transform: translate(-50%, -50%);
 ```  
 
 
+
+
+# Two DIV next to each other
+```css
+/* Method #1 */
+#wrapper {
+    width: 500px;
+    border: 1px solid black;
+    overflow: hidden; /* will contain if #first is longer than #second */
+}
+#first {
+    width: 300px;
+    float:left; /* add this */
+    border: 1px solid red;
+}
+#second {
+    border: 1px solid green;
+    overflow: hidden; /* if you don't want #second to wrap below #first */
+}
+```  
+
+
