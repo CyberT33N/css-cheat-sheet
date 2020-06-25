@@ -95,8 +95,8 @@ transform: translate(-50%, -50%);
 ```css
 /* Method #1 */
 <div style=" padding-right: 1%;">
-  <label class="editor-label" style='display:block;' for="BrowserTitle">Browser Title</label>
-  <input class="editor-field" id="BrowserTitle" name="Question.BrowserTitle" size="30" type="text" value="Test title" />
+  <label class="editor-label">Anything inside here as example more divs..</label>
+  <label class="editor-label">Anything inside here as example more divs..</label>
 </div>
 ```  
 
