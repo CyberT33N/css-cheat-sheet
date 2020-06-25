@@ -29,15 +29,14 @@ transform: translateY(-50%);
 .parent {
     width: 400px;
     height:200px;
-    background: blue;
     display: flex;
 }
 
 .child {
     width: 75px;
     height: 75px;
-    background: yellow;
-    margin:auto;
+    margin-top:auto;
+    margin-bottom:auto;
 }
 
 ```  
@@ -60,11 +59,25 @@ margin-right: auto;
 margin: auto;
 width: 200px;
 
-/* Method #1 */
+/* Method #2 */
 position: fixed;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
+
+/* Method #3 */
+.parent {
+    width: 400px;
+    height:200px;
+    display: flex;
+}
+
+.child {
+    width: 75px;
+    height: 75px;
+    margin:auto;
+}
+
 ```  
 
  _____________________________________________________
