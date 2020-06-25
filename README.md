@@ -67,10 +67,10 @@ left: 50%;
 transform: translate(-50%, -50%);
 ```  
 
+_____________________________________________________
 
 
-
-# Two DIV next to each other
+# Align two DIV next to each other
 ```css
 /* Method #1 */
 #wrapper {
@@ -89,4 +89,13 @@ transform: translate(-50%, -50%);
 }
 ```  
 
+
+# Align multiple DIV under each other (label tag)
+```css
+/* Method #1 */
+<div style=" padding-right: 1%;">
+  <label class="editor-label" style='display:block;' for="BrowserTitle">Browser Title</label>
+  <input class="editor-field" id="BrowserTitle" name="Question.BrowserTitle" size="30" type="text" value="Test title" />
+</div>
+```  
 
