@@ -105,7 +105,7 @@ transform: translate(-50%, -50%);
 
 
 # Align multiple DIV under each other (label tag)
-```css
+```html
 /* Method #1 */
 <div class="editor-label-wrapper">
   <label class="editor-label-one">Anything inside here as example more divs..</label>
