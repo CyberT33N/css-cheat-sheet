@@ -124,5 +124,7 @@ transform: translate(-50%, -50%);
 # Box Shadow Top & Bottom only
 ```css
 /* Method #1 */
-box-shadow: inset 0px 14px 4px -11px #CCC, inset 0px -11px 8px -10px #CCC
+  box-shadow: 
+        inset 0px 11px 8px -10px #CCC,
+        inset 0px -11px 8px -10px #CCC; 
 ```  
