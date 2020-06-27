@@ -168,3 +168,14 @@ height: inherit;
         inset 0px 11px 8px -10px #CCC,
         inset 0px -11px 8px -10px #CCC; 
 ```  
+
+
+ _____________________________________________________
+ _____________________________________________________
+
+
+# Z-index not working
+```css
+/* Method #1 (disable pointer events of the layer which is blocking the element which needs to be clicked) */
+    pointer-events: none;
+```  
