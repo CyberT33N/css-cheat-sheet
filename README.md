@@ -93,6 +93,7 @@ height: inherit;
 ```css
 /* Method #1 (change inside of svg) */
  width="100%"
+ height="100%"
  viewBox="113 128 972 600"
  preserveAspectRatio="xMidYMid meet"
 ```  
