@@ -103,6 +103,28 @@ transform: translate(-50%, -50%);
 }
 ```  
 
+# Align two DIV next to each other and let right one fit the parent wrapper
+```css
+/* Method #1 */
+.wrapper{
+    width: 90%;
+    height: 2.5em;
+    display: flex;
+}
+.child-left {
+    position: relative;
+    display: flex;
+    width: 160px;
+}
+.child-right {
+    flex-grow: 1;
+    flex-direction: column;
+    position: relative;
+    height: 35px;
+}
+```  
+
+
 
 # Align multiple DIV under each other (label tag)
 ```html
