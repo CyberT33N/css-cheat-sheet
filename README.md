@@ -83,11 +83,24 @@ transform: translate(-50%, -50%);
  _____________________________________________________
  _____________________________________________________
 
-# Auto height to parent
+# Auto height/width to parent
 ```css
 /* Method #1 */
 height: inherit;
 ```  
+
+# Auto height & width to parent (flex-grow)
+```css
+/* Method #1 */
+#main {
+   display: flex;
+   width:100%;
+}
+#child{
+    flex-grow: 1;
+}
+```  
+
 
 # Auto scale SVG to parent
 ```css
