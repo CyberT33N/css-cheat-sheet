@@ -89,6 +89,14 @@ transform: translate(-50%, -50%);
 height: inherit;
 ```  
 
+# Auto scale SVG to parent
+```css
+/* Method #1 (change inside of svg) */
+ width="100%"
+ viewBox="113 128 972 600"
+ preserveAspectRatio="xMidYMid meet"
+```  
+
  _____________________________________________________
  _____________________________________________________
 
