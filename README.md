@@ -2,6 +2,9 @@
 CSS Cheat Sheet with the most needed stuff..
 
 
+<br />
+<br />
+
 
 # Center Vertical
 ```css
@@ -80,8 +83,18 @@ transform: translate(-50%, -50%);
 
 ```  
 
+
+<br />
+<br />
+
+
  _____________________________________________________
  _____________________________________________________
+
+
+<br />
+<br />
+
 
 # Auto height/width to parent
 ```css
@@ -111,8 +124,18 @@ height: inherit;
  preserveAspectRatio="xMidYMid meet"
 ```  
 
+
+<br />
+<br />
+
+
  _____________________________________________________
  _____________________________________________________
+
+
+
+<br />
+<br />
 
 
 # Align two DIV next to each other
@@ -133,6 +156,7 @@ height: inherit;
     overflow: hidden; /* if you don't want #second to wrap below #first */
 }
 ```  
+
 
 # Align two DIV next to each other and let right one fit the parent wrapper
 ```css
@@ -170,8 +194,18 @@ height: inherit;
 
 
 
+
+<br />
+<br />
+
+
  _____________________________________________________
  _____________________________________________________
+
+
+<br />
+<br />
+
 
 
 # Box Shadow Top & Bottom only
@@ -187,11 +221,21 @@ height: inherit;
  _____________________________________________________
 
 
+<br />
+<br />
+
+
+
 # Z-index not working
 ```css
 /* Method #1 (disable pointer events of the layer which is blocking the element which needs to be clicked) */
     pointer-events: none;
 ```  
+
+
+
+<br />
+<br />
 
 
  _____________________________________________________
