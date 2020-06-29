@@ -192,3 +192,11 @@ height: inherit;
 /* Method #1 (disable pointer events of the layer which is blocking the element which needs to be clicked) */
     pointer-events: none;
 ```  
+
+
+ _____________________________________________________
+ _____________________________________________________
+
+## Good Colors
+
+# white
