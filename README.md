@@ -257,3 +257,16 @@ color: #f1f1f1;
 color: #e1e1e1;
 color: #f8f8f8;
 ```
+
+
+ _____________________________________________________
+ _____________________________________________________
+
+
+<br />
+<br />
+
+
+# Scrollbar Definition
+![alt tag](https://i.stack.imgur.com/V1ElK.png)
+
