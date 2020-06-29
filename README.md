@@ -58,17 +58,14 @@ margin-right: auto;
 
 # Center Horizontal & Vertical
 ```css
-/* Method #1 */
-margin: auto;
-width: 200px;
 
-/* Method #2 */
+/* Method #1 */
 position: fixed;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 
-/* Method #3 */
+/* Method #2 */
 .parent {
     width: 400px;
     height:200px;
