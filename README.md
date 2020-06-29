@@ -258,4 +258,5 @@ height: inherit;
 color: #f7f7f7;
 color: #f1f1f1;
 color: #e1e1e1;
+color: #f8f8f8;
 ```
