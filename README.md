@@ -275,3 +275,42 @@ box-shadow: inset 0 0 0.7vmax -0.3vmax #000000d1;
 # Scrollbar Definition
 ![alt tag](https://i.stack.imgur.com/V1ElK.png)
 
+
+
+<br />
+<br />
+
+ _____________________________________________________
+ _____________________________________________________
+
+
+<br />
+<br />
+
+
+# Disable scroll for user
+```javascript
+
+          let el = $("layertwo");
+          let position = el.position();
+         console.log( "left: " + position.left + ", top: " + position.top );
+
+        setTimeout(() => { $('html').toggleClass('noscroll').css('top', '-' + position.top + 'px');  },500);
+
+        setTimeout(() => {
+          $('html').removeClass('noscroll');
+
+        let root = document.querySelector(':root');
+        root.setAttribute("style", "scroll-behavior: auto;");
+
+          window.scrollTo({
+              top: $('layertwo').offset().top,
+              left: 0
+            });
+
+        root.setAttribute("style", "scroll-behavior: smooth;");
+
+      },5000);
+
+```
+
