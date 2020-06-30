@@ -348,14 +348,17 @@ html.noscroll{
 ## Loading screens
 - https://tobiasahlin.com/spinkit/
 
+
+
 ## Anime.js
 - Animated Letters: https://tobiasahlin.com/moving-letters/
 - Staggering: https://codepen.io/juliangarnier/pen/XvjWvx
 - Login Box: https://codepen.io/ainalem/pen/EQXjOR
 - Submit Button: https://codepen.io/andrewmillen/pen/MoKLob
+- Animated Hand Signature: https://codepen.io/mellis84/pen/JpVZNw
 
 
 #### Background
 - Animated Background: https://codepen.io/juliangarnier/pen/ZeEpgd
-- Background Color Change
+- Background Color Change: https://codepen.io/alexzaworski/pen/mEkvAG
 
