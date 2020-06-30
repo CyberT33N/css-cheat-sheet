@@ -289,6 +289,23 @@ box-shadow: inset 0 0 0.7vmax -0.3vmax #000000d1;
 
 
 # Disable scroll for user
+```css
+:root {
+  scroll-behavior: smooth;
+}
+
+html.noscroll{
+    position: fixed;
+    width: 100%;
+    top:0;
+    left: 0;
+    height: 100%;
+    overflow-y: scroll !important;
+    z-index: 10;
+ }
+```
+
+
 ```javascript
 
           let el = $("layertwo");
