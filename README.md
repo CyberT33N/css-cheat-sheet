@@ -351,4 +351,11 @@ html.noscroll{
 ## Anime.js
 - Animated Letters: https://tobiasahlin.com/moving-letters/
 - Staggering: https://codepen.io/juliangarnier/pen/XvjWvx
+- Login Box: https://codepen.io/ainalem/pen/EQXjOR
+- Submit Button: https://codepen.io/andrewmillen/pen/MoKLob
+
+
+### Background
+- Animated Background: https://codepen.io/juliangarnier/pen/ZeEpgd
+- Background Color Change
 
