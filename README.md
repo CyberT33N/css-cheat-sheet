@@ -348,6 +348,7 @@ html.noscroll{
 ## Loading screens
 - https://tobiasahlin.com/spinkit/
 
-## Animated Letters
-- https://tobiasahlin.com/moving-letters/
+## Anime.js
+- Animated Letters: https://tobiasahlin.com/moving-letters/
+- Staggering: https://codepen.io/juliangarnier/pen/XvjWvx
 
