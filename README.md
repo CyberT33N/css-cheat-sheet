@@ -331,3 +331,23 @@ html.noscroll{
 
 ```
 
+
+<br />
+<br />
+
+ _____________________________________________________
+ _____________________________________________________
+
+
+<br />
+<br />
+
+
+# Third Party Collections
+
+## Loading screens
+- https://tobiasahlin.com/spinkit/
+
+## Animated Letters
+- https://tobiasahlin.com/moving-letters/
+
