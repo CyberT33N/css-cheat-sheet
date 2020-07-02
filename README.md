@@ -2,6 +2,24 @@
 CSS Cheat Sheet with the most needed stuff..
 
 
+# Golden Rules
+
+- Use RGBA for fill
+```css
+/*correct*/
+fill:(rgba(181, 188, 255, 0.6))
+/*may bugs with some color codes and fill cant read the color value and will choose black instead!*/
+fill:(#09bde0b3)
+```
+
+<br />
+<br />
+
+
+ _____________________________________________________
+ _____________________________________________________
+
+
 <br />
 <br />
 
