@@ -360,6 +360,27 @@ html.noscroll{
 <br />
 <br />
 
+# Other
+
+## Reset gradient animation
+```javascript
+var elbg = document.querySelector('headerBIG');
+elbg.style.animation = 'none';
+elbg.offsetHeight; /* trigger reflow */
+elbg.style.animation = null;
+```
+
+<br />
+<br />
+
+ _____________________________________________________
+ _____________________________________________________
+
+
+<br />
+<br />
+
+
 
 # Third Party Collections
 
