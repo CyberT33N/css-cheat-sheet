@@ -391,6 +391,8 @@ elbg.style.animation = null;
 - Google Fonts Offline Downloader (https://google-webfonts-helper.herokuapp.com)
 - Image Compressor (https://imagecompressor.com)
 
+## Codepen.io
+- Button hover effects with box-shadow: https://codepen.io/giana/pen/BZaGyP
 
 ## Anime.js
 - Animated Letters: https://tobiasahlin.com/moving-letters/
