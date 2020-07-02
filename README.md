@@ -387,12 +387,15 @@ elbg.style.animation = null;
 ## Loading screens
 - https://tobiasahlin.com/spinkit/
 
-## Converter
-- Google Fonts Offline Downloader (https://google-webfonts-helper.herokuapp.com)
-- Image Compressor (https://imagecompressor.com)
+## Close Button
+- Animated Close Buttons: https://codepen.io/JonasBadalic/pen/MYaMBz
 
-## Codepen.io
+## Hover
 - Button hover effects with box-shadow: https://codepen.io/giana/pen/BZaGyP
+
+## Converter
+- Google Fonts Offline Downloader: https://google-webfonts-helper.herokuapp.com
+- Image Compressor: https://imagecompressor.com
 
 ## Anime.js
 - Animated Letters: https://tobiasahlin.com/moving-letters/
