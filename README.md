@@ -387,6 +387,9 @@ elbg.style.animation = null;
 ## Loading screens
 - https://tobiasahlin.com/spinkit/
 
+## Converter
+- Google Fonts Offline Downloader (https://google-webfonts-helper.herokuapp.com)
+- Image Compressor (https://imagecompressor.com)
 
 
 ## Anime.js
