@@ -266,30 +266,6 @@ height: inherit;
 <br />
 
 
-# Nice Colors Collection
-
-## white
-```css
-color: #f7f7f7;
-color: #f1f1f1;
-color: #e1e1e1;
-color: #f8f8f8;
-```
-
-## box-shadow inset
-```css
-box-shadow: inset 0 0 0.7vmax -0.3vmax #000000d1;
-```
-
-
- _____________________________________________________
- _____________________________________________________
-
-
-<br />
-<br />
-
-
 # Scrollbar Definition
 ![alt tag](https://i.stack.imgur.com/V1ElK.png)
 
@@ -369,6 +345,57 @@ elbg.style.animation = 'none';
 elbg.offsetHeight; /* trigger reflow */
 elbg.style.animation = null;
 ```
+
+<br />
+<br />
+
+ _____________________________________________________
+ _____________________________________________________
+
+
+<br />
+<br />
+
+
+
+
+# Nice Colors Collection
+
+## white
+```css
+color: #f7f7f7;
+color: #f1f1f1;
+color: #e1e1e1;
+color: #f8f8f8;
+```
+
+## box-shadow inset
+```css
+box-shadow: inset 0 0 0.7vmax -0.3vmax #000000d1;
+```
+
+
+<br />
+<br />
+
+ _____________________________________________________
+ _____________________________________________________
+
+
+<br />
+<br />
+
+# Nice Fonts Colllection
+
+## Signature
+- @import url('https://fonts.googleapis.com/css?family=Bilbo+Swash+Caps&display=swap');
+- @import url('https://fonts.googleapis.com/css?family=Alex+Brush&display=swap');
+
+
+## General Text
+- @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
 
 <br />
 <br />
