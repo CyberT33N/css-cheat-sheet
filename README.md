@@ -389,16 +389,18 @@ box-shadow: inset 0 0 0.7vmax -0.3vmax #000000d1;
 <br />
 <br />
 
-# Nice Fonts Colllection
+# Nice Fonts Collection
 
 ## Signature
-- @import url('https://fonts.googleapis.com/css?family=Bilbo+Swash+Caps&display=swap');
-- @import url('https://fonts.googleapis.com/css?family=Alex+Brush&display=swap');
-
+```css
+@import url('https://fonts.googleapis.com/css?family=Bilbo+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alex+Brush&display=swap');
+```
 
 ## General Text
-- @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-
+```css
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+```
 
 
 <br />
