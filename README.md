@@ -97,6 +97,11 @@ transform: translateY(-50%);
 display: block;
 margin-left: auto;
 margin-right: auto;
+
+/* Method #2 */
+position: fixed;
+left: 50%;
+transform: translate(-50%, 0%);
 ```  
 
 
