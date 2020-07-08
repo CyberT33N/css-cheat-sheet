@@ -269,7 +269,7 @@ height: inherit;
 box-shadow: 0 9px 0px 0px #ffffff00,
 0 -9px 0px 0px #ffffff00,
 0px 10px 15px -6px #00000042,
-0px 10px 15px -6px #0000;
+0px 10px 15px -6px #00000042;
 ```  
 
 
