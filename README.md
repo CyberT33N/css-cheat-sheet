@@ -468,6 +468,9 @@ box-shadow: inset 0 0 0.7vmax -0.3vmax #000000d1;
 
 # Third Party Collections
 
+## UserAgent
+- Database: https://developers.whatismybrowser.com/useragents/explore/operating_platform/
+
 ## Loading screens
 - https://tobiasahlin.com/spinkit/
 
