@@ -331,6 +331,13 @@ box-shadow: 0 9px 0px 0px #ffffff00,
 
 
 # Disable scroll for user
+
+## Method 1
+```css
+$( 'body' ).css( 'overflow', 'hidden' );
+```
+
+## Method 2
 ```css
 :root {
   scroll-behavior: smooth;
