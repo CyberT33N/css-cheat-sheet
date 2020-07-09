@@ -263,6 +263,12 @@ height: inherit;
         inset 0px -11px 8px -10px #CCC; 
 ```  
 
+# Box Shadow Bottom
+```css
+/* Method #1 */
+box-shadow: 0 8px 6px -6px #00000052;
+```  
+
 # Box Shadow Left & Right
 ```css
 /* Method #1 */
@@ -271,6 +277,8 @@ box-shadow: 0 9px 0px 0px #ffffff00,
 0px 10px 15px -6px #00000042,
 0px 10px 15px -6px #00000042;
 ```  
+
+    
 
 
 <br />
