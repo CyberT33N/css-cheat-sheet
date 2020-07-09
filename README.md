@@ -471,6 +471,9 @@ box-shadow: inset 0 0 0.7vmax -0.3vmax #000000d1;
 ## UserAgent
 - Database: https://developers.whatismybrowser.com/useragents/explore/operating_platform/
 
+## JSON
+- JSON Viewer with Paths: http://jsonmaker.com/
+
 ## Loading screens
 - https://tobiasahlin.com/spinkit/
 
