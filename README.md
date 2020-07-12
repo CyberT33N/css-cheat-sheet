@@ -556,6 +556,9 @@ Then you can add this here for custom devices:
 - card with mouse follow: https://codepen.io/lembitk/pen/EVmqmY
 - https://codepen.io/yotman/pen/VEzXJp
 
+## Testimonial
+- slider: https://codepen.io/shamim539/pen/GZPZBp
+
 ## Background
 - Animated Background: https://codepen.io/juliangarnier/pen/ZeEpgd
 - Background Color Change: https://codepen.io/alexzaworski/pen/mEkvAG
