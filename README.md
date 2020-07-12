@@ -380,6 +380,13 @@ elbg.offsetHeight; /* trigger reflow */
 elbg.style.animation = null;
 ```
 
+## Reset animation
+```javascript
+$( '.circles li' ).css( 'animation', 'none' );
+await new Promise(resolve => setTimeout(resolve, 100));
+$( '.circles li' ).css( 'animation', '' ); // it will catch the default settings in your css
+```
+
 <br />
 <br />
 
