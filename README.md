@@ -544,6 +544,7 @@ Then you can add this here for custom devices:
 - Static: https://codepen.io/littlesnippets/pen/QjXVrV
 
 ## Image Carousel
+- Plugin: https://owlcarousel2.github.io/OwlCarousel2/
 - https://codepen.io/ccallen001/pen/bEYByd
 - 3D: https://codepen.io/iamdavid/details/CDluy
 
