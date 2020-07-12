@@ -555,7 +555,7 @@ Then you can add this here for custom devices:
 ## 3D
 - card with mouse follow: https://codepen.io/lembitk/pen/EVmqmY
 
-#### Background
+## Background
 - Animated Background: https://codepen.io/juliangarnier/pen/ZeEpgd
 - Background Color Change: https://codepen.io/alexzaworski/pen/mEkvAG
 - https://codepen.io/matth12377/pen/gwXBGy
@@ -563,7 +563,7 @@ Then you can add this here for custom devices:
 - Parallax triangle figure: https://codepen.io/semenchenko/pen/JpXVgG
 - Parallax Mouse follow with stars bg: https://codepen.io/ybprogrammer/pen/PGNBXJ
 
-#### Background Images (cc0)
+## Background Images (cc0)
 - Developer on bench: https://pixabay.com/photos/work-workaholic-writer-programmer-1627703/
 
 
