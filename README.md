@@ -554,6 +554,11 @@ Then you can add this here for custom devices:
 ## Image Transitions
 - https://codepen.io/sfi0zy/pen/OQOExE
 
+
+## Background Images (cc0)
+- Developer on bench: https://pixabay.com/photos/work-workaholic-writer-programmer-1627703/
+
+
 ## Background
 - Animated Background: https://codepen.io/juliangarnier/pen/ZeEpgd
 - Background Color Change: https://codepen.io/alexzaworski/pen/mEkvAG
@@ -568,9 +573,64 @@ Then you can add this here for custom devices:
 - Moving Logos on servers: https://codepen.io/koshik-ojha/pen/LXzXyx
 - Moving Circles: https://codepen.io/Nathanmc4pg/pen/GdKLdY
 
-## Background Images (cc0)
-- Developer on bench: https://pixabay.com/photos/work-workaholic-writer-programmer-1627703/
+## Gradient Background
+```css
 
+/* version 1 */
+background: grey;
+background: linear-gradient(-45deg, #f57f19, #e0366deb, #f57f19, #e0366deb, #195bf573, #000000, #00000073, #000000eb);
+background-size: 400% 400%;
+-webkit-animation: Gradient 43s ease infinite;
+-moz-animation: Gradient 43s ease infinite;
+animation: Gradient 43s ease infinite;
+
+/* version 2 transparent */
+background: #0f2027;
+background: linear-gradient(-45deg, #72307aba, #000000, #000000, #000000, #72307aba, #0000007d, #000000, #000000);
+background-size: 400% 400%;
+-webkit-animation: Gradient 630s ease infinite;
+-moz-animation: Gradient 630s ease infinite;
+ animation: Gradient 630s ease infinite;
+
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+
+```
 
 <br />
 <br />
