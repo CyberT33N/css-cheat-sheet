@@ -536,8 +536,12 @@ Then you can add this here for custom devices:
 - https://codepen.io/yotman/pen/VEzXJp
 
 ## Testimonial
-- slider: https://codepen.io/shamim539/pen/GZPZBp
+- Slider: https://codepen.io/shamim539/pen/GZPZBp
 - Slider: https://codepen.io/Aashima/pen/WdQQMr
+- Static: https://codepen.io/littlesnippets/pen/EVLJVa
+- Static: https://codepen.io/littlesnippets/pen/yejzvR
+- Static: https://codepen.io/littlesnippets/pen/yOvZPV
+- Static: https://codepen.io/littlesnippets/pen/QjXVrV
 
 ## Image Carousel
 - https://codepen.io/ccallen001/pen/bEYByd
