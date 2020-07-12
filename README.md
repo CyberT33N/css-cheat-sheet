@@ -562,6 +562,11 @@ Then you can add this here for custom devices:
 - Parallax triangle figure: https://codepen.io/semenchenko/pen/JpXVgG
 - Parallax Mouse follow with stars bg: https://codepen.io/ybprogrammer/pen/PGNBXJ
 - Animated waves: https://codepen.io/miguelog/pen/amoWgy
+- Endless horizontal Loop of Image: https://codepen.io/asfarmed/pen/cfslr
+- Moving circles and squares: https://codepen.io/tokyoweb/pen/ZjdYVj
+- Waves bottom: https://codepen.io/abelhancock/pen/aKxmLY
+- Moving Logos on servers: https://codepen.io/koshik-ojha/pen/LXzXyx
+- Moving Circles: https://codepen.io/Nathanmc4pg/pen/GdKLdY
 
 ## Background Images (cc0)
 - Developer on bench: https://pixabay.com/photos/work-workaholic-writer-programmer-1627703/
