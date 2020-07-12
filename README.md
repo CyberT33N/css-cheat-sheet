@@ -560,6 +560,16 @@ Then you can add this here for custom devices:
 - slider: https://codepen.io/shamim539/pen/GZPZBp
 - Slider: https://codepen.io/Aashima/pen/WdQQMr
 
+## Image Carousel
+- https://codepen.io/ccallen001/pen/bEYByd
+- 3D: https://codepen.io/iamdavid/details/CDluy
+
+## Image Gallery
+- https://codepen.io/andata/pen/pEyAGj
+
+## Image Transitions
+- https://codepen.io/sfi0zy/pen/OQOExE
+
 ## Background
 - Animated Background: https://codepen.io/juliangarnier/pen/ZeEpgd
 - Background Color Change: https://codepen.io/alexzaworski/pen/mEkvAG
