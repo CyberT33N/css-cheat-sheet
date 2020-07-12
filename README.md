@@ -558,6 +558,7 @@ Then you can add this here for custom devices:
 
 ## Testimonial
 - slider: https://codepen.io/shamim539/pen/GZPZBp
+- Slider: https://codepen.io/Aashima/pen/WdQQMr
 
 ## Background
 - Animated Background: https://codepen.io/juliangarnier/pen/ZeEpgd
@@ -566,6 +567,7 @@ Then you can add this here for custom devices:
 - Animated Stars: https://codepen.io/shinkeo/pen/XgRqeR
 - Parallax triangle figure: https://codepen.io/semenchenko/pen/JpXVgG
 - Parallax Mouse follow with stars bg: https://codepen.io/ybprogrammer/pen/PGNBXJ
+- Animated waves: https://codepen.io/miguelog/pen/amoWgy
 
 ## Background Images (cc0)
 - Developer on bench: https://pixabay.com/photos/work-workaholic-writer-programmer-1627703/
