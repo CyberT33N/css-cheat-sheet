@@ -499,9 +499,35 @@ Then you can add this here for custom devices:
 
 ## Loading screens
 - https://tobiasahlin.com/spinkit/
+- Windows 10: https://codepen.io/jenning/pen/rrkBbq
+- https://codepen.io/Godwin/pen/eWBzNX
+- Big Circle 3d effect: https://codepen.io/mattbhenley/pen/gQgVxG
 
 ## Close Button
 - Animated Close Buttons: https://codepen.io/JonasBadalic/pen/MYaMBz
+
+## Download Button
+- https://codepen.io/lalit-mohan/pen/rrEzLp
+- https://codepen.io/thereyzer/pen/JqLdLr
+
+## Percentage Bar
+- Animated Circle: https://codepen.io/like-a-boss/pen/pgqgKq
+- Multiple Charts: https://codepen.io/FilipDanic/pen/xbgbaQ
+
+## Scroll Animation
+- https://codepen.io/GreenXIII/pen/VKbNWV
+
+## Menubar Mobile
+- https://codepen.io/7ssan91/pen/dqLmpP
+- https://codepen.io/raffaele-filiberti/pen/mPQqVW
+- https://codepen.io/cateelderflower/pen/jwVPGd
+
+## Menubar Desktop
+- https://codepen.io/will627/pen/ehEpA
+- https://codepen.io/littlesnippets/pen/BLjjVX
+- https://codepen.io/littlesnippets/pen/pjKeyq
+- https://codepen.io/jordiorriols/pen/OXbYKO
+- Animated fullscreen: https://codepen.io/duchailu/pen/evprLy
 
 ## Hover
 - Button hover effects with box-shadow: https://codepen.io/giana/pen/BZaGyP
@@ -518,8 +544,37 @@ Then you can add this here for custom devices:
 - Submit Button: https://codepen.io/andrewmillen/pen/MoKLob
 - Animated Hand Signature: https://codepen.io/mellis84/pen/JpVZNw
 
+## SVG Animations (Text)
+- https://codepen.io/codecollective/pen/NqqENm
+- https://codepen.io/gzmiraz/pen/XmqWWx
+- https://codepen.io/mellis84/pen/JpVZNw
+
+## Logo
+- https://codepen.io/mkmueller/pen/dCEhA
+
+## 3D
+- card with mouse follow: https://codepen.io/lembitk/pen/EVmqmY
 
 #### Background
 - Animated Background: https://codepen.io/juliangarnier/pen/ZeEpgd
 - Background Color Change: https://codepen.io/alexzaworski/pen/mEkvAG
+- https://codepen.io/matth12377/pen/gwXBGy
+- Animated Stars: https://codepen.io/shinkeo/pen/XgRqeR
+- Parallax triangle figure: https://codepen.io/semenchenko/pen/JpXVgG
+- Parallax Mouse follow with stars bg: https://codepen.io/ybprogrammer/pen/PGNBXJ
+
+#### Background Images (cc0)
+- Developer on bench: https://pixabay.com/photos/work-workaholic-writer-programmer-1627703/
+
+
+<br />
+<br />
+
+ _____________________________________________________
+ _____________________________________________________
+
+
+<br />
+<br />
+
 
