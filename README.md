@@ -554,6 +554,7 @@ Then you can add this here for custom devices:
 
 ## 3D
 - card with mouse follow: https://codepen.io/lembitk/pen/EVmqmY
+- https://codepen.io/yotman/pen/VEzXJp
 
 ## Background
 - Animated Background: https://codepen.io/juliangarnier/pen/ZeEpgd
