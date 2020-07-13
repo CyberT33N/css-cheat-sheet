@@ -533,6 +533,9 @@ Then you can add this here for custom devices:
 - Submit Button: https://codepen.io/andrewmillen/pen/MoKLob
 - Animated Hand Signature: https://codepen.io/mellis84/pen/JpVZNw
 
+## Animated Objects
+- Animation Plugin: https://animate.style/
+
 ## SVG Animations (Text)
 - https://codepen.io/codecollective/pen/NqqENm
 - https://codepen.io/gzmiraz/pen/XmqWWx
