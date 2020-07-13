@@ -580,7 +580,7 @@ Then you can add this here for custom devices:
 - Moving Logos on servers: https://codepen.io/koshik-ojha/pen/LXzXyx
 - Moving Circles: https://codepen.io/Nathanmc4pg/pen/GdKLdY
 
-## Gradient Background
+## Animated Gradient Background
 ```css
 
 /* version 1 - multicolor*/
