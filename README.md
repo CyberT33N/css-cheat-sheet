@@ -489,6 +489,9 @@ Then you can add this here for custom devices:
 - https://codepen.io/Godwin/pen/eWBzNX
 - Big Circle 3d effect: https://codepen.io/mattbhenley/pen/gQgVxG
 
+## Buttons General
+- 3D Flip Glitch Buttons (done by me :D): https://codepen.io/t33n/pen/yXwZVx
+
 ## Close Button
 - Animated Close Buttons: https://codepen.io/JonasBadalic/pen/MYaMBz
 
@@ -560,6 +563,9 @@ Then you can add this here for custom devices:
 
 ## Image Transitions
 - https://codepen.io/sfi0zy/pen/OQOExE
+
+## Border
+- Animated: https://codepen.io/Rplus/pen/lEDBj
 
 
 ## Background Images (cc0)
