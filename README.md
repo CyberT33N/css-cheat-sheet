@@ -490,7 +490,7 @@ Then you can add this here for custom devices:
 - Big Circle 3d effect: https://codepen.io/mattbhenley/pen/gQgVxG
 
 ## Buttons General
-- 3D Flip Glitch Buttons: https://codepen.io/t33n/pen/yXwZVx
+- 3D Flip Glitch Buttons (made by me): https://codepen.io/cybert33n/pen/yXwZVx
 
 ## Close Button
 - Animated Close Buttons: https://codepen.io/JonasBadalic/pen/MYaMBz
