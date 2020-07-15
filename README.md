@@ -517,9 +517,15 @@ Then you can add this here for custom devices:
 - https://codepen.io/littlesnippets/pen/pjKeyq
 - https://codepen.io/jordiorriols/pen/OXbYKO
 - Animated fullscreen: https://codepen.io/duchailu/pen/evprLy
+- Fullscreen: https://codepen.io/fluxus/pen/gPWvZm
 
 ## Hover
 - Button hover effects with box-shadow: https://codepen.io/giana/pen/BZaGyP
+
+## Social Media
+- https://codepen.io/nouribram/pen/WNQzoOd
+- https://codepen.io/daniel_wolf/pen/mJRmaQ
+- https://codepen.io/FrankieDoodie/pen/dqmKrb
 
 ## Converter
 - Google Fonts Offline Downloader: https://google-webfonts-helper.herokuapp.com
