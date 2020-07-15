@@ -483,6 +483,10 @@ Then you can add this here for custom devices:
 ## JSON
 - JSON Viewer with Paths: http://jsonmaker.com/
 
+## Mouse Cursor
+- https://css-tricks.com/using-css-cursors/
+- Animation following cursor: https://codepen.io/tamm/pen/LIFam
+
 ## Loading screens
 - https://tobiasahlin.com/spinkit/
 - Windows 10: https://codepen.io/jenning/pen/rrkBbq
