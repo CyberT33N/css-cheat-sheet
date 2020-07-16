@@ -490,6 +490,9 @@ Then you can add this here for custom devices:
 - https://css-tricks.com/using-css-cursors/
 - Animation following cursor: https://codepen.io/tamm/pen/LIFam
 
+#### Mouse Cursor SVG Collection
+- https://mega.nz/file/y3pUUCZS#NPEm6f00U2VLweB0BXLL5yf5BUU53Ndd4f0b-TvW534
+
 ## Loading screens
 - https://tobiasahlin.com/spinkit/
 - Windows 10: https://codepen.io/jenning/pen/rrkBbq
