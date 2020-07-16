@@ -478,7 +478,7 @@ Then you can add this here for custom devices:
 # Third Party Collections
 
 ## Easing:
-- Cheat Sheet: https://easings.net/
+- Cheat Sheet: https://easings.net/ - https://animejs.com/documentation/#pennerFunctions
 
 ## UserAgent
 - Database: https://developers.whatismybrowser.com/useragents/explore/operating_platform/
