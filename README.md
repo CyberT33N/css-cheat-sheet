@@ -583,8 +583,10 @@ Then you can add this here for custom devices:
 ## Image Transitions
 - https://codepen.io/sfi0zy/pen/OQOExE
 
-## Border
-- Animated: https://codepen.io/Rplus/pen/lEDBj
+## Border Animation
+- https://codepen.io/Rplus/pen/lEDBj
+- https://codepen.io/uiswarup/pen/RBByzW
+- https://codepen.io/littlesnippets/pen/oLajBa
 
 
 ## Background Images (cc0)
