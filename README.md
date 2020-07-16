@@ -477,6 +477,9 @@ Then you can add this here for custom devices:
 
 # Third Party Collections
 
+## Easing:
+- Cheat Sheet: https://easings.net/
+
 ## UserAgent
 - Database: https://developers.whatismybrowser.com/useragents/explore/operating_platform/
 
