@@ -487,7 +487,8 @@ Then you can add this here for custom devices:
 - JSON Viewer with Paths: http://jsonmaker.com/
 
 ## Mouse Cursor
-- https://css-tricks.com/using-css-cursors/
+- Guide: https://css-tricks.com/using-css-cursors/
+- All avaible cursor: https://codepen.io/chriscoyier/pen/uCwfB
 - Animation following cursor: https://codepen.io/tamm/pen/LIFam
 
 #### Mouse Cursor SVG Collection
