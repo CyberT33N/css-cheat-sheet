@@ -515,6 +515,10 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 - https://codepen.io/Godwin/pen/eWBzNX
 - Big Circle 3d effect: https://codepen.io/mattbhenley/pen/gQgVxG
 - Logo Loader: https://codepen.io/PicturElements/pen/ZOwkwv
+- Atom Loader: https://codepen.io/dmsanchez86/details/WxRovR
+
+## Tabs
+- https://codepen.io/RGonyeau/pen/Mvrzxx
 
 ## Buttons General
 - 3D Flip Glitch Buttons (made by me): https://codepen.io/cybert33n/pen/yXwZVx
