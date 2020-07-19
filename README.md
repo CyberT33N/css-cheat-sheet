@@ -528,12 +528,13 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 - fullscreen boxes: https://codepen.io/dtab428/pen/yYJKma
 - fullscreen: https://codepen.io/team/webflow/pen/dPeVaG
 - swipe with background change: https://codepen.io/federico/pen/mRovqE
-
-
+- https://codepen.io/sean_codes/pen/QpoQMR
+- https://codepen.io/interstellar/pen/qaRJwm
 
 ## Buttons General
 - 3D Flip Glitch Buttons (made by me): https://codepen.io/cybert33n/pen/yXwZVx
 - Button.css: https://codepen.io/kevinfan23/pen/BKbWxP
+- sci-fi: https://codepen.io/jeromefarnum/details/VLjxvW
 
 ## Close Button
 - Animated Close Buttons: https://codepen.io/JonasBadalic/pen/MYaMBz
