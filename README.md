@@ -477,11 +477,26 @@ Then you can add this here for custom devices:
 
 # Third Party Collections
 
-## Easing:
+## Text
+Shimmer effect: https://codepen.io/redouglas/pen/gobsm
+
+## Easing
 - Cheat Sheet: https://easings.net/ - https://animejs.com/documentation/#pennerFunctions
+
+## Hover
+- Plugin: https://github.com/IanLunn/Hover
 
 ## UserAgent
 - Database: https://developers.whatismybrowser.com/useragents/explore/operating_platform/
+
+## Particle
+- WebGL Particle Animation: https://codepen.io/kenjiSpecial/pen/vELOrM
+
+## Table
+- https://codepen.io/heypablete/pen/qdIsm
+
+## Sidebar
+- https://codepen.io/azouaoui-med/pen/wpBadb
 
 ## JSON
 - JSON Viewer with Paths: http://jsonmaker.com/
@@ -491,7 +506,7 @@ Then you can add this here for custom devices:
 - All avaible cursor: https://codepen.io/chriscoyier/pen/uCwfB
 - Animation following cursor: https://codepen.io/tamm/pen/LIFam
 
-#### Mouse Cursor SVG Collection
+## Mouse Cursor SVG Collection
 - https://mega.nz/file/y3pUUCZS#NPEm6f00U2VLweB0BXLL5yf5BUU53Ndd4f0b-TvW534
 
 ## Loading screens
@@ -499,9 +514,11 @@ Then you can add this here for custom devices:
 - Windows 10: https://codepen.io/jenning/pen/rrkBbq
 - https://codepen.io/Godwin/pen/eWBzNX
 - Big Circle 3d effect: https://codepen.io/mattbhenley/pen/gQgVxG
+- Logo Loader: https://codepen.io/PicturElements/pen/ZOwkwv
 
 ## Buttons General
 - 3D Flip Glitch Buttons (made by me): https://codepen.io/cybert33n/pen/yXwZVx
+- Button.css: https://codepen.io/kevinfan23/pen/BKbWxP
 
 ## Close Button
 - Animated Close Buttons: https://codepen.io/JonasBadalic/pen/MYaMBz
@@ -529,6 +546,7 @@ Then you can add this here for custom devices:
 - https://codepen.io/jordiorriols/pen/OXbYKO
 - Animated fullscreen: https://codepen.io/duchailu/pen/evprLy
 - Fullscreen: https://codepen.io/fluxus/pen/gPWvZm
+- 3D Dropdown: https://codepen.io/soulwire/pen/EKmwC
 
 ## Hover
 - Button hover effects with box-shadow: https://codepen.io/giana/pen/BZaGyP
@@ -537,6 +555,7 @@ Then you can add this here for custom devices:
 - https://codepen.io/nouribram/pen/WNQzoOd
 - https://codepen.io/daniel_wolf/pen/mJRmaQ
 - https://codepen.io/FrankieDoodie/pen/dqmKrb
+- 3D Cubes with Hover: https://codepen.io/gabriellewee/pen/Qdpgwx
 
 ## Converter
 - Google Fonts Offline Downloader: https://google-webfonts-helper.herokuapp.com
@@ -553,10 +572,15 @@ Then you can add this here for custom devices:
 ## Animated Objects
 - Animation Plugin: https://animate.style/
 
+
+
 ## SVG Animations (Text)
 - https://codepen.io/codecollective/pen/NqqENm
 - https://codepen.io/gzmiraz/pen/XmqWWx
 - https://codepen.io/mellis84/pen/JpVZNw
+
+## Typing
+- Typing animation mimicking human behavior: https://codepen.io/Zhouzi/pen/JoRazP
 
 ## Logo
 - https://codepen.io/mkmueller/pen/dCEhA
@@ -564,6 +588,15 @@ Then you can add this here for custom devices:
 ## 3D
 - card with mouse follow: https://codepen.io/lembitk/pen/EVmqmY
 - https://codepen.io/yotman/pen/VEzXJp
+- Image Carousel: https://codepen.io/hoanghien0410/pen/MMPaqm
+
+## Sign-in
+- https://codepen.io/marcobiedermann/pen/Fybpf
+
+## Sign-in & Sign-up
+- https://codepen.io/andytran/pen/GpyKLM
+- https://codepen.io/hurick/pen/Kyrvrj
+- https://codepen.io/kvaibhav01/pen/PgRgzv
 
 ## Testimonial
 - Slider: https://codepen.io/shamim539/pen/GZPZBp
@@ -588,6 +621,7 @@ Then you can add this here for custom devices:
 - https://codepen.io/Rplus/pen/lEDBj
 - https://codepen.io/uiswarup/pen/RBByzW
 - https://codepen.io/littlesnippets/pen/oLajBa
+- Gradient Border: https://codepen.io/mike-schultz/pen/NgQvGO
 
 
 ## Background Images (cc0)
@@ -607,6 +641,9 @@ Then you can add this here for custom devices:
 - Waves bottom: https://codepen.io/abelhancock/pen/aKxmLY
 - Moving Logos on servers: https://codepen.io/koshik-ojha/pen/LXzXyx
 - Moving Circles: https://codepen.io/Nathanmc4pg/pen/GdKLdY
+- Solar System: https://codepen.io/kowlor/pen/ZYYQoy
+- Spread: https://codepen.io/roboshoes/pen/ydipI
+- Animated Person: https://codepen.io/yahiarefaiea/pen/xyNWQq
 
 ## Animated Gradient Background
 ```css
