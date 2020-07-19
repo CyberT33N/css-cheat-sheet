@@ -524,7 +524,7 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 - https://codepen.io/creativetim/pen/EgVBXa
 - https://codepen.io/Danil89/pen/ONBoyG
 - vertical https://codepen.io/juliepark/pen/pLMxoP
-- fullscreen slideshow: https://codepen.io/pbutcher/pen/gKqKdv
+- fullscreen slideshow: https://codepen.io/pbutcher/pen/yLLKbNo
 - fullscreen boxes: https://codepen.io/dtab428/pen/yYJKma
 - fullscreen: https://codepen.io/team/webflow/pen/dPeVaG
 - swipe with background change: https://codepen.io/federico/pen/mRovqE
