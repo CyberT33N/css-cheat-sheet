@@ -519,6 +519,11 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 
 ## Tabs
 - https://codepen.io/RGonyeau/pen/Mvrzxx
+- https://codepen.io/jdniki/pen/PzZERJ
+- https://codepen.io/ejsado/pen/gPVgVv
+- https://codepen.io/creativetim/pen/EgVBXa
+- https://codepen.io/Danil89/pen/ONBoyG
+- vertical https://codepen.io/juliepark/pen/pLMxoP
 
 ## Buttons General
 - 3D Flip Glitch Buttons (made by me): https://codepen.io/cybert33n/pen/yXwZVx
@@ -601,6 +606,7 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 - https://codepen.io/andytran/pen/GpyKLM
 - https://codepen.io/hurick/pen/Kyrvrj
 - https://codepen.io/kvaibhav01/pen/PgRgzv
+- https://codepen.io/dpinnick/pen/LjdLmo
 
 ## Testimonial
 - Slider: https://codepen.io/shamim539/pen/GZPZBp
