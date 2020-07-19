@@ -524,6 +524,12 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 - https://codepen.io/creativetim/pen/EgVBXa
 - https://codepen.io/Danil89/pen/ONBoyG
 - vertical https://codepen.io/juliepark/pen/pLMxoP
+- fullscreen slideshow: https://codepen.io/pbutcher/pen/gKqKdv
+- fullscreen boxes: https://codepen.io/dtab428/pen/yYJKma
+- fullscreen: https://codepen.io/team/webflow/pen/dPeVaG
+- swipe with background change: https://codepen.io/federico/pen/mRovqE
+
+
 
 ## Buttons General
 - 3D Flip Glitch Buttons (made by me): https://codepen.io/cybert33n/pen/yXwZVx
@@ -550,12 +556,14 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 
 ## Menubar Desktop
 - https://codepen.io/will627/pen/ehEpA
+- https://codepen.io/ejsado/pen/gPVgVv
 - https://codepen.io/littlesnippets/pen/BLjjVX
 - https://codepen.io/littlesnippets/pen/pjKeyq
 - https://codepen.io/jordiorriols/pen/OXbYKO
 - Animated fullscreen: https://codepen.io/duchailu/pen/evprLy
 - Fullscreen: https://codepen.io/fluxus/pen/gPWvZm
 - 3D Dropdown: https://codepen.io/soulwire/pen/EKmwC
+
 
 ## Hover
 - Button hover effects with box-shadow: https://codepen.io/giana/pen/BZaGyP
@@ -587,6 +595,11 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 - https://codepen.io/codecollective/pen/NqqENm
 - https://codepen.io/gzmiraz/pen/XmqWWx
 - https://codepen.io/mellis84/pen/JpVZNw
+
+## Cards
+- https://codepen.io/drehimself/pen/WwZrPR
+- https://codepen.io/iMax723/pen/aNKQyE
+- https://codepen.io/littlesnippets/pen/VvorBN
 
 ## Typing
 - Typing animation mimicking human behavior: https://codepen.io/Zhouzi/pen/JoRazP
@@ -620,6 +633,8 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 - Plugin: https://owlcarousel2.github.io/OwlCarousel2/
 - https://codepen.io/ccallen001/pen/bEYByd
 - 3D: https://codepen.io/iamdavid/details/CDluy
+
+
 
 ## Image Gallery
 - https://codepen.io/andata/pen/pEyAGj
