@@ -439,6 +439,17 @@ box-shadow: inset 0 0 0.7vmax -0.3vmax #000000d1;
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 ```
 
+## Headline 
+```css
+/*https://fonts.google.com/specimen/Alfa+Slab+One?sort=popularity*/
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+/*https://fonts.google.com/specimen/Audiowide?sort=popularity&preview.text=Latest+Projects&preview.text_type=custom*/
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+/*https://fonts.google.com/specimen/Days+One?sort=popularity&preview.text=Latest+Projects&preview.text_type=custom&sidebar.open&selection.family=Days+One*/
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+```
 
 <br />
 <br />
