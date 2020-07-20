@@ -491,6 +491,15 @@ Then you can add this here for custom devices:
 ## Text
 Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 
+## Lightbox:
+- Lightgallery Plugin (commercial not free): https://codepen.io/sachinchoolur/pen/QjLNMM
+- Single Image: https://codepen.io/gschier/pen/HCoqh
+- Single Image: https://codepen.io/ongtiffany/pen/BoOeQV
+- Gallery: https://codepen.io/nsom/pen/VbqLew
+- Animated Gallery: https://codepen.io/designcouch/pen/DEkcf
+- Gallery: https://codepen.io/svelts/pen/VYxPWW
+- Grid Gallery with animation to center: https://codepen.io/ademilter/pen/ByLwwV
+
 ## Easing
 - Cheat Sheet: https://easings.net/ - https://animejs.com/documentation/#pennerFunctions
 
