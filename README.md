@@ -675,6 +675,7 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 
 
 ## Background
+- Gradient Collections: https://uigradients.com/#Mystic
 - Animated Background: https://codepen.io/juliangarnier/pen/ZeEpgd
 - Background Color Change: https://codepen.io/alexzaworski/pen/mEkvAG
 - https://codepen.io/matth12377/pen/gwXBGy
