@@ -269,7 +269,26 @@ box-shadow: 0 9px 0px 0px #ffffff00,
 
     
 
+<br />
+<br />
 
+
+ _____________________________________________________
+ _____________________________________________________
+
+
+<br />
+<br />
+
+# Transition
+
+## Add delay to specific property
+```css
+transition: height 0.35s ease, 
+            width 0.35s ease, 
+            margin 0.35s ease, 
+            border-color 0.35s 0.35s ease; /* notice how the delay is added here alone */
+``` 
 <br />
 <br />
 
@@ -306,13 +325,6 @@ box-shadow: 0 9px 0px 0px #ffffff00,
 # Scrollbar Definition
 ![alt tag](https://i.stack.imgur.com/V1ElK.png)
 
-
-
-<br />
-<br />
-
- _____________________________________________________
- _____________________________________________________
 
 
 <br />
