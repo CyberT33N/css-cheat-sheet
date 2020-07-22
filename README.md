@@ -551,6 +551,7 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 - https://codepen.io/mayurelbhar/pen/OPbZmy
 - https://codepen.io/tutsplus/pen/ZNWQje
 - https://codepen.io/melawire/pen/pGFvs
+- https://codepen.io/lolwtf/pen/amVPYN
 
 ## 403 (Forbidden) Error Page
 - Typing console: https://codepen.io/leenalavanya/pen/RYqvgK
@@ -646,6 +647,9 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 - Fullscreen: https://codepen.io/fluxus/pen/gPWvZm
 - Fullscreen: https://codepen.io/bosworthco/pen/RjBvgw
 - 3D Dropdown: https://codepen.io/soulwire/pen/EKmwC
+- https://codepen.io/littlesnippets/pen/gPGvLq
+- https://codepen.io/yasinburakkalkan/pen/jPaXgb
+- https://codepen.io/littlesnippets/pen/OMXYaG
 
 
 ## Hover
@@ -702,6 +706,7 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 - https://codepen.io/marcobiedermann/pen/Fybpf
 - https://codepen.io/mycnlz/details/aNNExj
 - https://codepen.io/yildirimzlm/pen/aRjOGM
+- full page with bg: https://codepen.io/carsonf92/pen/pNWGXG
 
 ## Sign-in & Sign-up
 - https://codepen.io/andytran/pen/GpyKLM
@@ -762,6 +767,8 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 - Spread: https://codepen.io/roboshoes/pen/ydipI
 - Animated Person: https://codepen.io/yahiarefaiea/pen/xyNWQq
 - Animated stars fall down from sky: https://codepen.io/chriscourses/pen/PzONKR
+- Planet bg: https://codepen.io/carsonf92/pen/pNWGXG
+- planet bg v2: https://codepen.io/MoodyBoles/pen/KVodmp
 
 ## Animated Gradient Background
 ```css
