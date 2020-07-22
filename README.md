@@ -541,6 +541,16 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 ## Easing
 - Cheat Sheet: https://easings.net/ - https://animejs.com/documentation/#pennerFunctions
 
+## Contact Form
+- https://codepen.io/jq/pen/rVVQXz
+- https://codepen.io/rickyeckhardt/pen/rNVOrBL
+- animation in mail icon: https://codepen.io/permanentinc/pen/muFxK
+- https://codepen.io/superguru/pen/aGJHA
+- https://codepen.io/krisantuswanandi/pen/KxrgeZ
+
+## 403 (Forbidden) Error Page
+- Typing console: https://codepen.io/leenalavanya/pen/RYqvgK
+
 ## Hover
 - Plugin: https://github.com/IanLunn/Hover
 
@@ -608,6 +618,10 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 ## Scroll Animation
 - https://codepen.io/GreenXIII/pen/VKbNWV
 
+## One Page
+- https://codepen.io/Cutcopy/pen/LpBPLe
+
+
 ## Menubar Mobile
 - https://codepen.io/7ssan91/pen/dqLmpP
 - https://codepen.io/raffaele-filiberti/pen/mPQqVW
@@ -621,6 +635,7 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 - https://codepen.io/jordiorriols/pen/OXbYKO
 - Animated fullscreen: https://codepen.io/duchailu/pen/evprLy
 - Fullscreen: https://codepen.io/fluxus/pen/gPWvZm
+- Fullscreen: https://codepen.io/bosworthco/pen/RjBvgw
 - 3D Dropdown: https://codepen.io/soulwire/pen/EKmwC
 
 
@@ -659,6 +674,8 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 - https://codepen.io/drehimself/pen/WwZrPR
 - https://codepen.io/iMax723/pen/aNKQyE
 - https://codepen.io/littlesnippets/pen/VvorBN
+- with flip: https://codepen.io/keithpickering/pen/XJeJMv
+- profile card: https://codepen.io/team/jotform/details/XWmqoMp
 
 ## Typing
 - Typing animation mimicking human behavior: https://codepen.io/Zhouzi/pen/JoRazP
@@ -673,12 +690,14 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 
 ## Sign-in
 - https://codepen.io/marcobiedermann/pen/Fybpf
+- https://codepen.io/mycnlz/details/aNNExj
 
 ## Sign-in & Sign-up
 - https://codepen.io/andytran/pen/GpyKLM
 - https://codepen.io/hurick/pen/Kyrvrj
 - https://codepen.io/kvaibhav01/pen/PgRgzv
 - https://codepen.io/dpinnick/pen/LjdLmo
+- https://codepen.io/GrandvincentMarion/pen/epEPjp
 
 ## Testimonial
 - Slider: https://codepen.io/shamim539/pen/GZPZBp
@@ -692,6 +711,7 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 - Plugin: https://owlcarousel2.github.io/OwlCarousel2/
 - https://codepen.io/ccallen001/pen/bEYByd
 - 3D: https://codepen.io/iamdavid/details/CDluy
+- https://codepen.io/lmgonzalves/details/djEgmv
 
 
 
@@ -729,6 +749,7 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 - Solar System: https://codepen.io/kowlor/pen/ZYYQoy
 - Spread: https://codepen.io/roboshoes/pen/ydipI
 - Animated Person: https://codepen.io/yahiarefaiea/pen/xyNWQq
+- Animated stars fall down from sky: https://codepen.io/chriscourses/pen/PzONKR
 
 ## Animated Gradient Background
 ```css
