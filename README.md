@@ -547,9 +547,15 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 - animation in mail icon: https://codepen.io/permanentinc/pen/muFxK
 - https://codepen.io/superguru/pen/aGJHA
 - https://codepen.io/krisantuswanandi/pen/KxrgeZ
+- https://codepen.io/mayurelbhar/pen/OPbZmy
 
 ## 403 (Forbidden) Error Page
 - Typing console: https://codepen.io/leenalavanya/pen/RYqvgK
+- Perspective: https://codepen.io/pgalor/pen/dqQqqx
+
+## 404 (Not found) Error Page
+- Lost astronaut:
+- https://codepen.io/eroxburgh/pen/zYYyEPg
 
 ## Hover
 - Plugin: https://github.com/IanLunn/Hover
@@ -698,6 +704,7 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 - https://codepen.io/kvaibhav01/pen/PgRgzv
 - https://codepen.io/dpinnick/pen/LjdLmo
 - https://codepen.io/GrandvincentMarion/pen/epEPjp
+- https://codepen.io/dpinnick/pen/LjdLmo
 
 ## Testimonial
 - Slider: https://codepen.io/shamim539/pen/GZPZBp
