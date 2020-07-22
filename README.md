@@ -141,6 +141,16 @@ height: inherit;
 ```  
 
 
+# Auto height & width image to div without stretch
+```css
+/* Method #1 */
+  background-image: url("http://i.stack.imgur.com/2OrtT.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+```  
+
+
 # Auto scale SVG to parent
 ```css
 /* Method #1 (change inside of svg) */
