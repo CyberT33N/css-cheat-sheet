@@ -701,6 +701,7 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 ## Sign-in
 - https://codepen.io/marcobiedermann/pen/Fybpf
 - https://codepen.io/mycnlz/details/aNNExj
+- https://codepen.io/yildirimzlm/pen/aRjOGM
 
 ## Sign-in & Sign-up
 - https://codepen.io/andytran/pen/GpyKLM
