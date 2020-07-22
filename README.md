@@ -544,10 +544,13 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 ## Contact Form
 - https://codepen.io/jq/pen/rVVQXz
 - https://codepen.io/rickyeckhardt/pen/rNVOrBL
-- animation in mail icon: https://codepen.io/permanentinc/pen/muFxK
+- animation in envelope: https://codepen.io/permanentinc/pen/muFxK
+- animation in envelope: https://codepen.io/asmaa-mohammed/pen/mmVaLE
 - https://codepen.io/superguru/pen/aGJHA
 - https://codepen.io/krisantuswanandi/pen/KxrgeZ
 - https://codepen.io/mayurelbhar/pen/OPbZmy
+- https://codepen.io/tutsplus/pen/ZNWQje
+- https://codepen.io/melawire/pen/pGFvs
 
 ## 403 (Forbidden) Error Page
 - Typing console: https://codepen.io/leenalavanya/pen/RYqvgK
@@ -682,6 +685,7 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 - https://codepen.io/littlesnippets/pen/VvorBN
 - with flip: https://codepen.io/keithpickering/pen/XJeJMv
 - profile card: https://codepen.io/team/jotform/details/XWmqoMp
+- profile card: https://codepen.io/littlesnippets/pen/VvOwbw
 
 ## Typing
 - Typing animation mimicking human behavior: https://codepen.io/Zhouzi/pen/JoRazP
