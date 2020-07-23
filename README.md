@@ -451,6 +451,7 @@ color: #f8f8f8;
 ## light grey
 ```css
 color: #d8d8d8;
+color: #dfdfdf;
 ```
 
 
