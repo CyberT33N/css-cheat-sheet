@@ -448,6 +448,13 @@ color: #e1e1e1;
 color: #f8f8f8;
 ```
 
+## light grey
+```css
+color: #d8d8d8;
+```
+
+
+
 ## box-shadow inset
 ```css
 box-shadow: inset 0 0 0.7vmax -0.3vmax #000000d1;
