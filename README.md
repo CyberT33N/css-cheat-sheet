@@ -454,6 +454,11 @@ color: #d8d8d8;
 color: #dfdfdf;
 ```
 
+## light red
+```css
+color: #f15044;
+```
+
 ## black
 ```css
 color: #333333;
