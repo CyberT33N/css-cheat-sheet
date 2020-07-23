@@ -454,6 +454,11 @@ color: #d8d8d8;
 color: #dfdfdf;
 ```
 
+## black
+```css
+color: #333333;
+```
+
 
 
 ## box-shadow inset
