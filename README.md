@@ -549,6 +549,13 @@ Then you can add this here for custom devices:
 
 # Third Party Collections
 
+## Material Design
+- Bootstrap 4 Collection: https://codepen.io/mdbootstrap/pen/LRNZBz
+
+## Full websites
+- https://codepen.io/veronicadev/details/YYvjzO
+
+
 ## Text
 Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 
@@ -612,6 +619,7 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 - https://mega.nz/file/y3pUUCZS#NPEm6f00U2VLweB0BXLL5yf5BUU53Ndd4f0b-TvW534
 
 ## Loading screens
+- https://codepen.io/akhil_001/pen/YqBZgL
 - https://tobiasahlin.com/spinkit/
 - Windows 10: https://codepen.io/jenning/pen/rrkBbq
 - https://codepen.io/Godwin/pen/eWBzNX
@@ -659,10 +667,19 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 - sci-fi: https://codepen.io/jeromefarnum/details/VLjxvW
 - Hold to verify: https://codepen.io/aaroniker/pen/WNNWQbM
 
+## Text Verification
+- https://codepen.io/AlikinVV/pen/WLpRdg
+
 ## Success Button
 - confetti: https://codepen.io/aaroniker/pen/bGVGNrV
 - with loading: https://codepen.io/eliortabeka/pen/xOrQZA
 - https://codepen.io/colinhorn/pen/KXjYXr
+- https://codepen.io/guywald/details/AXwKqP
+- https://codepen.io/keenanpayne/details/YmKKer
+- https://codepen.io/ky0suke/pen/xwzNzp
+
+## Delete Button
+- https://codepen.io/estrepitos/pen/JAtKr
 
 ## Close Button
 - Animated Close Buttons: https://codepen.io/JonasBadalic/pen/MYaMBz
@@ -673,6 +690,7 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 ## Download Button
 - https://codepen.io/lalit-mohan/pen/rrEzLp
 - https://codepen.io/thereyzer/pen/JqLdLr
+- https://codepen.io/aaroniker/pen/vYEmery
 - https://codepen.io/aaroniker/pen/KjJQER
 
 ## Add to cart
@@ -767,6 +785,8 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 - with flip: https://codepen.io/keithpickering/pen/XJeJMv
 - profile card: https://codepen.io/team/jotform/details/XWmqoMp
 - profile card: https://codepen.io/littlesnippets/pen/VvOwbw
+- nice border: https://codepen.io/HugoGiraudel/pen/FBbDd
+- 3d flip: https://codepen.io/kharrop/pen/zBjBLx
 
 ## Typing
 - Typing animation mimicking human behavior: https://codepen.io/Zhouzi/pen/JoRazP
@@ -781,13 +801,21 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 ## Error
 
 ## Success
-- Modal Box: https://codepen.io/hynden/pen/qlsJy
+- Modal Box animated: https://codepen.io/hynden/pen/qlsJy
 - https://codepen.io/souporserious/pen/MwmXdg
 - https://codepen.io/ethanthompson/pen/vpWOmN
+- Modal Box not animated: https://codepen.io/iheartkode/pen/yJBBZZ
+- https://codepen.io/wallaceho/details/vxLbRO
+- https://codepen.io/sawyer22/pen/bdOoGX
+- https://codepen.io/InaCarine/pen/RJoepK
+- https://codepen.io/zhangshupi88/pen/zvWEMm
+- https://codepen.io/petsto/pen/XaZRGZ
 
 ## Success & Error
 - animated characters: https://codepen.io/juliepark/pen/vjMOKQ
 - tooltips: https://codepen.io/veronicadev/pen/LrZaov
+- https://codepen.io/MariamSalloum/pen/PBxKzd
+- tooltips: https://codepen.io/prallen/details/AsECw
 
 
 
@@ -808,6 +836,7 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 
 ## Newsletter
 - animation mailbox: https://codepen.io/lerida/pen/BaoRRbp
+- https://codepen.io/YarivFrd/pen/NXomOV
 
 ## Timeline
 - Animated timeline scroll down: https://codepen.io/vincebrown/pen/BNazqL
