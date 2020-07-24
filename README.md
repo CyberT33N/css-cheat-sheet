@@ -575,6 +575,7 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 - https://codepen.io/tutsplus/pen/ZNWQje
 - https://codepen.io/melawire/pen/pGFvs
 - https://codepen.io/lolwtf/pen/amVPYN
+- https://codepen.io/sdras/pen/LEorev
 
 ## 403 (Forbidden) Error Page
 - Typing console: https://codepen.io/leenalavanya/pen/RYqvgK
@@ -617,6 +618,7 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 - Big Circle 3d effect: https://codepen.io/mattbhenley/pen/gQgVxG
 - Logo Loader: https://codepen.io/PicturElements/pen/ZOwkwv
 - Atom Loader: https://codepen.io/dmsanchez86/details/WxRovR
+- Google Loader: https://codepen.io/AmineMohamed/pen/JZxyYm
 
 ## Tabs
 - https://codepen.io/RGonyeau/pen/Mvrzxx
@@ -632,17 +634,69 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 - https://codepen.io/sean_codes/pen/QpoQMR
 - https://codepen.io/interstellar/pen/qaRJwm
 
+
+
+## Slider
+- gradient: https://codepen.io/egrucza/pen/LEoOQZ
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Buttons General
 - 3D Flip Glitch Buttons (made by me): https://codepen.io/cybert33n/pen/yXwZVx
 - Button.css: https://codepen.io/kevinfan23/pen/BKbWxP
 - sci-fi: https://codepen.io/jeromefarnum/details/VLjxvW
+- Hold to verify: https://codepen.io/aaroniker/pen/WNNWQbM
+
+## Success Button
+- confetti: https://codepen.io/aaroniker/pen/bGVGNrV
+- with loading: https://codepen.io/eliortabeka/pen/xOrQZA
+- https://codepen.io/colinhorn/pen/KXjYXr
 
 ## Close Button
 - Animated Close Buttons: https://codepen.io/JonasBadalic/pen/MYaMBz
 
+## Publish Button
+- Hold to verify: https://codepen.io/aaroniker/pen/BayaBpV
+
 ## Download Button
 - https://codepen.io/lalit-mohan/pen/rrEzLp
 - https://codepen.io/thereyzer/pen/JqLdLr
+- https://codepen.io/aaroniker/pen/KjJQER
+
+## Add to cart
+- https://codepen.io/aaroniker/pen/QWWXKVP
+
+## Send Button
+- https://codepen.io/aaroniker/pen/BajabVN
+
+## Activate Button
+- https://codepen.io/aaroniker/pen/ZVOrOZ
+
+## Upload Button
+- https://codepen.io/balapa/pen/VYVedm
+- with pause: https://codepen.io/aaroniker/pen/QXxexJ
+
+## Order Placed Button
+- Animation with truck: https://codepen.io/aaroniker/pen/eYOVrNa
+- Animation with truck v2: https://codepen.io/aaroniker/pen/oNgPOwo
+
+
+
+
+
+
 
 ## Percentage Bar
 - Animated Circle: https://codepen.io/like-a-boss/pen/pgqgKq
@@ -717,6 +771,33 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 ## Typing
 - Typing animation mimicking human behavior: https://codepen.io/Zhouzi/pen/JoRazP
 
+
+
+
+
+
+
+
+## Error
+
+## Success
+- Modal Box: https://codepen.io/hynden/pen/qlsJy
+- https://codepen.io/souporserious/pen/MwmXdg
+- https://codepen.io/ethanthompson/pen/vpWOmN
+
+## Success & Error
+- animated characters: https://codepen.io/juliepark/pen/vjMOKQ
+- tooltips: https://codepen.io/veronicadev/pen/LrZaov
+
+
+
+
+
+
+
+
+
+
 ## Logo
 - https://codepen.io/mkmueller/pen/dCEhA
 
@@ -725,19 +806,57 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 - https://codepen.io/yotman/pen/VEzXJp
 - Image Carousel: https://codepen.io/hoanghien0410/pen/MMPaqm
 
+## Newsletter
+- animation mailbox: https://codepen.io/lerida/pen/BaoRRbp
+
+## Timeline
+- Animated timeline scroll down: https://codepen.io/vincebrown/pen/BNazqL
+
+
+
+
+
+
+
+
+
+
+
+
 ## Sign-in
 - https://codepen.io/marcobiedermann/pen/Fybpf
 - https://codepen.io/mycnlz/details/aNNExj
 - https://codepen.io/yildirimzlm/pen/aRjOGM
 - full page with bg: https://codepen.io/carsonf92/pen/pNWGXG
+- mobile: https://codepen.io/suez/pen/dPqxoM
+- perspective animation: https://codepen.io/jcoulterdesign/pen/azepmX
+- 3D perspective: https://codepen.io/jenning/pen/RVRYeb
+
+## Create password
+- https://codepen.io/davidkpiano/pen/WKvPBP
+
+## Sign-up
+- button sign-up: https://codepen.io/vineethtrv/pen/ZBpebQ
 
 ## Sign-in & Sign-up
+- https://codepen.io/joshsorosky/pen/gaaBoB
 - https://codepen.io/andytran/pen/GpyKLM
 - https://codepen.io/hurick/pen/Kyrvrj
 - https://codepen.io/kvaibhav01/pen/PgRgzv
 - https://codepen.io/dpinnick/pen/LjdLmo
 - https://codepen.io/GrandvincentMarion/pen/epEPjp
 - https://codepen.io/dpinnick/pen/LjdLmo
+- 3d box with all forms together: https://codepen.io/nourabusoud/pen/BxJbjJ
+- fullscreen: https://codepen.io/m2creates/pen/EEvGgW
+
+
+
+
+
+## Checkbox
+- https://codepen.io/alexjoffroy/pen/ORXOmR
+
+
 
 ## Testimonial
 - Slider: https://codepen.io/shamim539/pen/GZPZBp
