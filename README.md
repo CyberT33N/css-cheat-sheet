@@ -452,6 +452,7 @@ color: #f8f8f8;
 ```css
 color: #d8d8d8;
 color: #dfdfdf;
+color: #d5d5d5;
 ```
 
 ## light red
@@ -505,10 +506,14 @@ box-shadow: inset 0 0 0.7vmax -0.3vmax #000000d1;
 /*https://fonts.google.com/specimen/Alfa+Slab+One?sort=popularity*/
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 
-/*https://fonts.google.com/specimen/Audiowide?sort=popularity&preview.text=Latest+Projects&preview.text_type=custom*/
+/*https://fonts.google.com/specimen/Audiowide?sort=popularity&preview.text=Latest+Projects&preview.text_type=custom
+font-family: 'Audiowide', cursive;
+*/
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 
-/*https://fonts.google.com/specimen/Days+One?sort=popularity&preview.text=Latest+Projects&preview.text_type=custom&sidebar.open&selection.family=Days+One*/
+/*https://fonts.google.com/specimen/Days+One?sort=popularity&preview.text=Latest+Projects&preview.text_type=custom&sidebar.open&selection.family=Days+One
+font-family: 'Days One', sans-serif;
+*/
 @import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
 ```
 
