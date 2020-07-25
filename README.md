@@ -589,6 +589,9 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 - https://codepen.io/lolwtf/pen/amVPYN
 - https://codepen.io/sdras/pen/LEorev
 
+
+
+
 ## 403 (Forbidden) Error Page
 - Typing console: https://codepen.io/leenalavanya/pen/RYqvgK
 - Perspective: https://codepen.io/pgalor/pen/dqQqqx
@@ -597,6 +600,16 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 - Lost astronaut:
 - https://codepen.io/eroxburgh/pen/zYYyEPg
 - jungle: https://codepen.io/uiswarup/pen/dyoyLOp
+
+## 500 (Internal Server) Error Page
+- https://codepen.io/Souleste/pen/QWLxPPr
+
+
+
+
+
+
+
 
 ## Hover
 - Plugin: https://github.com/IanLunn/Hover
@@ -656,8 +669,37 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## SVG Animation
+- lava lamp: https://codepen.io/lukesmetham/pen/yJVwVr
 - developer with notebook: https://codepen.io/jeanoliveira/pen/ObWYmY
+
+
+## SVG Animations (Text)
+- https://codepen.io/codecollective/pen/NqqENm
+- https://codepen.io/gzmiraz/pen/XmqWWx
+- https://codepen.io/mellis84/pen/JpVZNw
+
 
 
 
@@ -702,7 +744,7 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 - https://codepen.io/aaroniker/pen/vYEmery
 - https://codepen.io/aaroniker/pen/KjJQER
 
-## Add to cart
+## Add to cart Button
 - https://codepen.io/aaroniker/pen/QWWXKVP
 
 ## Send Button
@@ -718,6 +760,8 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 ## Order Placed Button
 - Animation with truck: https://codepen.io/aaroniker/pen/eYOVrNa
 - Animation with truck v2: https://codepen.io/aaroniker/pen/oNgPOwo
+
+
 
 
 
@@ -784,6 +828,14 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 - Image Compressor: https://imagecompressor.com
 - CSS Auto Prefixer https://autoprefixer.github.io/
 
+
+
+
+
+
+
+
+
 ## Anime.js
 - Animated Letters: https://tobiasahlin.com/moving-letters/
 - Staggering: https://codepen.io/juliangarnier/pen/XvjWvx
@@ -795,11 +847,6 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 - Animation Plugin: https://animate.style/
 
 
-
-## SVG Animations (Text)
-- https://codepen.io/codecollective/pen/NqqENm
-- https://codepen.io/gzmiraz/pen/XmqWWx
-- https://codepen.io/mellis84/pen/JpVZNw
 
 ## Cards
 - https://codepen.io/drehimself/pen/WwZrPR
@@ -940,6 +987,14 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 - https://codepen.io/littlesnippets/pen/oLajBa
 - Gradient Border: https://codepen.io/mike-schultz/pen/NgQvGO
 
+
+
+
+## Text animation
+- https://codepen.io/team/keyframers/pen/vYNyWwQ
+
+
+
 ## Popup
 - https://codepen.io/melnik909/pen/QModrM
 
@@ -948,6 +1003,7 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 
 
 ## Background
+- desert sun goes down svg: https://codepen.io/Unleashed-Design/pen/VNpjrW
 - Gradient Collections: https://uigradients.com/#Mystic
 - Animated Background: https://codepen.io/juliangarnier/pen/ZeEpgd
 - Background Color Change: https://codepen.io/alexzaworski/pen/mEkvAG
