@@ -596,6 +596,7 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 ## 404 (Not found) Error Page
 - Lost astronaut:
 - https://codepen.io/eroxburgh/pen/zYYyEPg
+- jungle: https://codepen.io/uiswarup/pen/dyoyLOp
 
 ## Hover
 - Plugin: https://github.com/IanLunn/Hover
@@ -624,12 +625,13 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 - https://mega.nz/file/y3pUUCZS#NPEm6f00U2VLweB0BXLL5yf5BUU53Ndd4f0b-TvW534
 
 ## Loading screens
+- https://codepen.io/ahmadbassamemran/pen/bXRPdr
 - https://codepen.io/akhil_001/pen/YqBZgL
 - https://tobiasahlin.com/spinkit/
 - Windows 10: https://codepen.io/jenning/pen/rrkBbq
 - https://codepen.io/Godwin/pen/eWBzNX
 - Big Circle 3d effect: https://codepen.io/mattbhenley/pen/gQgVxG
-- Logo Loader: https://codepen.io/PicturElements/pen/ZOwkwv
+- Loader: https://codepen.io/PicturElements/pen/ZOwkwv
 - Atom Loader: https://codepen.io/dmsanchez86/details/WxRovR
 - Google Loader: https://codepen.io/AmineMohamed/pen/JZxyYm
 
@@ -654,7 +656,8 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 
 
 
-
+## SVG Animation
+- developer with notebook: https://codepen.io/jeanoliveira/pen/ObWYmY
 
 
 
@@ -693,6 +696,7 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 - Hold to verify: https://codepen.io/aaroniker/pen/BayaBpV
 
 ## Download Button
+- https://codepen.io/aaroniker/pen/yRdoYN
 - https://codepen.io/lalit-mohan/pen/rrEzLp
 - https://codepen.io/thereyzer/pen/JqLdLr
 - https://codepen.io/aaroniker/pen/vYEmery
@@ -732,6 +736,12 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 - https://codepen.io/Cutcopy/pen/LpBPLe
 
 
+
+
+
+## Hamburger Menu Animation
+- https://codepen.io/ahmadbassamemran/pen/abopOMY
+
 ## Menubar Mobile
 - https://codepen.io/7ssan91/pen/dqLmpP
 - https://codepen.io/raffaele-filiberti/pen/mPQqVW
@@ -750,6 +760,14 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 - https://codepen.io/littlesnippets/pen/gPGvLq
 - https://codepen.io/yasinburakkalkan/pen/jPaXgb
 - https://codepen.io/littlesnippets/pen/OMXYaG
+
+
+
+
+
+
+
+
 
 
 ## Hover
@@ -815,6 +833,7 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 - https://codepen.io/InaCarine/pen/RJoepK
 - https://codepen.io/zhangshupi88/pen/zvWEMm
 - https://codepen.io/petsto/pen/XaZRGZ
+- envelope: https://codepen.io/HamishMW/pen/XJogMg
 
 ## Success & Error
 - animated characters: https://codepen.io/juliepark/pen/vjMOKQ
@@ -833,6 +852,7 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 
 ## Logo
 - https://codepen.io/mkmueller/pen/dCEhA
+- Orbit: https://codepen.io/guerreiro/pen/obhzc
 
 ## 3D
 - card with mouse follow: https://codepen.io/lembitk/pen/EVmqmY
@@ -882,7 +902,7 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 - https://codepen.io/dpinnick/pen/LjdLmo
 - 3d box with all forms together: https://codepen.io/nourabusoud/pen/BxJbjJ
 - fullscreen: https://codepen.io/m2creates/pen/EEvGgW
-
+- https://codepen.io/FlorinPop17/pen/vPKWjd
 
 
 
@@ -920,6 +940,8 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 - https://codepen.io/littlesnippets/pen/oLajBa
 - Gradient Border: https://codepen.io/mike-schultz/pen/NgQvGO
 
+## Popup
+- https://codepen.io/melnik909/pen/QModrM
 
 ## Background Images (cc0)
 - Developer on bench: https://pixabay.com/photos/work-workaholic-writer-programmer-1627703/
@@ -945,6 +967,7 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 - Animated stars fall down from sky: https://codepen.io/chriscourses/pen/PzONKR
 - Planet bg: https://codepen.io/carsonf92/pen/pNWGXG
 - planet bg v2: https://codepen.io/MoodyBoles/pen/KVodmp
+- Three.js mutating field: https://codepen.io/Samsy/pen/emWppX
 
 ## Animated Gradient Background
 ```css
