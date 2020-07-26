@@ -559,7 +559,7 @@ Then you can add this here for custom devices:
 
 ## Full websites
 - https://codepen.io/veronicadev/details/YYvjzO
-
+- https://codepen.io/team/webflow/pen/pvydKd
 
 ## Text
 Shimmer effect: https://codepen.io/redouglas/pen/gobsm
@@ -716,6 +716,7 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 - Button.css: https://codepen.io/kevinfan23/pen/BKbWxP
 - sci-fi: https://codepen.io/jeromefarnum/details/VLjxvW
 - Hold to verify: https://codepen.io/aaroniker/pen/WNNWQbM
+- Button transition with 2 buttons: https://codepen.io/montechristos/pen/EPvOwJ
 
 ## Text Verification
 - https://codepen.io/AlikinVV/pen/WLpRdg
@@ -806,7 +807,8 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 - https://codepen.io/littlesnippets/pen/OMXYaG
 
 
-
+## Sidebar Menu
+- https://codepen.io/jcoulterdesign/pen/qdWxEm
 
 
 
@@ -857,6 +859,7 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 - profile card: https://codepen.io/littlesnippets/pen/VvOwbw
 - nice border: https://codepen.io/HugoGiraudel/pen/FBbDd
 - 3d flip: https://codepen.io/kharrop/pen/zBjBLx
+- Multilayer with animation: https://codepen.io/jebbles/pen/MKoYya
 
 ## Typing
 - Typing animation mimicking human behavior: https://codepen.io/Zhouzi/pen/JoRazP
@@ -950,8 +953,31 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 - 3d box with all forms together: https://codepen.io/nourabusoud/pen/BxJbjJ
 - fullscreen: https://codepen.io/m2creates/pen/EEvGgW
 - https://codepen.io/FlorinPop17/pen/vPKWjd
+- https://codepen.io/andytran/pen/RPBdgM
 
 
+
+
+
+
+
+## Footer
+- https://codepen.io/z-/details/zYxdRQy
+- Animated city: https://codepen.io/uiswarup/pen/oNNMedZ
+- parallax effect: https://codepen.io/maheshc/details/pCwxs
+- https://codepen.io/Alioos_90/pen/VPbzpy
+- https://codepen.io/magnusriga/pen/bKbWjx
+- https://codepen.io/idesignsmf/pen/WgjXeo
+- https://codepen.io/jilliannichols/pen/EVxLRm
+- https://codepen.io/bhorsey/pen/PzPwBB
+- https://codepen.io/abdelfattahbaraka/pen/rwbewP
+- https://codepen.io/devdojo/pen/WNbepgJ
+- https://codepen.io/Mohamed-Anwar97/pen/VwedNpR
+- https://codepen.io/rhythm19/pen/RwWdKrL
+- https://codepen.io/itaditya/pen/ejEYxd
+- with google maps: https://codepen.io/maskit_jr/pen/EZzqYV
+- https://codepen.io/nizamrobin/pen/WdoPbN
+- https://codepen.io/ntoye/pen/XVGVPX
 
 
 ## Checkbox
@@ -967,19 +993,46 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 - Static: https://codepen.io/littlesnippets/pen/yOvZPV
 - Static: https://codepen.io/littlesnippets/pen/QjXVrV
 
+
+
+
+
+
+
+
+
+
 ## Image Carousel
 - Plugin: https://owlcarousel2.github.io/OwlCarousel2/
 - https://codepen.io/ccallen001/pen/bEYByd
 - 3D: https://codepen.io/iamdavid/details/CDluy
 - https://codepen.io/lmgonzalves/details/djEgmv
-
-
+- fullscreen vertical: https://codepen.io/mxbck/pen/ERNwBy
+- fullscreen: https://codepen.io/Alca/pen/VByeJd
+- fullscreen vertical image distortion transition: https://codepen.io/ashthornton/details/KRQbMO
+- fullscreen: https://codepen.io/lmgonzalves/pen/djEgmv
 
 ## Image Gallery
 - https://codepen.io/andata/pen/pEyAGj
 
 ## Image Transitions
 - https://codepen.io/sfi0zy/pen/OQOExE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Border Animation
 - https://codepen.io/Rplus/pen/lEDBj
@@ -992,6 +1045,7 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 
 ## Text animation
 - https://codepen.io/team/keyframers/pen/vYNyWwQ
+- https://codepen.io/KaioRocha/pen/YoEVvZ
 
 
 
@@ -1003,6 +1057,7 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 
 
 ## Background
+- bridge with clouds
 - desert sun goes down svg: https://codepen.io/Unleashed-Design/pen/VNpjrW
 - Gradient Collections: https://uigradients.com/#Mystic
 - Animated Background: https://codepen.io/juliangarnier/pen/ZeEpgd
