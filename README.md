@@ -978,7 +978,13 @@ Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 - with google maps: https://codepen.io/maskit_jr/pen/EZzqYV
 - https://codepen.io/nizamrobin/pen/WdoPbN
 - https://codepen.io/ntoye/pen/XVGVPX
-
+- https://codepen.io/beacrea/pen/rRWKjY
+- https://codepen.io/marekzelinka/pen/VzZNVz
+- https://codepen.io/salah-alden-alsalama/pen/BajWRqq
+- https://codepen.io/niloydeysarkar/details/KOmbZV
+- https://codepen.io/felipoliveira_/pen/WpoNgZ
+- https://codepen.io/tsumetaieien/pen/rNxzgmK
+- https://codepen.io/brusky/pen/yLNLMzd
 
 ## Checkbox
 - https://codepen.io/alexjoffroy/pen/ORXOmR
