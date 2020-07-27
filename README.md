@@ -235,7 +235,7 @@ height: inherit;
 
 # Align multiple DIV under each other (label tag)
 ```html
-/* Method #1 */
+/* Method #1 use display:block on the labels if needed*/
 <div class="editor-label-wrapper">
   <label class="editor-label-one">Anything inside here as example more divs..</label>
   <label class="editor-label-two">Anything inside here as example more divs..</label>
