@@ -1113,6 +1113,15 @@ background-size: 400% 400%;
 -moz-animation: Gradient 120s ease infinite;
 animation: Gradient 120s ease infinite;
 
+/* version 4 - orange to purple to yellow - looks good with black bg */
+ background: grey; /*fallback for older browsers*/
+ background: linear-gradient(-45deg, #ef6706, #e2c70a, #ffc404, #f81a62, #e0366d, #f57f19, #f27a1c);
+ background-size: 400% 400%;
+ -webkit-animation: Gradient 63s ease infinite;
+ -moz-animation: Gradient 63s ease infinite;
+ animation: Gradient 63s ease infinite;
+
+
 @-webkit-keyframes Gradient {
 	0% {
 		background-position: 0% 50%
