@@ -496,6 +496,8 @@ box-shadow: inset 0 0 0.7vmax -0.3vmax #000000d1;
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 //font-family: 'Baloo Chettan 2', cursive;
 @import url(https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&display=swap);
+
+font-family: Raleway, sans-serif;
 ```
 
 
