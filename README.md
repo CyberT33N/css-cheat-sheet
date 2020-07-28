@@ -498,6 +498,10 @@ box-shadow: inset 0 0 0.7vmax -0.3vmax #000000d1;
 @import url(https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&display=swap);
 
 font-family: Raleway, sans-serif;
+
+@import url(https://fonts.googleapis.com/css?family=Work+Sans);
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700);
+font-family: "Open Sans", sans-serif;
 ```
 
 
