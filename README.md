@@ -502,6 +502,7 @@ font-family: Raleway, sans-serif;
 @import url(https://fonts.googleapis.com/css?family=Work+Sans);
 @import url(https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700);
 font-family: "Open Sans", sans-serif;
+font-family: 'Work Sans', sans-serif;
 ```
 
 
