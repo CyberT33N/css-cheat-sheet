@@ -16,6 +16,18 @@ word-spacing: 100vw;
 ```  
 
 
+## Max line breaks
+```css
+.text {
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; /* number of lines to show */
+   -webkit-box-orient: vertical;
+}
+```  
+
+
 
 <br />
 <br />
