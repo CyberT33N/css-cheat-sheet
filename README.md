@@ -16,8 +16,9 @@ word-spacing: 100vw;
 ```  
 
 
-## Max line breaks
+## Character limit
 ```css
+// method 1 max lines
 .text {
    overflow: hidden;
    text-overflow: ellipsis;
@@ -25,6 +26,12 @@ word-spacing: 100vw;
    -webkit-line-clamp: 2; /* number of lines to show */
    -webkit-box-orient: vertical;
 }
+
+// method 2
+ white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 1vmax; // use width or height
 ```  
 
 
