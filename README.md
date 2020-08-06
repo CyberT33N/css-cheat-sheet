@@ -36,6 +36,19 @@ word-spacing: 100vw;
 
 
 
+```javascript
+// method 3
+$( "blockquote" ).each(function() {
+
+    var string = $(this).text();
+    var length = 150;
+    var trimmedString = string.substring(0, length) + '...';
+    $(this).text(trimmedString);
+
+});
+```
+
+
 <br />
 <br />
 
