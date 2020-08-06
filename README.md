@@ -40,10 +40,8 @@ word-spacing: 100vw;
 // method 3
 $( "blockquote" ).each(function() {
 
-    var string = $(this).text();
-    var length = 150;
-    var trimmedString = string.substring(0, length) + '...';
-    $(this).text(trimmedString);
+   let trimmedString = $(this).html().match( /^[\S\s]{1,200}([a-z0-9] |$)/gmi );
+   $(this).html( trimmedString[0] + '...' );
 
 });
 ```
