@@ -18,7 +18,7 @@ word-spacing: 100vw;
 
 ## Character limit
 ```css
-// method 1 max lines
+/* method 1 max lines */
 .text {
    overflow: hidden;
    text-overflow: ellipsis;
@@ -27,7 +27,7 @@ word-spacing: 100vw;
    -webkit-box-orient: vertical;
 }
 
-// method 2
+/* method 2 */
  white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
