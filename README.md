@@ -591,6 +591,13 @@ Then you can add this here for custom devices:
 
 # Third Party Collections
 
+
+
+## Responsive Scale
+- https://codepen.io/cRckls/pen/mcGCL
+
+
+
 ## Material Design
 - Bootstrap 4 Collection: https://codepen.io/mdbootstrap/pen/LRNZBz
 
