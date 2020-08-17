@@ -5,6 +5,25 @@ CSS Cheat Sheet with the most needed stuff..
 <br />
 <br />
 
+# Animation
+
+## transition delay
+```css
+transition: background-color 1s linear 2s, color 1s;
+transition: property name | duration | timing function | delay
+```
+
+<br />
+<br />
+
+
+ _____________________________________________________
+ _____________________________________________________
+
+
+<br />
+<br />
+
 
 # Modify text
 
