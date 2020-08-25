@@ -15,6 +15,11 @@ CSS Cheat Sheet with the most needed stuff..
 content-visibility: auto;
 ```
 
+```javascript
+if ("content-visibility" in document.body.style) alert("The " + styletotest + " property is supported");
+else alert("The " + styletotest + " property is NOT supported");
+```
+
 
 
 <br />
@@ -634,6 +639,9 @@ Then you can add this here for custom devices:
 
 # Third Party Collections
 
+
+## Cross Browser Support
+- http://caniuse.com
 
 
 ## Responsive Scale
