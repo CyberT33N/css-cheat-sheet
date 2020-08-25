@@ -41,7 +41,7 @@ else alert("The property is NOT supported");
 @media all and (max-width: 1024px) and (min-height: 1025px) and (orientation: portrait)  { /*..*/ }
 ```
 
-## Prevent hover on touch devices
+## Prevent sticky hover on touch devices
 ```css
 /*Method #1*/
 
