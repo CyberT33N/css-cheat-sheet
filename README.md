@@ -16,8 +16,8 @@ content-visibility: auto;
 ```
 
 ```javascript
-if ("content-visibility" in document.body.style) alert("The " + styletotest + " property is supported");
-else alert("The " + styletotest + " property is NOT supported");
+if ("content-visibility" in document.body.style) alert("The property is supported");
+else alert("The property is NOT supported");
 ```
 
 
