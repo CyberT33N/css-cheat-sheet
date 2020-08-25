@@ -43,11 +43,28 @@ else alert("The property is NOT supported");
 
 ## Prevent hover on touch devices
 ```css
+/*Method #1*/
+
 /*This media query indicates that styles will work on browsers that not emulate :hover so it will NOT work on touch browsers.*/
 @media (hover: hover) and (pointer: fine) {
     /* css hover class/style */
 }
+
+/*Method #2*/
+.myhoveredclass {
+    background-color:green;
+}
+.myhoveredclass:hover {
+    background-color:red;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .myhoveredclass:hover, .myhoveredclass:active, .myhoveredclass:focus {
+        background-color:green;
+    }
+}
 ```
+
+
 
 
 
