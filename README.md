@@ -22,6 +22,35 @@ else alert("The property is NOT supported");
 
 
 
+
+<br />
+<br />
+
+
+ _____________________________________________________
+ _____________________________________________________
+
+
+<br />
+<br />
+
+# Media Queries
+
+## Orientation
+```css
+@media all and (max-width: 1024px) and (min-height: 1025px) and (orientation: portrait)  { /*..*/ }
+```
+
+## Prevent hover on touch devices
+```css
+/*This media query indicates that styles will work on browsers that not emulate :hover so it will NOT work on touch browsers.*/
+@media (hover: hover) and (pointer: fine) {
+    /* css hover class/style */
+}
+```
+
+
+
 <br />
 <br />
 
