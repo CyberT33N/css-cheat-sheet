@@ -1235,3 +1235,18 @@ animation: Gradient 120s ease infinite;
 <br />
 
 
+
+# Atom packages
+- https://atom.io/packages/atom-clock
+- https://atom.io/packages/minimap
+- https://atom.io/packages/minimap-cursorline
+- https://atom.io/packages/minimap-find-and-replace
+- https://atom.io/packages/minimap-git-diff
+- https://atom.io/packages/remote-atom
+- https://atom.io/packages/teletype
+- https://atom.io/packages/atom-beautify
+- https://atom.io/packages/autocomplete
+- https://atom.io/packages/html-template-generator
+- https://atom.io/packages/html-to-css
+- https://atom.io/packages/ide-html
+- https://atom.io/packages/emmet
