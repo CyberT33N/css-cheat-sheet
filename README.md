@@ -33,6 +33,30 @@ CSS Cheat Sheet with the most needed stuff..
 <br />
 <br />
 
+
+
+
+# Performance 
+
+## content-visibility (https://web.dev/content-visibility/)
+```css
+content-visibility: auto;
+```
+
+
+
+<br />
+<br />
+
+
+ _____________________________________________________
+ _____________________________________________________
+
+
+<br />
+<br />
+
+
 # Animation
 
 ## transition delay
