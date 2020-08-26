@@ -694,24 +694,40 @@ Then you can add this here for custom devices:
 
 
 # Third Party Collections
-- https://www.browserstack.com/ ★ **PREMIUM - ONLINE** ★
-- https://bluetree.ai/screenfly/?u=https%3A//bing.com&a=20&b=10 ★ **FREE - ONLINE** ★
-- http://www.responsinator.com/?url=bing.com ★ **FREE - ONLINE - Only iphone as it seems** ★
-- http://browsershots.org/http://www.bing.com/ ★ **FREE - ONLINE - Only screenshots of desktop browser** ★
 
 
+
+<br />
+<br />
 
 
 
 ## Cross Browser Support
 - http://caniuse.com
 
-## Cross Browser Testing
+## Cross Browser Testing - VIEWPORT
+- https://bluetree.ai/screenfly/?u=https%3A//bing.com&a=20&b=10 ★ **FREE - ONLINE** ★
+- http://www.responsinator.com/?url=bing.com ★ **FREE - ONLINE - Only iphone as it seems** ★
+- http://browsershots.org/http://www.bing.com/ ★ **FREE - ONLINE - Only screenshots of desktop browser** ★
 
-
+## Cross Browser Testing - EMULATED DEVICES
+- https://www.browserstack.com/ ★ **PREMIUM - ONLINE** ★
 
 ## Responsive Scale
 - https://codepen.io/cRckls/pen/mcGCL
+
+
+
+
+
+<br />
+<br />
+
+
+
+
+
+
 
 
 
@@ -721,6 +737,14 @@ Then you can add this here for custom devices:
 ## Full websites
 - https://codepen.io/veronicadev/details/YYvjzO
 - https://codepen.io/team/webflow/pen/pvydKd
+
+
+
+
+<br />
+<br />
+
+
 
 ## Text
 Shimmer effect: https://codepen.io/redouglas/pen/gobsm
