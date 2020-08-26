@@ -64,6 +64,16 @@ else alert("The property is NOT supported");
 }
 ```
 
+```javascript
+// method #3
+$("#elementwithhover").click(function() { 
+  // code that makes element or parent slide or otherwise move out from under mouse. 
+
+  $(this).clone(true).insertAfter($(this));
+  $(this).remove();
+});
+```
+
 
 
 
