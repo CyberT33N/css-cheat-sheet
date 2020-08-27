@@ -21,7 +21,8 @@ content-visibility: auto;
 if ("content-visibility" in document.body.style) alert("The property is supported");
 else alert("The property is NOT supported");
 ```
-
+<br />
+<br />
 ## Ensure text remains visible during webfont load
 - https://web.dev/font-display/
 ```css
@@ -29,7 +30,8 @@ else alert("The property is NOT supported");
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
 @import url(https://fonts.googleapis.com/css?family=Alex+Brush&display=swap);
 ```
-
+<br />
+<br />
 ## SVG Sprite
 - https://github.com/svgstore/svgstore
 
@@ -44,7 +46,7 @@ else alert("The property is NOT supported");
   console.log( 'image loaded..' );
       // code, run after image load
    }
-```javascript
+```
 
 <br />
 <br />
