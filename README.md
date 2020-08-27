@@ -9,6 +9,8 @@ CSS Cheat Sheet with the most needed stuff..
 
 
 # Performance 
+- https://web.dev/lighthouse-performance/
+
 
 ## content-visibility (https://web.dev/content-visibility/)
 ```css
@@ -20,7 +22,16 @@ if ("content-visibility" in document.body.style) alert("The property is supporte
 else alert("The property is NOT supported");
 ```
 
+## Ensure text remains visible during webfont load
+- https://web.dev/font-display/
+```css
+/*Use swap*/
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+@import url(https://fonts.googleapis.com/css?family=Alex+Brush&display=swap);
+```
 
+## SVG Sprite
+- https://github.com/svgstore/svgstore
 
 
 <br />
