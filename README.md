@@ -53,6 +53,9 @@ else alert("The property is NOT supported");
    }
 ```
 
+## HTTP 2
+- https://web.dev/uses-http2/?utm_source=lighthouse&utm_medium=devtools
+
 <br />
 <br />
 
