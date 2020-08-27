@@ -681,6 +681,9 @@ Then you can add this here for custom devices:
 
 ```
 
+More viewports can be found here:
+- https://viewportsizes.com/
+
 <br />
 <br />
 
