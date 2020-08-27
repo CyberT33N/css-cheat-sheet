@@ -23,8 +23,10 @@ else alert("The property is NOT supported");
 ```
 <br />
 <br />
+
 ## Ensure text remains visible during webfont load
 - https://web.dev/font-display/
+
 ```css
 /*Use swap*/
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
@@ -32,6 +34,7 @@ else alert("The property is NOT supported");
 ```
 <br />
 <br />
+
 ## SVG Sprite
 - https://github.com/svgstore/svgstore
 
