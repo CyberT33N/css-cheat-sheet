@@ -33,6 +33,18 @@ else alert("The property is NOT supported");
 ## SVG Sprite
 - https://github.com/svgstore/svgstore
 
+## Load images only when in viewport
+```html
+<img class="layerone-img-ich2" data-src="img/ich-min.png"/>
+```
+```javascript
+  // when you reach the layer of the image load it manually by changing data-src to src
+  $('.layerone-img-ich2').attr( 'src', $('.layerone-img-ich2').attr( 'data-src' ) );
+  document.querySelector('.layerone-img-ich2').onload = function(e){
+  console.log( 'image loaded..' );
+      // code, run after image load
+   }
+```javascript
 
 <br />
 <br />
