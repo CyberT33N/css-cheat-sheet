@@ -595,14 +595,14 @@ html.noscroll{
 
 ```javascript
 
-          let el = $("layertwo");
-          let position = el.position();
-         console.log( "left: " + position.left + ", top: " + position.top );
 
-        setTimeout(() => { $('html').toggleClass('noscroll').css('top', '-' + position.top + 'px');  },500);
 
-        setTimeout(() => {
-          $('html').removeClass('noscroll');
+        $('html').toggleClass('noscroll').css('top', '-' + $('layerone').offset().top + 'px');
+
+        // do something..
+
+
+        $('html').removeClass('noscroll');
 
         let root = document.querySelector(':root');
         root.setAttribute("style", "scroll-behavior: auto;");
@@ -614,7 +614,6 @@ html.noscroll{
 
         root.setAttribute("style", "scroll-behavior: smooth;");
 
-      },5000);
 
 ```
 
