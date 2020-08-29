@@ -782,12 +782,11 @@ More viewports can be found here:
 
 
 
-# Third Party Collections
-
-
 
 <br />
 <br />
+
+# Cross Browser/Cross Devices
 
 
 
@@ -801,12 +800,32 @@ More viewports can be found here:
 
 ## Cross Browser Testing - EMULATED DEVICES
 - https://www.browserstack.com/ ★ **PREMIUM - ONLINE** ★
+- https://developer.android.com/studio ★ **FREE - OFFLINE** ★
 
 ## Responsive Scale
 - https://codepen.io/cRckls/pen/mcGCL
 
 
 
+<br />
+<br />
+
+# Android Studio
+
+## Android Studio cant install HXAM
+- Download HAXM manually from here: https://github.com/intel/haxm/releases/tag/v7.6.1
+
+## Start emulator from command line
+```bash
+C:\Users\Administrator\AppData\Local\Android\Sdk\emulator\emulator.exe -avd Pixel_3a_API_30_x86 -dns-server 8.8.8.8
+```
+
+
+<br />
+<br />
+
+ _____________________________________________________
+ _____________________________________________________
 
 
 <br />
@@ -816,6 +835,8 @@ More viewports can be found here:
 
 
 
+
+# Third Party Collections
 
 
 
