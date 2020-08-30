@@ -834,6 +834,9 @@ adb start-server
 - In my cases I disabled "Use Android Studio HTTP proxy setting" on the settings area of the emulated devices (three dots on the sidebar > Settings > Proxy)
 - You can visit inside of your emulated device browser 10.0.2.2 to each localhost from your host os!
 
+## Open emulated device browser inspector on your main os
+- chrome://inspect/#devices
+
 <br />
 <br />
 
