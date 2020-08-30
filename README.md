@@ -731,7 +731,17 @@ font-family: 'Work Sans', sans-serif;
     
 
 ## Headline 
+
+
+
 ```css
+/*https://fonts.google.com/specimen/Poppins?preview.text=DENNIS&preview.text_type=custom&sidebar.open=true&selection.family=Poppins:wght@900
+font-family: 'Poppins', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+
+
+
 /*https://fonts.google.com/specimen/Alfa+Slab+One?sort=popularity*/
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 
