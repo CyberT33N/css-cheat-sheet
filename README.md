@@ -812,12 +812,15 @@ More viewports can be found here:
 
 # Android Studio
 
-## Android Studio cant install HXAM
+## Cant install HXAM
 - Download HAXM manually from here: https://github.com/intel/haxm/releases/tag/v7.6.1
+
+## Show avaible devices
+- C:\Users\Administrator\AppData\Local\Android\Sdk\emulator\emulator.exe -list-avds
 
 ## Start emulator from command line
 ```bash
-C:\Users\Administrator\AppData\Local\Android\Sdk\emulator\emulator.exe -avd Pixel_3a_API_30_x86 -dns-server 8.8.8.8
+C:\Users\Administrator\AppData\Local\Android\Sdk\emulator\emulator.exe -avd Pixel_3a_API_30 -dns-server 8.8.8.8
 ```
 
 
