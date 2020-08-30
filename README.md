@@ -705,6 +705,8 @@ box-shadow: inset 0 0 0.7vmax -0.3vmax #000000d1;
 
 # Nice Fonts Collection
 
+- https://github.com/AllThingsSmitty/fonts
+
 ## Signature
 ```css
 @import url('https://fonts.googleapis.com/css?family=Bilbo+Swash+Caps&display=swap');
