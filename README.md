@@ -705,7 +705,8 @@ box-shadow: inset 0 0 0.7vmax -0.3vmax #000000d1;
 
 # Nice Fonts Collection
 
-- https://github.com/AllThingsSmitty/fonts
+- https://github.com/AllThingsSmitty/fonts (maybe license..)
+- https://dsgnmag.com/helvetica-alternatives-on-google-fonts/
 
 ## Signature
 ```css
