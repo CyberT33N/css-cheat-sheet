@@ -760,6 +760,7 @@ font-family: 'Days One', sans-serif;
 <br />
 <br />
 
+
  _____________________________________________________
  _____________________________________________________
 
@@ -767,7 +768,18 @@ font-family: 'Days One', sans-serif;
 <br />
 <br />
 
-# Chrome Inspector Custom Devices 
+
+
+
+<br />
+<br />
+
+# Cross Browser/Cross Devices
+
+
+
+
+## Chrome Inspector Custom Devices 
 As example on windows you can find this file:
 - AppData\Local\Chromium\User Data\Your profile here or default\Preferences
 
@@ -785,22 +797,6 @@ More viewports can be found here:
 
 <br />
 <br />
-
- _____________________________________________________
- _____________________________________________________
-
-
-<br />
-<br />
-
-
-
-
-<br />
-<br />
-
-# Cross Browser/Cross Devices
-
 
 
 ## Cross Browser Support
