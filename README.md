@@ -830,7 +830,7 @@ More viewports can be found here:
 
 ## Start emulator from command line
 ```bash
-C:\Users\Administrator\AppData\Local\Android\Sdk\emulator\emulator.exe -avd Pixel_3a_API_30 -dns-server 8.8.8.8
+C:\Users\Administrator\AppData\Local\Android\Sdk\emulator\emulator.exe -avd Pixel_3a_API_30 -dns-server 8.8.8.8 -gpu host -noaudio
 ```
 
 ## adb can´t connect to deamon
