@@ -810,6 +810,7 @@ More viewports can be found here:
 ## Cross Browser Testing - EMULATED DEVICES
 - https://www.browserstack.com/ ★ **PREMIUM - ONLINE** ★
 - https://developer.android.com/studio ★ **FREE - OFFLINE** ★
+- https://visualstudio.microsoft.com/vs/msft-android-emulator/  ★ **FREE - OFFLINE** ★
 
 ## Responsive Scale
 - https://codepen.io/cRckls/pen/mcGCL
