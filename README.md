@@ -847,6 +847,16 @@ adb start-server
 ## Open emulated device browser inspector on your main os
 - chrome://inspect/#devices
 
+## Increase performance
+Open config.ini (AVD Manager click arrow and then show on disk) and add:
+```bash
+hw.audioInput=no
+hw.audioOutput=no
+```
+
+Disable Multi-Core and enable Hardware for Graphics
+![alt tag](https://i.stack.imgur.com/dcheJ.png)
+
 <br />
 <br />
 
