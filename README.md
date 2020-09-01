@@ -39,6 +39,7 @@ else alert("The property is NOT supported");
 
 ## SVG Sprite
 - https://github.com/svgstore/svgstore
+- https://svgsprit.es/
 
 
 
