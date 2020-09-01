@@ -39,7 +39,8 @@ else alert("The property is NOT supported");
 
 ## SVG Sprite
 - https://github.com/svgstore/svgstore
-- https://svgsprit.es/
+- https://svgsprit.es/ **Online generator**
+- https://www.npmjs.com/package/svg-sprite-generator
 
 
 
