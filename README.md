@@ -40,6 +40,11 @@ else alert("The property is NOT supported");
 ## SVG Sprite
 - https://github.com/svgstore/svgstore
 
+
+
+<br />
+<br />
+
 ## Load images only when in viewport
 ```html
 <img class="layerone-img-ich2" data-src="img/ich-min.png"/>
@@ -52,6 +57,13 @@ else alert("The property is NOT supported");
       // code, run after image load
    }
 ```
+
+## Images
+- Convert images to .webp
+
+<br />
+<br />
+
 
 ## HTTP 2
 - https://web.dev/uses-http2/?utm_source=lighthouse&utm_medium=devtools
