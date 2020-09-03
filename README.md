@@ -476,6 +476,22 @@ height: inherit;
   <label class="editor-label-two">Anything inside here as example more divs..</label>
   <label class="editor-label-three">Anything inside here as example more divs..</label>
 </div>
+
+/* method 2 ul & li - You may have to give ul and li 100% height */
+<ul class="memberlist">
+    <li>
+        <div class="memberImage"><img src="foo.jpg" /></div>
+        <div class="memberInfo">John Doe</div>
+    </li>
+    <li>
+        <div class="memberImage"><img src="foo.jpg" /></div>
+        <div class="memberInfo">John Doe</div>
+    </li>
+    <li>
+        <div class="memberImage"><img src="foo.jpg" /></div>
+        <div class="memberInfo">John Doe</div>
+    </li>
+</ul>
 ```  
 
 
