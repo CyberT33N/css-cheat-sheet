@@ -855,7 +855,7 @@ More viewports can be found here:
 
 ## Use Inspector on smartphones
 
-### IOS
+### IOS (https://github.com/liriliri/eruda)
 Create bookmark and replace site link with this code (https://www.youtube.com/watch?v=fTh9ESsWklM):
 ```javascript
 javascript:(function () { var script = document.createElement('script'); script.src="//cdn.jsdelivr.net/npm/eruda"; document.body.appendChild(script); script.onload = function () { eruda.init() } })();
