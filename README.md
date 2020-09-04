@@ -846,6 +846,20 @@ More viewports can be found here:
 - https://codepen.io/cRckls/pen/mcGCL
 
 
+## Remote Debugging on own smartphones
+- https://developers.google.com/web/tools/chrome-devtools/remote-debugging
+
+
+<br />
+<br />
+
+## Use Inspector on smartphones
+
+### IOS
+Create bookmark and replace site link with this code (https://www.youtube.com/watch?v=fTh9ESsWklM):
+```javascript
+javascript:(function () { var script = document.createElement('script'); script.src="//cdn.jsdelivr.net/npm/eruda"; document.body.appendChild(script); script.onload = function () { eruda.init() } })();
+```
 
 <br />
 <br />
