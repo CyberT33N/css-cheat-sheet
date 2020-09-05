@@ -82,6 +82,7 @@ else alert("The property is NOT supported");
 
 #### Server Side
 ```bash
+# https://github.com/tdewolff/minify
 sudo apt-get install minify
 minify -o index-min.html index.html
 
