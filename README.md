@@ -938,7 +938,7 @@ Disable Multi-Core and enable Hardware for Graphics
 
 
 
-## Email templates
+## Email templates (How to send html via gmail: https://www.youtube.com/watch?v=MsMSqhMlfao)
 - Responsive multi layer: https://codepen.io/rodriguezcommaj/pen/RNPzwr ★ **HOT** ★
 - Responsive: https://codepen.io/rickygipson/pen/Aouhi
 - Responsive: https://codepen.io/zavoloklom/pen/qEVqzx
