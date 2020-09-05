@@ -74,6 +74,30 @@ else alert("The property is NOT supported");
 <br />
 
 
+
+<br />
+<br />
+
+## Minify
+
+#### Server Side
+```bash
+sudo apt-get install minify
+minify -o index-min.html index.html
+
+#You can also give directories as input, and these directories can be minified recursively.
+
+#Minify files in the current working directory to out/ (no subdirectories):
+minify -o out/ .
+
+# Minify files recursively in src/:
+minify -r -o out/ src
+
+#Minify only javascript files in src/:
+minify -r -o out/ --match=\.js src
+```
+
+
  _____________________________________________________
  _____________________________________________________
 
