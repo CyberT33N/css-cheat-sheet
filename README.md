@@ -936,8 +936,48 @@ Disable Multi-Core and enable Hardware for Graphics
 
 
 
+
+
+## Email templates
+- Responsive multi layer: https://codepen.io/rodriguezcommaj/pen/RNPzwr ★ **HOT** ★
+- Responsive: https://codepen.io/rickygipson/pen/Aouhi
+- Responsive: https://codepen.io/zavoloklom/pen/qEVqzx
+- Responsive: https://github.com/konsav/email-templates/ (https://github.com/konsav/email-templates/)
+- Responsive: https://codepen.io/raybeezdesign/pen/pHlLG
+- Responsive multi layer: https://codepen.io/Mestika/pen/bEerrv  ★ **HOT** ★
+- responsive layout: https://codepen.io/beeeees/pen/JEDms
+- responsive multi layer: https://codepen.io/brucej/pen/BjdwVj
+- responsive: https://codepen.io/RyanHallMedia/pen/qRXBKW
+- responsive multi layer: https://codepen.io/reallygoodemails/pen/ZWqOBz
+- small clean: https://codepen.io/koca/pen/vjzyad
+- responsive multi layer: https://codepen.io/maizzle/pen/WYjyvg  ★ **HOT** ★
+- animated?: https://codepen.io/reallygoodemails/pen/yJagbN
+- small clean: https://codepen.io/shift-tech/pen/eMdePP
+- small clean: https://codepen.io/denner-rondinely/pen/qwdywa
+- small clean: https://codepen.io/dvomaks/pen/xedjBp
+- small clean: https://codepen.io/darcyturk/pen/XxdVbv
+- material design: https://codepen.io/judecodes/pen/YBdMLZ
+- small clean: https://codepen.io/mtthlbg/pen/KVWggg
+- material design multi layer: https://codepen.io/luong-quynh/pen/agBMbg  ★ **HOT** ★
+- clean card with bg: https://codepen.io/faudau/pen/zJombX
+- product offer: https://codepen.io/reallygoodemails/pen/OMqpmN  ★ **HOT** ★
+- small clean: https://codepen.io/MarcoZani/details/aRNQmQ
+- clean: https://codepen.io/koolkamalkishor/pen/ZEbgyrj
+- transition image: https://codepen.io/Romaric_aboule/pen/gOpywgG
+- clean card: https://codepen.io/saurya3579/pen/poJKdWP
+- clean: https://codepen.io/visionarymarketer/pen/rLqZqx
+- image transition: https://codepen.io/Mr_Rahul_Tiwari/pen/Wqzqpd
+- clean big image: https://codepen.io/reallygoodemails/pen/ELoOvj
+
+
+
+
+
+
+
+
 ## Text
-Shimmer effect: https://codepen.io/redouglas/pen/gobsm
+- Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 
 ## Lightbox:
 - Lightgallery Plugin (commercial not free): https://codepen.io/sachinchoolur/pen/QjLNMM
