@@ -1264,6 +1264,7 @@ Disable Multi-Core and enable Hardware for Graphics
 - https://codepen.io/daniel_wolf/pen/mJRmaQ
 - https://codepen.io/FrankieDoodie/pen/dqmKrb
 - 3D Cubes with Hover: https://codepen.io/gabriellewee/pen/Qdpgwx
+- hover with tooltip: https://codepen.io/kieranfivestars/pen/gbOWbM
 
 ## Converter
 - Google Fonts Offline Downloader: https://google-webfonts-helper.herokuapp.com
