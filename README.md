@@ -965,25 +965,45 @@ Disable Multi-Core and enable Hardware for Graphics
 
 ## Email templates
 
-#### How to send html via gmail:
+#### How to send html mail via gmail:
 - https://www.youtube.com/watch?v=MsMSqhMlfao
+
+#### How to send html mail via AppScript (https://codegena.com/send-mail-merge-html-emails-using-google-appscripts/):
+- The following code is all you require to send an HTML email to your friend. To run this code, head over to script.google.com and create a new one. Paste the following code into the editor. Now create the email template by clicking File > New > HTML file. Make sure that the HTML file name matches the name we provide in the code.
+
+```javascript
+function myFunction(){
+
+var htmlEmailBody = HtmlService.createTemplateFromFile('html-template-name');
+  
+  var subject = "Welcome to Google AppScripts";
+  var toAddress = "sample@gmail.com";
+  var normalBody = "This is the normal plaintext version of the html email";
+ 
+    GmailApp.sendEmail(toAddress, subject, normalBody, {
+      name: "Shan Eapen Koshy",
+      htmlBody : htmlEmailBody.evaluate().getContent()
+    });
+    
+}
+```
 
 #### Supported CSS/HTML 
 https://www.caniemail.com
 
 
-- Responsive multi layer: https://codepen.io/rodriguezcommaj/pen/RNPzwr ★ **HOT** ★
+- Responsive multi layer: https://codepen.io/rodriguezcommaj/pen/RNPzwr ★ **HOT** - TESTED FOR EMAIL USAGE ★
 - Responsive: https://codepen.io/rickygipson/pen/Aouhi
 - Responsive: https://codepen.io/zavoloklom/pen/qEVqzx
 - Responsive: https://github.com/konsav/email-templates/ (https://github.com/konsav/email-templates/)
 - Responsive: https://codepen.io/raybeezdesign/pen/pHlLG
 - Responsive multi layer: https://codepen.io/Mestika/pen/bEerrv  ★ **HOT** ★
 - responsive layout: https://codepen.io/beeeees/pen/JEDms
-- responsive multi layer: https://codepen.io/brucej/pen/BjdwVj
+- responsive multi layer: https://codepen.io/brucej/pen/BjdwVj  ★ **HOT** - TESTED FOR EMAIL USAGE ★
 - responsive: https://codepen.io/RyanHallMedia/pen/qRXBKW
 - responsive multi layer: https://codepen.io/reallygoodemails/pen/ZWqOBz
 - small clean: https://codepen.io/koca/pen/vjzyad
-- responsive multi layer: https://codepen.io/maizzle/pen/WYjyvg  ★ **HOT** ★
+- responsive multi layer: https://codepen.io/maizzle/pen/WYjyvg  ★ **HOT** - TESTED FOR EMAIL USAGE ★
 - animated?: https://codepen.io/reallygoodemails/pen/yJagbN
 - small clean: https://codepen.io/shift-tech/pen/eMdePP
 - small clean: https://codepen.io/denner-rondinely/pen/qwdywa
@@ -991,7 +1011,7 @@ https://www.caniemail.com
 - small clean: https://codepen.io/darcyturk/pen/XxdVbv
 - material design: https://codepen.io/judecodes/pen/YBdMLZ
 - small clean: https://codepen.io/mtthlbg/pen/KVWggg
-- material design multi layer: https://codepen.io/luong-quynh/pen/agBMbg  ★ **HOT** ★
+- material design multi layer: https://codepen.io/luong-quynh/pen/agBMbg  ★ **HOT** - Doesnt work real emails..★
 - clean card with bg: https://codepen.io/faudau/pen/zJombX
 - product offer: https://codepen.io/reallygoodemails/pen/OMqpmN  ★ **HOT** ★
 - small clean: https://codepen.io/MarcoZani/details/aRNQmQ
