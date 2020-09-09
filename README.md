@@ -7,7 +7,6 @@ CSS Cheat Sheet with the most needed stuff..
 
 
 
-
 # Performance 
 - https://web.dev/lighthouse-performance/
 
