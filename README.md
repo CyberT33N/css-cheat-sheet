@@ -973,17 +973,28 @@ Disable Multi-Core and enable Hardware for Graphics
 ```javascript
 function myFunction(){
 
-var htmlEmailBody = HtmlService.createTemplateFromFile('html-template-name');
   
-  var subject = "Welcome to Google AppScripts";
-  var toAddress = "sample@gmail.com";
-  var normalBody = "This is the normal plaintext version of the html email";
+  // html email
+  var htmlEmailBody = HtmlService.createTemplateFromFile('html-template-name');
+
+  // email title
+  var subject = "sample title..";
+  
+  // this must be set or .sendEmail will not work. You can insert your own email address to get a copy of the email or just let it blank. Alternative you can delete bcc and just the emailAddress value to send 1 email only.
+  var emailAddress = "";
+  
+  // same like emailAddress this must be set aswell. You can just keep it blank and use htmlBody for your html email. Alternative delete htmlBody and use normalBody for plain text email instead.
+  var normalBody = "";
  
-    GmailApp.sendEmail(toAddress, subject, normalBody, {
-      name: "Shan Eapen Koshy",
-      htmlBody : htmlEmailBody.evaluate().getContent()
-    });
+
+MailApp.sendEmail(emailAddress, subject, normalBody, {
+  name: "Your Name",
+  htmlBody: htmlEmailBody.evaluate().getContent(),
+  bcc: 'sample1@gmail.com,sample2@web.de'
+});
+
     
+
 }
 ```
 
