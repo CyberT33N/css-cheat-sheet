@@ -986,12 +986,24 @@ function myFunction(){
   // same like emailAddress this must be set aswell. You can just keep it blank and use htmlBody for your html email. Alternative delete htmlBody and use normalBody for plain text email instead.
   var normalBody = "";
  
+  // find any file with this name on your gdrive. If not found email will not be sended..
+  var file = DriveApp.getFilesByName('resume_en.pdf');
+  
+  
+  
+  
+  if (file.hasNext()) {
+
 
 MailApp.sendEmail(emailAddress, subject, normalBody, {
-  name: "Your Name",
+  name: "Dennis Demand",
+  attachments: [file.next().getAs(MimeType.PDF)],
   htmlBody: htmlEmailBody.evaluate().getContent(),
   bcc: 'sample1@gmail.com,sample2@web.de'
 });
+    
+  }
+
 
     
 
