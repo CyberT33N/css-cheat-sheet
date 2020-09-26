@@ -1746,7 +1746,7 @@ ________________________________________________________________________________
 
 
 ## Fonts for Developer
-- https://github.com/tonsky/FiraCode
+- https://github.com/tonsky/FiraCode  ★ **HOT** ★
 - Roboto
 - Source Code Pro
 - Hermit ★ **HOT** ★
