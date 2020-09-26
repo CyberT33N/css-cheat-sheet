@@ -1662,3 +1662,101 @@ animation: Gradient 120s ease infinite;
 <br />
 
 
+# Atom packages
+- https://atom.io/packages/atom-clock
+<BR /><BR />
+- https://atom.io/packages/minimap
+- https://atom.io/packages/minimap-cursorline
+- https://atom.io/packages/minimap-find-and-replace
+- https://atom.io/packages/minimap-git-diff
+<BR /><BR />
+- https://atom.io/packages/remote-atom
+- https://atom.io/packages/teletype
+- https://atom.io/packages/atom-beautify
+- https://atom.io/packages/autocomplete
+- https://atom.io/packages/html-template-generator
+- https://atom.io/packages/html-to-css
+- https://atom.io/packages/ide-html
+- https://atom.io/packages/emmet
+<BR /><BR />
+- https://atom.io/packages/atom-increment ★ **HOT** ★
+<BR /><BR />
+- https://atom.io/packages/neon-selection ★ **medium good..** ★
+- https://atom.io/packages/neon-cursor ★ **NOT good..** ★
+<BR /><BR />
+- https://atom.io/packages/fonts ★ **HOT** ★
+<BR /><BR />
+- https://atom.io/packages/chrome-color-picker ★ **HOT** ★
+- https://atom.io/packages/pigments
+<BR /><BR />
+- https://atom.io/packages/file-icons ★ **HOT** ★
+
+
+## How to install atom packages offline?
+Unfortunately, Atom has no equivalent to VSCode’s packaged extensions, but with that particular package you’re in luck – it has no dependencies, so it’s quite easy. Simply download the archive from GitHub and extract it in %USERPROFILE%\.atom\packages. The files from the package should be stored inside a sub-folder, e.g. packages\uber-juno.
+<BR /><BR />
+Many other packages depend on Node modules, making the process less trivial:
+<BR />
+- download the package archive from GitHub
+- extract the archive
+- run yarn or npm install inside the extracted package folder
+- compress the folder and email it to your work address or copy it on a USB stick
+- extract the archive as described above
+
+
+
+<BR /><BR />
+## Custom CSS for atom(styles.less)
+
+#### Change mouse cursor blink
+```css
+atom-text-editor .cursor {
+   border-color: white;
+   border-width: .2vmax;
+}
+```
+
+#### Using any font with Fira Code ligatures in Atom
+```css
+atom-text-editor {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Hermit"; /* change font here.. */
+  font-weight: 500;
+  line-height: 1.7;
+}
+
+atom-text-editor.editor {
+  .syntax--storage.syntax--type.syntax--function.syntax--arrow,
+  .syntax--keyword.syntax--operator:not(.accessor),
+  .syntax--punctuation.syntax--definition {
+    font-family: "Fira Code";
+  }
+
+  .syntax--string.syntax--quoted,
+  .syntax--string.syntax--regexp {
+    -webkit-font-feature-settings: "liga" off, "calt" off;
+  }
+}
+```
+
+<BR /><BR />
+___________________________________________________________________________________
+<BR /><BR />
+
+
+## Fonts for Developer
+- https://github.com/tonsky/FiraCode
+- Roboto
+- Source Code Pro
+- Hermit ★ **HOT** ★
+- https://sourcefoundry.org/hack/
+- https://input.fontbureau.com/download/
+- https://github.com/kosimst/Firicico
+- https://github.com/belluzj/fantasque-sans
+- https://www.levien.com/type/myfonts/inconsolata.html
+- https://typeof.net/Iosevka/
+- https://damieng.com/blog/2008/05/26/envy-code-r-preview-7-coding-font-released
+- https://www.dafont.com/dec-terminal-modern.font
+
+
