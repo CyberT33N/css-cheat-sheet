@@ -1749,7 +1749,7 @@ ________________________________________________________________________________
 - https://github.com/tonsky/FiraCode  ★ **HOT** ★
 - Roboto
 - Source Code Pro
-- Hermit ★ **HOT** ★
+- https://pcaro.es/p/hermit/ ★ **HOT** ★
 - https://sourcefoundry.org/hack/
 - https://input.fontbureau.com/download/
 - https://github.com/kosimst/Firicico
