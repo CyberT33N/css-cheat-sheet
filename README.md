@@ -590,6 +590,33 @@ transition: height 0.35s ease,
 <br />
 <br />
 
+# textarea
+
+## Hide all borders/resize/glow/..
+```css
+textarea {
+    border: none;
+    overflow: auto;
+    outline: none;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+
+    resize: none; /*remove the resize handle on the bottom right*/
+}
+```
+
+<br />
+<br />
+
+
+ _____________________________________________________
+ _____________________________________________________
+
+
+<br />
+<br />
 
 
 # Z-index not working
