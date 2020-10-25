@@ -418,6 +418,13 @@ height: inherit;
 # Auto height & width image to div without stretch
 ```css
 /* Method #1 */
+  background: url(images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+/* Method #2 */
   background-image: url("http://i.stack.imgur.com/2OrtT.jpg");
   background-size: cover;
   background-repeat: no-repeat;
