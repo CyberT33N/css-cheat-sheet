@@ -5,6 +5,13 @@ CSS Cheat Sheet with the most needed stuff..
 <br />
 <br />
 
+# :nth-child()
+https://www.w3schools.com/cssref/sel_nth-child.asp
+
+<br><br>
+ _____________________________________________________
+ _____________________________________________________
+<br><br>
 
 # Performance 
 - https://web.dev/lighthouse-performance/
@@ -96,13 +103,10 @@ minify -r -o out/ src
 minify -r -o out/ --match=\.js src
 ```
 
-
+<br><br>
  _____________________________________________________
  _____________________________________________________
-
-
-<br />
-<br />
+<br><br>
 
 # Media Queries
 
