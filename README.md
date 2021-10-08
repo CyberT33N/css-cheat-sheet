@@ -554,12 +554,16 @@ height: inherit;
  _____________________________________________________
 
 
-<br />
-<br />
+<br>
+<br>
 
 
+# Box Shadow
 
-# Box Shadow Top & Bottom
+
+<br><br>
+
+## Top & Bottom
 ```css
 /* Method #1 */
   box-shadow: 
@@ -567,13 +571,18 @@ height: inherit;
         inset 0px -11px 8px -10px #CCC; 
 ```  
 
-# Box Shadow Bottom
+<br><br>
+
+## Bottom
 ```css
 /* Method #1 */
 box-shadow: 0 8px 6px -6px #00000052;
 ```  
 
-# Box Shadow Left & Right
+
+<br><br>
+
+## Left & Right
 ```css
 /* Method #1 */
 box-shadow: 0 9px 0px 0px #ffffff00,
@@ -582,10 +591,42 @@ box-shadow: 0 9px 0px 0px #ffffff00,
 0px 10px 15px -6px #00000042;
 ```  
 
+
+<br><br>
+
+## Material Design (https://codepen.io/sdthornton/pen/wBZdXq)
+```css
+box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+```  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
 
-<br />
-<br />
+<br>
+<br>
 
 
  _____________________________________________________
