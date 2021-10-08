@@ -1,9 +1,23 @@
 # CSS Cheat Sheet   (つ◉益◉)つ  
 CSS Cheat Sheet with the most needed stuff..
-<br />
-<br />
-<br />
-<br />
+
+<br><br><br><br>
+
+
+# ::before & ::after
+
+<br><br>
+
+## Access via JS
+```javascript
+getComputedStyle(document.querySelector('span.search-box'), '::after').getPropertyValue('content');
+```
+
+
+<br><br>
+ _____________________________________________________
+ _____________________________________________________
+<br><br>
 
 # :nth-child()
 https://www.w3schools.com/cssref/sel_nth-child.asp
