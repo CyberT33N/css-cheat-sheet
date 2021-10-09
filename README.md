@@ -1450,6 +1450,7 @@ https://www.caniemail.com
 - nice border: https://codepen.io/HugoGiraudel/pen/FBbDd
 - 3d flip: https://codepen.io/kharrop/pen/zBjBLx
 - Multilayer with animation: https://codepen.io/jebbles/pen/MKoYya
+- Responsive card slider (https://codepen.io/JavaScriptJunkie/pen/WgRBxw)
 
 ## Typing
 - Typing animation mimicking human behavior: https://codepen.io/Zhouzi/pen/JoRazP
