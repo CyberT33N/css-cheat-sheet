@@ -1357,6 +1357,11 @@ https://www.caniemail.com
 
 
 
+## Pagination
+- https://codepen.io/hakimel/details/gfIsk
+- https://codepen.io/netzzwerg/pen/hfutI
+
+
 
 
 ## Percentage Bar
