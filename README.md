@@ -1360,7 +1360,9 @@ https://www.caniemail.com
 ## Pagination
 - https://codepen.io/hakimel/details/gfIsk
 - https://codepen.io/netzzwerg/pen/hfutI
-
+- Infinity (https://codepen.io/MarioD/pen/OmWaqz)
+- svg animated (https://codepen.io/chrisgannon/pen/xVOjZq)
+- morphing patination (https://codepen.io/aaroniker/pen/pojXjrZ)
 
 
 
