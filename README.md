@@ -1476,6 +1476,7 @@ https://www.caniemail.com
 - sci-fi: https://codepen.io/jeromefarnum/details/VLjxvW
 - Hold to verify: https://codepen.io/aaroniker/pen/WNNWQbM
 - Button transition with 2 buttons: https://codepen.io/montechristos/pen/EPvOwJ
+- Pulsing animated (https://codepen.io/emileaublet/pen/PNvNma) *HOT*
 
 ## Text Verification
 - https://codepen.io/AlikinVV/pen/WLpRdg
