@@ -1477,6 +1477,7 @@ https://www.caniemail.com
 - Hold to verify: https://codepen.io/aaroniker/pen/WNNWQbM
 - Button transition with 2 buttons: https://codepen.io/montechristos/pen/EPvOwJ
 - Pulsing animated (https://codepen.io/emileaublet/pen/PNvNma) *HOT*
+- call button (https://codepen.io/get-web/pen/bGdVOWq) *HOT*
 
 ## Text Verification
 - https://codepen.io/AlikinVV/pen/WLpRdg
