@@ -1102,6 +1102,9 @@ font-family: 'Days One', sans-serif;
 As example on windows you can find this file:
 - AppData\Local\Chromium\User Data\Your profile here or default\Preferences
 
+Linux:
+- ~/.config/google-chrome\Your profile here or default\Preferences
+
 Inside of this json file you search for this path:
 - devtools.preferences.customEmulatedDeviceList
 
