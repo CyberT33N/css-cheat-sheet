@@ -1100,12 +1100,12 @@ font-family: 'Days One', sans-serif;
 
 ## Chrome Inspector Custom Devices 
 As example on windows you can find this file:
-- AppData\Local\Chromium\User Data\Your profile here or default\Preferences
+- AppData\Local\Chromium\User Data\Your profile here
 
 Linux:
-- ~/.config/google-chrome\Your profile here or default\Preferences
+- ~/.config/google-chrome\Your profile here
 
-Inside of this json file you search for this path:
+Inside of Preference.json you search for this path:
 - devtools.preferences.customEmulatedDeviceList
 
 Then you can add this here for custom devices:
