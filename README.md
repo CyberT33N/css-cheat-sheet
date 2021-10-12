@@ -36,6 +36,35 @@ getComputedStyle(document.querySelector('span.search-box'), '::after').getProper
 
 <br><br>
 
+## seamless responsive photo grid
+```html
+<section id="photos">
+  <img src="images/cat-1.jpg" alt="Cute cat">
+  <img src="images/cat-2.jpg" alt="Serious cat">
+  ...
+</section>
+```
+```css
+#photos {
+  /* Prevent vertical gaps */
+  line-height: 0;
+   
+  -webkit-column-count: 5;
+  -webkit-column-gap:   0px;
+  -moz-column-count:    5;
+  -moz-column-gap:      0px;
+  column-count:         5;
+  column-gap:           0px;  
+}
+
+#photos img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+}
+```
+
+<br><br>
 
 ## 3 columns
 ```css
