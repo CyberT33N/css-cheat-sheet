@@ -36,7 +36,7 @@ getComputedStyle(document.querySelector('span.search-box'), '::after').getProper
 
 <br><br>
 
-## seamless responsive photo grid
+## seamless responsive photo grid (https://css-tricks.com/seamless-responsive-photo-grid/)
 ```html
 <section id="photos">
   <img src="images/cat-1.jpg" alt="Cute cat">
