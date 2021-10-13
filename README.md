@@ -861,10 +861,19 @@ box-shadow: 0 9px 0px 0px #ffffff00,
 box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 ```  
     
+   
+<br><br>
+
+## Multiple layer 3D 
+```css
+box-shadow: 0em 0em 0em 0.2em rgb(22 237 232 / 38%),
+0.5em 0.4em 0em 0.2em rgb(9 253 224 / 17%),
+1.3em 1.2em 0em 0em rgb(9 253 224 / 11%),
+1.8em 1.8em 0em 0em rgb(9 253 224 / 7%),
+0.2em 0.2em 0.1em 0.2em rgb(12 12 12 / 0%); 
+```   
     
-    
-    
-    
+   
     
     
     
