@@ -873,13 +873,18 @@ box-shadow: 0em 0em 0em 0.2em rgb(22 237 232 / 38%),
 0.2em 0.2em 0.1em 0.2em rgb(12 12 12 / 0%); 
 
 /*smaller*/
-  box-shadow: 0em 0em 0em 0.2em rgb(22 237 232 / 38%),
-  .25em .25em 0em 0.2em rgb(9 253 224 / 10%),
-  .5em .5em 0em 0em rgb(9 253 224 / 4%),
-  .75em .75em 0em 0em rgb(9 253 224 / 6%);
-  
- /* nice for big modal boxed - more layers */
-     box-shadow: 0em 0em 0em 0.2em rgb(22 237 232 / 38%), 0.5em 0.5em 0em 0.2em rgb(9 253 224 / 12%), 1.25em 1.25em 0em 0em rgb(9 253 224 / 11%), 1.75em 1.75em 0em 0em rgb(9 253 224 / 6%), 2.25em 2.25em 0em 0em rgb(9 253 224 / 3%), 2.75em 2.75em 0em 0em rgb(9 253 224 / 
+box-shadow: 0em 0em 0em 0.2em rgb(22 237 232 / 38%),
+.25em .25em 0em 0.2em rgb(9 253 224 / 10%),
+.5em .5em 0em 0em rgb(9 253 224 / 4%),
+.75em .75em 0em 0em rgb(9 253 224 / 6%);
+
+/* nice for big modal boxed - more layers */
+box-shadow: 0em 0em 0em 0.2em rgb(22 237 232 / 38%),
+0.5em 0.5em 0em 0.2em rgb(9 253 224 / 12%),
+1.25em 1.25em 0em 0em rgb(9 253 224 / 11%),
+1.75em 1.75em 0em 0em rgb(9 253 224 / 6%),
+2.25em 2.25em 0em 0em rgb(9 253 224 / 3%),
+2.75em 2.75em 0em 0em rgb(9 253 224 / 1%);
 ```   
     
    
