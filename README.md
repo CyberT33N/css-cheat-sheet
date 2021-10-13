@@ -871,6 +871,12 @@ box-shadow: 0em 0em 0em 0.2em rgb(22 237 232 / 38%),
 1.3em 1.2em 0em 0em rgb(9 253 224 / 11%),
 1.8em 1.8em 0em 0em rgb(9 253 224 / 7%),
 0.2em 0.2em 0.1em 0.2em rgb(12 12 12 / 0%); 
+
+/*smaller*/
+  box-shadow: 0em 0em 0em 0.2em rgb(22 237 232 / 38%),
+  .25em .25em 0em 0.2em rgb(9 253 224 / 10%),
+  .5em .5em 0em 0em rgb(9 253 224 / 4%),
+  .75em .75em 0em 0em rgb(9 253 224 / 6%);
 ```   
     
    
