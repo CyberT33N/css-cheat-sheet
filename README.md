@@ -1512,6 +1512,7 @@ https://www.caniemail.com
 - https://mega.nz/file/y3pUUCZS#NPEm6f00U2VLweB0BXLL5yf5BUU53Ndd4f0b-TvW534
 
 ## Loading screens
+- loading.io <-- great site
 - https://codepen.io/ahmadbassamemran/pen/bXRPdr
 - https://codepen.io/akhil_001/pen/YqBZgL
 - https://tobiasahlin.com/spinkit/
