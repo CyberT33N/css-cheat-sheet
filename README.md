@@ -1953,6 +1953,7 @@ https://www.caniemail.com
 
 
 ## Background
+- https://loading.io/background/
 - bridge with clouds
 - desert sun goes down svg: https://codepen.io/Unleashed-Design/pen/VNpjrW
 - Gradient Collections: https://uigradients.com/#Mystic
