@@ -1792,6 +1792,7 @@ https://www.caniemail.com
 ## Logo
 - https://codepen.io/mkmueller/pen/dCEhA
 - Orbit: https://codepen.io/guerreiro/pen/obhzc
+- Free Vector logos with backlink: https://www.freepik.com/search?format=search&page=2&query=search+engine
 
 ## 3D
 - card with mouse follow: https://codepen.io/lembitk/pen/EVmqmY
