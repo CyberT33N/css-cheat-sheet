@@ -714,11 +714,36 @@ height: inherit;
 
 # Auto scale SVG to parent
 ```css
-/* Method #1 (change inside of svg) */
- width="100%"
+/* Method #1 - preserveAspectRatio*/
+ <svg width="100%"
  height="100%"
  viewBox="113 128 972 600"
- preserveAspectRatio="xMidYMid meet"
+ preserveAspectRatio="xMidYMid meet"></svg>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+/* Method #2 - Use viewbox and transform scale*/
+
+<div class="wrap">
+  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" x="0px" y="0px" viewBox="0 0 595.5 383.75" enable-background="new 0 0 595.5 383.75" xml:space="preserve">
+  </svg>
+</div>
+
+.wrap svg {
+  width:  auto;
+  height: 100%;
+  transform: scale(1.3);
+  position: absolute;
+}
+
+.wrap {
+    height: 100%;
+    display: grid;
+}
 ```  
 
 
