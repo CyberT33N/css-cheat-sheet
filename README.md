@@ -726,7 +726,7 @@ height: inherit;
  
  
  
-/* Method #2 - Use viewbox and transform scale*/
+/* Method #2 */
 
 <div class="wrap">
   <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" x="0px" y="0px" viewBox="0 0 595.5 383.75" enable-background="new 0 0 595.5 383.75" xml:space="preserve">
