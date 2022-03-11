@@ -736,7 +736,6 @@ height: inherit;
 .wrap svg {
   width:  auto;
   height: auto;
-  transform: scale(1.3);
   position: absolute;
 }
 
