@@ -559,6 +559,47 @@ transition: property name | duration | timing function | delay
 
 
 
+<br><br>
+
+#### animate endless loops with js
+- This improved performace in my case by ~15 times.
+```ccs
+.nice-block {
+	 background-color: red;
+	 transform: translateZ(0);
+	 -webkit-transform: translateZ(0);
+	 -ms-transform: translateZ(0);
+	 will-change: transform;
+	 transition: background-color 5s ease;
+}
+ .nice-block.animated {
+	 background-color: white;
+}
+ 
+```
+
+```javascript
+var bgAnimateTimer;
+function animateBg () {
+  clearTimeout(bgAnimateTimer);
+  bgAnimateTimer = setTimeout(function () {
+    clearTimeout(bgAnimateTimer);
+    bgAnimateTimer = setTimeout(function () {
+
+      document.querySelector('.nice-block').classList.toggle('animated');
+
+      //jQuery alternative is:
+      // $('.nice-block').toggleClass('animated');
+
+      animateBg ();
+    }, 5000); //5 seconds for the animation effect
+  }, 2500); //2.5 seconds between each animation
+}
+
+animateBg ();
+```
+
+
 
 
 
