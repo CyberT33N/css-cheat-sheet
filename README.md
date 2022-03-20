@@ -498,8 +498,7 @@ transition: background-color 1s linear 2s, color 1s;
 transition: property name | duration | timing function | delay
 ```
 
-<br>
-<br>
+<br><br>
 
 
 ## Performance
@@ -516,6 +515,8 @@ transition: property name | duration | timing function | delay
   animation: comet1Translate 7.5s 3s ease-in-out alternate;
 }
 ```
+
+<br><br>
 
 #### keyframes
 - The more keyframes you have in the animation, the more taxing it will be as well. Just try the animation with the middle or other keyframe cut out and you will see another substantial (~10-12%) drop in CPU usage.(Short: So only use 0% and 100% if you can)
@@ -538,12 +539,23 @@ transition: property name | duration | timing function | delay
 }
 ```
 
-
+<br><br>
 
 #### box-shadow
 - Lastly, not all properties are equal -- box-shadow is much harder for the browser to animate smoothly than, say, background-color. Leaving all of the keyframes intact but dropping the box-shadow property, using the translateZ(0) trick had my CPU usage hovered at only 10-11%.
 
+<br><br>
 
+#### convert animation to .gif
+- As much as it pains me to say this, for infinite-loop animations an animated .gif is going to perform much, much better than CSS3 in the current state of browser animation, especially if you plan for many of them to remain rendered on the page for some time.
+
+
+
+<br><br>
+
+#### will-change
+- will-change property allows you to inform the browser ahead of time of what kinds of changes you are likely to make to an element, so that it can set up the appropriate optimizations before they're needed.
+  - will-change: transform;
 
 
 
