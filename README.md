@@ -482,16 +482,12 @@ $("#elementwithhover").click(function() {
 
 
 
-<br />
-<br />
-
-
+<br>
+<br>
  _____________________________________________________
  _____________________________________________________
-
-
-<br />
-<br />
+<br>
+<br>
 
 
 # Animation
@@ -502,16 +498,71 @@ transition: background-color 1s linear 2s, color 1s;
 transition: property name | duration | timing function | delay
 ```
 
-<br />
-<br />
+<br>
+<br>
 
+
+## CPU Usage too high
+
+### translateZ
+- This will composite the elements into their own layers (by tricking the browser into thinking it will be doing 3D transforms) and the browser should, in most cases, take advantage of GPU acceleration, lessening the burden on the CPU. For me this cut it down by about 20% (almost half).
+```css
+#XMLID_640_{
+  transform: translateZ(0);
+  animation: comet1Translate 7.5s 3s ease-in-out alternate;
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+<br>
 
  _____________________________________________________
  _____________________________________________________
 
-
-<br />
-<br />
+<br>
+<br>
 
 
 # Modify text
