@@ -561,8 +561,133 @@ transition: property name | duration | timing function | delay
 
 <br><br>
 
-#### animate endless loops with js
-- This improved performace in my case by ~15 times.
+#### Animate endless loops with JS instead of CSS infinite to increase CPU perfomance
+
+##### Method 1 - Change animation to ''
+```ccs
+@keyframes comet4Translate {
+  0% {
+    transform: translateX(0%) translateY(-50%);
+  }
+
+  100% {
+    transform: translateX(100%) translateY(100%);
+  }
+}
+
+@keyframes comet1Opacity {
+  0% {
+    opacity:1;
+  }
+
+  100% {
+    opacity:0;
+  }
+}
+
+#XMLID_640_{
+  transform: scale(.8) translateX(-20%) translateY(-20%) translateZ(0);
+  animation: comet4Translate 7.5s 3s ease-in-out alternate, comet1Opacity 8s .5s ease-in-out alternate;
+  will-change: transform;
+  will-change: opacity; 
+}
+```
+
+```javascript
+createAnimation = (selector, intervalDelay) => {
+    setInterval(() => {
+	$(selector).css('animation', 'none')
+
+	setTimeout(() => {
+	    $(selector).css('animation', '')
+	}, 3000)
+    }, intervalDelay)
+}
+
+// first comet
+createAnimation('#XMLID_640_', 16000)
+```
+
+<br><br>
+
+##### Method 2 - Use transition instead of animation
+```ccs
+#XMLID_640_{
+  transform: scale(.8) translateX(-20%) translateY(-20%) translateZ(0);
+  animation: comet4Translate 7.5s 3s ease-in-out alternate, comet1Opacity 8s .5s ease-in-out infinite alternate;
+  will-change: transform;
+  will-change: opacity; 
+  opacity: 1;
+}
+
+#XMLID_640_.animated {
+  transform: scale(.8) translateX(150%) translateY(150%) translateZ(0);
+  opacity:0;
+}
+```
+```javascript
+let switcher
+const animateViaJs = selector => {
+	setInterval(() => {
+	    if (!switcher) {
+		switcher = true
+		$(selector).css('transition', 'opacity 3s ease-in-out, transform 4s ease-in-out')
+	    } else {
+		switcher = false
+		$(selector).css('transition', 'none')
+	    }
+
+	    document.querySelector(selector).classList.toggle('animated')
+	}, 5000)
+}
+
+animateViaJs('#XMLID_640_')
+```
+
+<br><br>
+
+
+<br><br>
+
+##### Method 3 - AnimeJs
+```ccs
+#XMLID_640_{
+  will-change: transform;
+  will-change: opacity; 
+  translateZ: 0;
+}
+```
+```javascript
+const createAnimeJsLoop = (selector, intervalTimer, cfg) => {
+	const tl = anime({ loop:true, targets: selector, easing: 'easeInQuad', ...cfg })
+
+	setInterval(() => {
+	    tl.pause()
+	    setTimeout(() => tl.restart(), 5000)
+	}, intervalTimer)
+}
+
+createAnimeJsLoop('#XMLID_640_', 30000, {
+opacity: [
+    { value: 1, duration: 0 },
+    { value: 0, duration: 2000 }
+],
+translateX: [
+    { value: '-20%', duration: 0 },
+    { value: '150%', duration: 3000 }
+],
+translateY: [
+    { value: '-20%', duration: 0  },
+    { value: '150%', duration: 3000 }
+],
+translateZ: 0
+delay: 3000
+})
+```
+
+<br><br>
+
+##### Method 4
 ```ccs
 .nice-block {
 	 background-color: red;
@@ -575,9 +700,7 @@ transition: property name | duration | timing function | delay
  .nice-block.animated {
 	 background-color: white;
 }
- 
 ```
-
 ```javascript
 var bgAnimateTimer;
 function animateBg () {
