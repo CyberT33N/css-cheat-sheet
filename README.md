@@ -555,7 +555,7 @@ transition: property name | duration | timing function | delay
 
 #### will-change
 - will-change property allows you to inform the browser ahead of time of what kinds of changes you are likely to make to an element, so that it can set up the appropriate optimizations before they're needed.
-  - will-change: transform;
+  - will-change: transform, opacity;
 
 
 
