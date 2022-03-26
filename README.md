@@ -197,8 +197,66 @@ else alert("The property is NOT supported");
 
 
 
-<br />
-<br />
+
+
+
+
+<br>
+<br>
+
+## Alternative to box-shadow transition
+- Have you ever been using a Material Design web app and thought “this just feels slow”? It might be because, well, it was. Material Design relies heavily on shadows to indicate depth and relationships. As AirBnB discovered, box shadows are slow. To make matters worse, animating shadow blur to make an element feel like it’s moving forward and backward is a design pattern seen all over the place. Shadows cause a repaint on every frame they’re changed, so shadow transitions are incredibly slow.
+- https://codepen.io/tribex/pen/ZxXJoO
+
+```css
+/* The old, slow way. */
+.slow-transition {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  transition: box-shadow 500ms;
+}
+
+.slow-transition:hover {
+  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.5);
+}
+
+/* The fast, new way! */
+.fast-transition {
+  position: relative; /* For positioning the pseudo-element */
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.fast-transition::before {
+  /* Position the pseudo-element. */
+  content: ' ';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  /* Create the box shadow at expanded size. */
+  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.5);
+
+  /* Hidden by default. */
+  opacity: 0;
+  transition: opacity 500ms;
+}
+
+.fast-transition:hover::before {
+  /* Show the pseudo-element on hover. */
+  opacity: 1;
+}
+```
+
+
+
+
+
+
+
+
+<br>
+<br>
 
 ## Load images only when in viewport
 ```html
