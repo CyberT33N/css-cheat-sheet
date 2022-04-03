@@ -1775,6 +1775,8 @@ https://www.caniemail.com
 - Shimmer effect: https://codepen.io/redouglas/pen/gobsm
 
 ## Lightbox:
+- https://codepen.io/ezra_siton/pen/XNpJaX
+- https://photoswipe.com/
 - https://nanogallery2.nanostudio.org/
 - https://biati-digital.github.io/glightbox/
 - https://simplelightbox.com/
