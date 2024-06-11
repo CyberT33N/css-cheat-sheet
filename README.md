@@ -2292,9 +2292,12 @@ https://www.caniemail.com
 ## Popup
 - https://codepen.io/melnik909/pen/QModrM
 
-## Background Images (cc0)
-- Developer on bench: https://pixabay.com/photos/work-workaholic-writer-programmer-1627703/
 
+
+
+
+<br><br>
+<br><br>
 
 ## Background
 - https://loading.io/background/
@@ -2320,8 +2323,27 @@ https://www.caniemail.com
 - Planet bg: https://codepen.io/carsonf92/pen/pNWGXG
 - planet bg v2: https://codepen.io/MoodyBoles/pen/KVodmp
 - Three.js mutating field: https://codepen.io/Samsy/pen/emWppX
+- POV moving hills ride: https://codepen.io/ykob/pen/aBrjaR
 
-## Animated Gradient Background
+<br><br>
+
+### WebGL Backgrounds
+- https://github.com/PavelDoGreat/WebGL-Fluid-Simulation
+- https://www.vantajs.com/?effect=trunk **HOT**
+
+<br><br>
+
+### Canvas Backgrounds
+- https://github.com/crnacura/AmbientCanvasBackgrounds?tab=readme-ov-file
+
+<br><br>
+
+### Background Images (cc0)
+- Developer on bench: https://pixabay.com/photos/work-workaholic-writer-programmer-1627703/
+
+<br><br>
+
+### Animated Gradient Background
 ```css
 
 /* version 1 - multicolor*/
@@ -2396,15 +2418,45 @@ animation: Gradient 120s ease infinite;
 
 ```
 
-<br />
-<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
 
  _____________________________________________________
  _____________________________________________________
 
-
-<br />
-<br />
+<br><br>
+<br><br>
 
 
 # Atom packages
