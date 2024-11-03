@@ -1252,7 +1252,7 @@ transform: translate(-50%, -50%);
 
 ```  
 
-<details>
+</details>
 
 
 
