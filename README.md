@@ -1372,6 +1372,32 @@ height: inherit;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <br>
 <br>
 
@@ -1386,6 +1412,7 @@ height: inherit;
 
 # Box Shadow
 
+<details><summary>Click to expand..</summary>
 
 <br><br>
 
@@ -1453,6 +1480,7 @@ box-shadow: 0em 0em 0em 0.2em rgb(22 237 232 / 38%),
     
    
     
+</details>
     
     
     
@@ -1469,7 +1497,32 @@ box-shadow: 0em 0em 0em 0.2em rgb(22 237 232 / 38%),
     
     
     
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
     
     
@@ -1493,9 +1546,33 @@ transition: height 0.35s ease,
             width 0.35s ease, 
             margin 0.35s ease, 
             border-color 0.35s 0.35s ease; /* notice how the delay is added here alone */
-``` 
+```
+
+
+
 <br>
 <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
  _____________________________________________________
@@ -1522,6 +1599,41 @@ textarea {
 }
 ```
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <br>
 <br>
 
@@ -1539,6 +1651,43 @@ textarea {
 /* Method #1 (disable pointer events of the layer which is blocking the element which needs to be clicked) */
     pointer-events: none;
 ```  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1613,6 +1762,35 @@ html.noscroll{
 ```
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <br>
 <br>
 
@@ -1639,6 +1817,46 @@ $( '.circles li' ).css( 'animation', 'none' );
 await new Promise(resolve => setTimeout(resolve, 100));
 $( '.circles li' ).css( 'animation', '' ); // it will catch the default settings in your css
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <br>
 <br>
@@ -1686,6 +1904,39 @@ color: #333333;
 ```css
 box-shadow: inset 0 0 0.7vmax -0.3vmax #000000d1;
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <br>
@@ -1752,6 +2003,46 @@ font-family: 'Days One', sans-serif;
 @import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
 ```
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <br>
 <br>
 
@@ -1771,7 +2062,7 @@ font-family: 'Days One', sans-serif;
 
 # Cross Browser/Cross Devices
 
-
+<details><summary>Click to expand..</summary>
 
 
 ## Chrome Inspector Custom Devices 
@@ -1869,6 +2160,51 @@ hw.audioOutput=no
 Disable Multi-Core and enable Hardware for Graphics
 ![alt tag](https://i.stack.imgur.com/dcheJ.png)
 
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <br>
 <br>
 
@@ -1887,7 +2223,7 @@ Disable Multi-Core and enable Hardware for Graphics
 # Third Party Collections
 
 
-
+<details><summary>Click to expand..</summary>
 
 ## Material Design
 - Bootstrap 4 Collection: https://codepen.io/mdbootstrap/pen/LRNZBz
@@ -2649,6 +2985,26 @@ animation: Gradient 120s ease infinite;
 
 
 
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2684,89 +3040,6 @@ animation: Gradient 120s ease infinite;
  _____________________________________________________
 
 <br><br>
-<br><br>
-
-
-# Atom packages
-- https://atom.io/packages/atom-clock
-<br><br>
-- https://atom.io/packages/minimap
-- https://atom.io/packages/minimap-cursorline
-- https://atom.io/packages/minimap-find-and-replace
-- https://atom.io/packages/minimap-git-diff
-<br><br>
-- https://atom.io/packages/remote-atom
-- https://atom.io/packages/teletype
-- https://atom.io/packages/atom-beautify
-- https://atom.io/packages/autocomplete
-- https://atom.io/packages/html-template-generator
-- https://atom.io/packages/html-to-css
-- https://atom.io/packages/ide-html
-- https://atom.io/packages/emmet
-<br><br>
-- https://atom.io/packages/atom-increment ★ **HOT** ★
-<br><br>
-- https://atom.io/packages/neon-selection ★ **medium good..** ★
-- https://atom.io/packages/neon-cursor ★ **NOT good..** ★
-<br><br>
-- https://atom.io/packages/fonts ★ **HOT** ★
-<br><br>
-- https://atom.io/packages/chrome-color-picker ★ **HOT** ★
-- https://atom.io/packages/pigments
-<br><br>
-- https://atom.io/packages/file-icons ★ **HOT** ★
-
-
-## How to install atom packages offline?
-Unfortunately, Atom has no equivalent to VSCode’s packaged extensions, but with that particular package you’re in luck – it has no dependencies, so it’s quite easy. Simply download the archive from GitHub and extract it in %USERPROFILE%\.atom\packages. The files from the package should be stored inside a sub-folder, e.g. packages\uber-juno.
-<br><br>
-Many other packages depend on Node modules, making the process less trivial:
-<br>
-- download the package archive from GitHub
-- extract the archive
-- run yarn or npm install inside the extracted package folder
-- compress the folder and email it to your work address or copy it on a USB stick
-- extract the archive as described above
-
-
-
-<br><br>
-## Custom CSS for atom(styles.less)
-
-#### Change mouse cursor blink
-```css
-atom-text-editor .cursor {
-   border-color: white;
-   border-width: .2vmax;
-}
-```
-
-#### Using any font with Fira Code ligatures in Atom
-```css
-atom-text-editor {
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  font-family: "Hermit"; /* change font here.. */
-  font-weight: 500;
-  line-height: 1.7;
-}
-
-atom-text-editor.editor {
-  .syntax--storage.syntax--type.syntax--function.syntax--arrow,
-  .syntax--keyword.syntax--operator:not(.accessor),
-  .syntax--punctuation.syntax--definition {
-    font-family: "Fira Code";
-  }
-
-  .syntax--string.syntax--quoted,
-  .syntax--string.syntax--regexp {
-    -webkit-font-feature-settings: "liga" off, "calt" off;
-  }
-}
-```
-
-<br><br>
-___________________________________________________________________________________
 <br><br>
 
 
