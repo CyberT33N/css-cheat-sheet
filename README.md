@@ -34,6 +34,8 @@ getComputedStyle(document.querySelector('span.search-box'), '::after').getProper
 
 # grid
 
+<details><summary>Click to expand..</summary>
+
 <br><br>
 
 ## seamless responsive photo grid (https://css-tricks.com/seamless-responsive-photo-grid/)
@@ -130,6 +132,28 @@ getComputedStyle(document.querySelector('span.search-box'), '::after').getProper
 ```
 
 
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -156,16 +180,44 @@ getComputedStyle(document.querySelector('span.search-box'), '::after').getProper
 # :nth-child()
 https://www.w3schools.com/cssref/sel_nth-child.asp
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <br><br>
  _____________________________________________________
  _____________________________________________________
 <br><br>
 
 # Performance 
+
+<details><summary>Click to expand..</summary>
+
 - https://web.dev/lighthouse-performance/
 
-<br />
-<br />
+
+
+<br>
+<br>
 
 ## content-visibility (https://web.dev/content-visibility/)
 ```css
@@ -176,8 +228,8 @@ content-visibility: auto;
 if ("content-visibility" in document.body.style) alert("The property is supported");
 else alert("The property is NOT supported");
 ```
-<br />
-<br />
+<br>
+<br>
 
 ## Ensure text remains visible during webfont load
 - https://web.dev/font-display/
@@ -187,8 +239,8 @@ else alert("The property is NOT supported");
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
 @import url(https://fonts.googleapis.com/css?family=Alex+Brush&display=swap);
 ```
-<br />
-<br />
+<br>
+<br>
 
 ## SVG Sprite
 - https://github.com/svgstore/svgstore
@@ -274,20 +326,20 @@ else alert("The property is NOT supported");
 ## Images
 - Convert images to .webp
 
-<br />
-<br />
+<br>
+<br>
 
 
 ## HTTP 2
 - https://web.dev/uses-http2/?utm_source=lighthouse&utm_medium=devtools
 
-<br />
-<br />
+<br>
+<br>
 
 
 
-<br />
-<br />
+<br>
+<br>
 
 ## Minify
 
@@ -309,12 +361,46 @@ minify -r -o out/ src
 minify -r -o out/ --match=\.js src
 ```
 
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <br><br>
  _____________________________________________________
  _____________________________________________________
 <br><br>
 
 # Media Queries (https://gist.github.com/bartholomej/8415655)
+
+<details><summary>Click to expand..</summary>
+
 ```css
 /*------------------------------------------
   Responsive Grid Media Queries - 1280, 1024, 768, 480
@@ -538,6 +624,37 @@ $("#elementwithhover").click(function() {
 ```
 
 
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <br>
@@ -550,6 +667,8 @@ $("#elementwithhover").click(function() {
 
 # Animation
 
+<details><summary>Click to expand..</summary>
+	
 ## transition delay
 ```css
 transition: background-color 1s linear 2s, color 1s;
@@ -785,6 +904,17 @@ animateBg ();
 
 
 
+</details>
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -822,6 +952,8 @@ animateBg ();
 
 
 # Modify text
+
+<details><summary>Click to expand..</summary>
 
 ## Force Line Break after space
 ```css
@@ -861,35 +993,84 @@ $( "blockquote" ).each(function() {
 });
 ```
 
+</details>
 
-<br />
-<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+<br>
 
 
  _____________________________________________________
  _____________________________________________________
 
 
-<br />
-<br />
+<br>
+<br>
 
 # Responsive Tutorials
 - https://1linelayouts.glitch.me/
 
 
 
-<br />
-<br />
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+<br>
 
  _____________________________________________________
  _____________________________________________________
 
+<br>
+<br>
 
-<br />
-<br />
 
+# Position Snippets
 
+<details><summary>Click to expand..</summary>
+
+<br><br>
 
 # Center Vertical
 ```css
@@ -933,6 +1114,17 @@ transform: translateY(-50%);
 
 # Center Horizontal
 ```css
+/*Using flex*/
+<div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
+  <a href="https://www.linkedin.com/in/dennis-dd">
+    <img width="30" src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Linkedin_icon.svg" alt="LinkedIn"/>
+  </a>
+  <a href="https://www.xing.com/profile/Dennis_Demand05690">
+    <img width="30" src="https://upload.wikimedia.org/wikipedia/fr/d/d2/Xing_logo.png" alt="Xing"/>
+  </a>
+</div>
+
+
 /* Method #1 */
 display: block;
 margin-left: auto;
@@ -971,16 +1163,45 @@ transform: translate(-50%, -50%);
 ```  
 
 
-<br />
-<br />
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+<br>
 
 
  _____________________________________________________
  _____________________________________________________
 
 
-<br />
-<br />
+<br>
+<br>
 
 
 # Auto height/width to parent
@@ -1058,8 +1279,15 @@ height: inherit;
 ```  
 
 
-<br />
-<br />
+
+
+
+
+
+
+
+<br>
+<br>
 
 
  _____________________________________________________
@@ -1067,8 +1295,8 @@ height: inherit;
 
 
 
-<br />
-<br />
+<br>
+<br>
 
 
 # Align two DIV next to each other
@@ -1144,8 +1372,8 @@ height: inherit;
 
 
 
-<br />
-<br />
+<br>
+<br>
 
 
  _____________________________________________________
@@ -1254,8 +1482,8 @@ box-shadow: 0em 0em 0em 0.2em rgb(22 237 232 / 38%),
  _____________________________________________________
 
 
-<br />
-<br />
+<br>
+<br>
 
 # Transition
 
@@ -1266,16 +1494,16 @@ transition: height 0.35s ease,
             margin 0.35s ease, 
             border-color 0.35s 0.35s ease; /* notice how the delay is added here alone */
 ``` 
-<br />
-<br />
+<br>
+<br>
 
 
  _____________________________________________________
  _____________________________________________________
 
 
-<br />
-<br />
+<br>
+<br>
 
 # textarea
 
@@ -1294,16 +1522,16 @@ textarea {
 }
 ```
 
-<br />
-<br />
+<br>
+<br>
 
 
  _____________________________________________________
  _____________________________________________________
 
 
-<br />
-<br />
+<br>
+<br>
 
 
 # Z-index not working
@@ -1314,16 +1542,16 @@ textarea {
 
 
 
-<br />
-<br />
+<br>
+<br>
 
 
  _____________________________________________________
  _____________________________________________________
 
 
-<br />
-<br />
+<br>
+<br>
 
 
 # Scrollbar Definition
@@ -1331,8 +1559,8 @@ textarea {
 
 
 
-<br />
-<br />
+<br>
+<br>
 
 
 # Disable scroll for user
@@ -1385,15 +1613,15 @@ html.noscroll{
 ```
 
 
-<br />
-<br />
+<br>
+<br>
 
  _____________________________________________________
  _____________________________________________________
 
 
-<br />
-<br />
+<br>
+<br>
 
 # Other
 
@@ -1412,15 +1640,15 @@ await new Promise(resolve => setTimeout(resolve, 100));
 $( '.circles li' ).css( 'animation', '' ); // it will catch the default settings in your css
 ```
 
-<br />
-<br />
+<br>
+<br>
 
  _____________________________________________________
  _____________________________________________________
 
 
-<br />
-<br />
+<br>
+<br>
 
 
 
@@ -1460,15 +1688,15 @@ box-shadow: inset 0 0 0.7vmax -0.3vmax #000000d1;
 ```
 
 
-<br />
-<br />
+<br>
+<br>
 
  _____________________________________________________
  _____________________________________________________
 
 
-<br />
-<br />
+<br>
+<br>
 
 # Nice Fonts Collection
 
@@ -1524,22 +1752,22 @@ font-family: 'Days One', sans-serif;
 @import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
 ```
 
-<br />
-<br />
+<br>
+<br>
 
 
  _____________________________________________________
  _____________________________________________________
 
 
-<br />
-<br />
+<br>
+<br>
 
 
 
 
-<br />
-<br />
+<br>
+<br>
 
 # Cross Browser/Cross Devices
 
@@ -1565,8 +1793,8 @@ Then you can add this here for custom devices:
 More viewports can be found here:
 - https://viewportsizes.com/
 
-<br />
-<br />
+<br>
+<br>
 
 
 ## Cross Browser Support
@@ -1590,8 +1818,8 @@ More viewports can be found here:
 - https://developers.google.com/web/tools/chrome-devtools/remote-debugging
 
 
-<br />
-<br />
+<br>
+<br>
 
 ## Use Inspector on smartphones
 
@@ -1601,8 +1829,8 @@ Create bookmark and replace site link with this code (https://www.youtube.com/wa
 javascript:(function () { var script = document.createElement('script'); script.src="//cdn.jsdelivr.net/npm/eruda"; document.body.appendChild(script); script.onload = function () { eruda.init() } })();
 ```
 
-<br />
-<br />
+<br>
+<br>
 
 # Android Studio
 
@@ -1641,15 +1869,15 @@ hw.audioOutput=no
 Disable Multi-Core and enable Hardware for Graphics
 ![alt tag](https://i.stack.imgur.com/dcheJ.png)
 
-<br />
-<br />
+<br>
+<br>
 
  _____________________________________________________
  _____________________________________________________
 
 
-<br />
-<br />
+<br>
+<br>
 
 
 
@@ -1671,8 +1899,8 @@ Disable Multi-Core and enable Hardware for Graphics
 
 
 
-<br />
-<br />
+<br>
+<br>
 
 
 
@@ -2461,12 +2689,12 @@ animation: Gradient 120s ease infinite;
 
 # Atom packages
 - https://atom.io/packages/atom-clock
-<BR /><BR />
+<br><br>
 - https://atom.io/packages/minimap
 - https://atom.io/packages/minimap-cursorline
 - https://atom.io/packages/minimap-find-and-replace
 - https://atom.io/packages/minimap-git-diff
-<BR /><BR />
+<br><br>
 - https://atom.io/packages/remote-atom
 - https://atom.io/packages/teletype
 - https://atom.io/packages/atom-beautify
@@ -2475,25 +2703,25 @@ animation: Gradient 120s ease infinite;
 - https://atom.io/packages/html-to-css
 - https://atom.io/packages/ide-html
 - https://atom.io/packages/emmet
-<BR /><BR />
+<br><br>
 - https://atom.io/packages/atom-increment ★ **HOT** ★
-<BR /><BR />
+<br><br>
 - https://atom.io/packages/neon-selection ★ **medium good..** ★
 - https://atom.io/packages/neon-cursor ★ **NOT good..** ★
-<BR /><BR />
+<br><br>
 - https://atom.io/packages/fonts ★ **HOT** ★
-<BR /><BR />
+<br><br>
 - https://atom.io/packages/chrome-color-picker ★ **HOT** ★
 - https://atom.io/packages/pigments
-<BR /><BR />
+<br><br>
 - https://atom.io/packages/file-icons ★ **HOT** ★
 
 
 ## How to install atom packages offline?
 Unfortunately, Atom has no equivalent to VSCode’s packaged extensions, but with that particular package you’re in luck – it has no dependencies, so it’s quite easy. Simply download the archive from GitHub and extract it in %USERPROFILE%\.atom\packages. The files from the package should be stored inside a sub-folder, e.g. packages\uber-juno.
-<BR /><BR />
+<br><br>
 Many other packages depend on Node modules, making the process less trivial:
-<BR />
+<br>
 - download the package archive from GitHub
 - extract the archive
 - run yarn or npm install inside the extracted package folder
@@ -2502,7 +2730,7 @@ Many other packages depend on Node modules, making the process less trivial:
 
 
 
-<BR /><BR />
+<br><br>
 ## Custom CSS for atom(styles.less)
 
 #### Change mouse cursor blink
@@ -2537,9 +2765,9 @@ atom-text-editor.editor {
 }
 ```
 
-<BR /><BR />
+<br><br>
 ___________________________________________________________________________________
-<BR /><BR />
+<br><br>
 
 
 ## Fonts for Developer
