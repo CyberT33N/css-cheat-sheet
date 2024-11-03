@@ -25,6 +25,87 @@ getComputedStyle(document.querySelector('span.search-box'), '::after').getProper
 
 
 
+<br><br>
+ _____________________________________________________
+ _____________________________________________________
+<br><br>
+
+
+# Flex
+
+<details><summary>Click to expand..</summary>
+
+
+# Snippets
+
+<br><br>
+
+## Align
+
+<br><br>
+
+## Align 2 images next to each toher
+```
+<div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
+  <a href="https://www.linkedin.com/in/dennis-dd">
+    <img width="30" src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Linkedin_icon.svg" alt="LinkedIn"/>
+  </a>
+  <a href="https://www.xing.com/profile/Dennis_Demand05690">
+    <img width="30" src="https://upload.wikimedia.org/wikipedia/fr/d/d2/Xing_logo.png" alt="Xing"/>
+  </a>
+</div>
+```
+
+
+<br><br>
+
+## Image right and text left
+```html
+<div style="display: flex; justify-content: flex-start; align-items: flex-start; gap: 10px;">
+    <div style="flex: 1; text-align: left;">
+        <div style="font-size: 1.5em;">
+            <strong>★ SUPPORT ★</strong><br>
+            ✅ 𝘞𝘰𝘳𝘬 𝘛𝘪𝘮𝘦 𝟐𝟒/𝟕 🕜<br>
+            ✅ 𝙁𝙍𝙀𝙀 𝙇𝙄𝙁𝙀𝙏𝙄𝙈𝙀 𝘚𝘶𝘱𝘱𝘰𝘳𝘵 💭<br>
+        </div>
+        <br>
+        <div style="font-size: 1.5em;">
+            <strong>★ SERVICE ★</strong><br>
+            ✅ 𝐏𝐫𝐨𝐟𝐞𝐬𝐬𝐢𝐨𝐧𝐚𝐥 𝘚𝘰𝘧𝘵𝘸𝘢𝘳𝘦 🤖<br>
+            ✅ 𝟏𝟎 𝙮𝙚𝙖𝙧𝙨 𝙤𝙛 𝙚𝙭𝙥𝙚𝙧𝙞𝙚𝙣𝙘𝙚 ☕<br>
+            ✅ 𝐖𝐢𝐧𝐝𝐨𝐰𝐬, 𝐌𝐀𝐂 & 𝐋𝐢𝐧𝐮𝐱 💻<br>
+            ✅ 𝘛𝘩𝘦 𝙘𝙝𝙚𝙖𝙥𝙚𝙨𝙩 𝙥𝙧𝙞𝙘𝙚 𝘧𝘰𝘳 𝘤𝘰𝘮𝘱𝘭𝘦𝘹 𝘗𝘳𝘰𝘣𝘭𝘦𝘮𝘴 💲<br>
+        </div>
+    </div>
+    
+    <img style="width: 50%; height: auto;" alt="fullstack services" src="https://i.imgur.com/Tn8Vyfd.png" />
+</div>
+
+<style>
+    @media (max-width: 768px) {
+        div > div {
+            font-size: 1.2em; /* Slightly smaller font size for smaller screens */
+        }
+    }
+    @media (max-width: 480px) {
+        div > div {
+            font-size: 1em; /* Even smaller for mobile devices */
+        }
+    }
+</style>
+
+```
+
+
+</details>
+
+
+
+
+
+
+
+
 
 
 <br><br>
@@ -1070,7 +1151,16 @@ $( "blockquote" ).each(function() {
 
 <details><summary>Click to expand..</summary>
 
+
+
 <br><br>
+
+
+# Center
+
+<details><summary>Click to expand..</summary>
+
+
 
 # Center Vertical
 ```css
@@ -1162,8 +1252,9 @@ transform: translate(-50%, -50%);
 
 ```  
 
+<details>
 
-</details>
+
 
 
 
@@ -1203,6 +1294,9 @@ transform: translate(-50%, -50%);
 <br>
 <br>
 
+# height/width
+
+<details><summary>Click to expand..</summary>
 
 # Auto height/width to parent
 ```css
@@ -1279,6 +1373,12 @@ height: inherit;
 ```  
 
 
+</details>
+
+
+
+
+
 
 
 
@@ -1288,15 +1388,15 @@ height: inherit;
 
 <br>
 <br>
-
-
  _____________________________________________________
  _____________________________________________________
-
-
-
 <br>
 <br>
+
+
+# align
+
+<details><summary>Click to expand..</summary>
 
 
 # Align two DIV next to each other
@@ -1367,6 +1467,7 @@ height: inherit;
     </li>
 </ul>
 ```  
+</details>
 
 
 
@@ -1374,6 +1475,12 @@ height: inherit;
 
 
 
+
+
+
+
+
+</details>
 
 
 
