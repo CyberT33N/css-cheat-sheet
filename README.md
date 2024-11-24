@@ -2442,8 +2442,23 @@ https://www.caniemail.com
 - https://codepen.io/tstoik/pen/qZEZJp
 - https://codepen.io/team/keyframers/pen/EzMyQe
 
+
+
+<br><br>
+
 ## Text
 - Shimmer effect: https://codepen.io/redouglas/pen/gobsm
+
+<br>
+
+### Multiple Shadows
+- https://codepen.io/tommyho/pen/abejXMb
+
+
+
+
+
+<br><br>
 
 ## Lightbox:
 - https://codepen.io/ezra_siton/pen/XNpJaX
@@ -2604,8 +2619,9 @@ https://www.caniemail.com
 - sci-fi: https://codepen.io/jeromefarnum/details/VLjxvW
 - Hold to verify: https://codepen.io/aaroniker/pen/WNNWQbM
 - Button transition with 2 buttons: https://codepen.io/montechristos/pen/EPvOwJ
-- Pulsing animated (https://codepen.io/emileaublet/pen/PNvNma) *HOT*
-- call button (https://codepen.io/get-web/pen/bGdVOWq) *HOT*
+- Pulsing animated (https://codepen.io/emileaublet/pen/PNvNma) **HOT**
+- call button (https://codepen.io/get-web/pen/bGdVOWq) **HOT**
+- general button (https://codepen.io/simeydotme/pen/ZEgJoXB) **HOT**
 
 ## Text Verification
 - https://codepen.io/AlikinVV/pen/WLpRdg
