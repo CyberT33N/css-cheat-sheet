@@ -2824,10 +2824,24 @@ https://www.caniemail.com
   - https://www.freepik.com/search?format=search&page=2&query=search+engine
   - pngtree.com
 
+
+
+
+
+<br><br>
+
 ## 3D
 - card with mouse follow: https://codepen.io/lembitk/pen/EVmqmY
 - https://codepen.io/yotman/pen/VEzXJp
 - Image Carousel: https://codepen.io/hoanghien0410/pen/MMPaqm
+- glassorphic logo (https://codepen.io/konstantindenerz/pen/VwoEJqP)
+
+
+
+
+
+<br><br>
+
 
 ## Newsletter
 - animation mailbox: https://codepen.io/lerida/pen/BaoRRbp
