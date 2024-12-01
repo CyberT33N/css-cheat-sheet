@@ -775,7 +775,71 @@ $("#elementwithhover").click(function() {
 
 
 
+<br>
+<br>
+ _____________________________________________________
+ _____________________________________________________
+<br>
+<br>
 
+
+# Video
+
+<details><summary>Click to expand..</summary>
+
+# Fit video into div
+I was just in a similar situation, came to a solution not already mentioned:
+
+`html` and `body` filling the viewport, `#header` and `#footer` with a content-defined height and `#content` taking the remaining space in between.
+
+`#content` already was `position: relative` for other reasons, **so adding `position: absolute` to the `<video>`** was enough to make it fit snugly.
+
+Now `object-fit: contain` crops the top and bottom when the viewport's height isn't enough to fit the entire video, just like it does left and right when the viewport is too narrow.
+
+
+```css
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+
+    #content {
+      height: 100%;
+      position: relative; /* magic sauce II */
+    }
+
+    video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      position: absolute; /* magic sauce */
+    }
+
+    /* colors for demonstration */
+    #header, #footer { background: green; }
+    video { background: blue; }
+```
+
+```html
+      <body>
+        <div id="header">...</div>
+        <div id="content">
+          <video src="http://www.w3schools.com/html/movie.mp4"></video>
+        </div>
+        <div id="footer">...</div>
+      <body>
+    </html>
+```
+
+
+
+
+ </details>
 
 
 
