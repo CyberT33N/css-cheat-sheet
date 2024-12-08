@@ -1,3 +1,4 @@
+
 # CSS Cheat Sheet   (つ◉益◉)つ  
 CSS Cheat Sheet with the most needed stuff..
 
@@ -820,6 +821,18 @@ $("#elementwithhover").click(function() {
 <details><summary>Click to expand..</summary>
 
 # Fit video into div
+
+Option 1:
+```
+<video style="width: 650px; height: 362px; object-fit: cover;" autoplay muted loop playsinline preload="metadata" class="img-fluid rounded-1 img-fadeIn-4">
+<source src="./assets/videos/2.webm" type="video/webm">
+<source src="./assets/videos/2.mp4" type="video/mp4">
+Your Browser does not support this format.
+</video>
+```
+
+
+Option 2:
 I was just in a similar situation, came to a solution not already mentioned:
 
 `html` and `body` filling the viewport, `#header` and `#footer` with a content-defined height and `#content` taking the remaining space in between.
