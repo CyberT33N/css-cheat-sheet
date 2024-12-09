@@ -2772,6 +2772,8 @@ https://www.caniemail.com
 - Pulsing animated (https://codepen.io/emileaublet/pen/PNvNma) **HOT**
 - call button (https://codepen.io/get-web/pen/bGdVOWq) **HOT**
 - general button (https://codepen.io/simeydotme/pen/ZEgJoXB) **HOT**
+- https://ryanmulligan.dev/blog/pixel-canvas/ **hot**
+  -  https://github.com/hexagoncircle/pixel-canvas 
 
 ## Text Verification
 - https://codepen.io/AlikinVV/pen/WLpRdg
