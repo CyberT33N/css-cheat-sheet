@@ -2775,6 +2775,10 @@ https://www.caniemail.com
 - https://ryanmulligan.dev/blog/pixel-canvas/ **hot**
   -  https://github.com/hexagoncircle/pixel-canvas 
 
+## Dark/white Mode Button
+- https://codepen.io/jh3y/pen/ByBjxrW **HOT**
+
+
 ## Text Verification
 - https://codepen.io/AlikinVV/pen/WLpRdg
 
@@ -2818,6 +2822,9 @@ https://www.caniemail.com
 ## Order Placed Button
 - Animation with truck: https://codepen.io/aaroniker/pen/eYOVrNa
 - Animation with truck v2: https://codepen.io/aaroniker/pen/oNgPOwo
+
+
+
 
 
 
