@@ -28,6 +28,33 @@ CSS Cheat Sheet with the most needed stuff..
 - The light-dark() CSS <color> function enables setting two colors for a property - returning one of the two colors options by detecting if the developer has set a light or dark color scheme or the user has requested light or dark color theme - without needing to encase the theme colors within a prefers-color-scheme media feature query. Users are able to indicate their color-scheme preference through their operating system settings (e.g. light or dark mode) or their user agent settings. The light-dark() function enables providing two color values where any <color> value is accepted. The light-dark() CSS color function returns the first value if the user's preference is set to light or if no preference is set and the second value if the user's preference is set to dark. 
 
 
+
+<br><br>
+
+
+# align-content
+- https://www.w3schools.com/cssref/css3_pr_align-content.php
+
+The align-content property specifies how flex lines are distributed along the cross axis in a flexbox container.
+
+In flexbox layout, the main axis is in the flex-direction (default is 'row', horizontal), and the cross axis is perpendicular to the main axis (default is 'column', vertical).
+
+Tip: Use the justify-content property to align the items on the main axis (horizontally).
+
+Note: The align-content property can also be used on a grid container to align grid items in the block direction. For pages in English, block direction is downward and inline direction is left to right.
+```
+div {
+  width: 70px;
+  height: 300px;
+  border: 1px solid #c3c3c3;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+```
+
+
+
 </details>
 
 
