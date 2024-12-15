@@ -2715,7 +2715,7 @@ https://www.caniemail.com
 ## Mouse Cursor SVG Collection
 - https://mega.nz/file/y3pUUCZS#NPEm6f00U2VLweB0BXLL5yf5BUU53Ndd4f0b-TvW534
 
-## Loading screens
+## Spinner
 - loading.io <-- great site
 - https://codepen.io/ahmadbassamemran/pen/bXRPdr
 - https://codepen.io/akhil_001/pen/YqBZgL
@@ -2726,6 +2726,7 @@ https://www.caniemail.com
 - Loader: https://codepen.io/PicturElements/pen/ZOwkwv
 - Atom Loader: https://codepen.io/dmsanchez86/details/WxRovR
 - Google Loader: https://codepen.io/AmineMohamed/pen/JZxyYm
+- https://codepen.io/grssam/details/nZyxQN **HOT**
 
 ## Tabs
 - https://codepen.io/RGonyeau/pen/Mvrzxx
