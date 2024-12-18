@@ -103,13 +103,32 @@ https://dev.to/frehner/css-vh-dvh-lvh-svh-and-vw-units-27k4
 <br><br>
 
 
+# Pseudo Class
+
+## :has
+- The functional :has() CSS pseudo-class represents an element if any of the relative selectors that are passed as an argument match at least one element when anchored against this element. This pseudo-class presents a way of selecting a parent element or a previous sibling element with respect to a reference element by taking a relative selector list as an argument.
+- https://developer.mozilla.org/en-US/docs/Web/CSS/:has
+```css
+/* Selects an h1 heading with a
+paragraph element that immediately follows
+the h1 and applies the style to h1 */
+h1:has(+ p) {
+  margin-bottom: 0;
+}
+
+```
 
 
-# ::before & ::after
+
+
+<br><br>
+<br><br>
+
+## ::before & ::after
 
 <br><br>
 
-## Access via JS
+### Access via JS
 ```javascript
 getComputedStyle(document.querySelector('span.search-box'), '::after').getPropertyValue('content');
 ```
