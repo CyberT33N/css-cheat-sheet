@@ -2670,8 +2670,19 @@ https://www.caniemail.com
 - Gallery: https://codepen.io/svelts/pen/VYxPWW
 - Grid Gallery with animation to center: https://codepen.io/ademilter/pen/ByLwwV
 
+<br><br>
+
 ## Easing
 - Cheat Sheet: https://easings.net/ - https://animejs.com/documentation/#pennerFunctions
+
+
+<br><br>
+
+# Music Player
+- https://codepen.io/ecemgo/pen/vYPadZz
+
+<br><br>
+
 
 ## Contact Form
 - https://codepen.io/jq/pen/rVVQXz
