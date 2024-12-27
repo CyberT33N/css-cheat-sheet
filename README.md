@@ -23,6 +23,50 @@ CSS Cheat Sheet with the most needed stuff..
 
 <details><summary>Click to expand..</summary>
 
+
+
+
+# scroll-snap-type
+
+
+So first, you need to set up a scroll-snap-type for the parent container. To make it work like in YouTube Shorts, we will set it to y mandatory.
+```css
+.scroll-container {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  width: 300px;
+  height: 80%;
+  background-color: #ddd;
+  padding: 20px;
+  box-sizing: border-box;
+  scroll-padding: 10px;
+}
+```
+
+That means the scroll container snaps in its vertical axis only and the content must snap to a snap position if it isn’t currently scrolled. Check MDN Docs for the detailed explanation of each possible value for this property.
+
+And for each of the scrolled items we just need to provide a snap position of the item within its snap area. In other words, do we want the item to be snapped to the top (start), center or to the bottom (end). It’s possible thanks to the scroll-snap-align property:
+
+```css
+.scroll-item {
+  scroll-snap-align: start;
+}
+```
+
+Take a look at the demo, it’s really very cool feature and using CSS only:
+- https://codepen.io/bogdanfromkyiv/pen/zYVjwme
+
+
+
+
+
+
+
+<br><br>
+
+
 # light-dark()
 - https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/light-dark
 - The light-dark() CSS <color> function enables setting two colors for a property - returning one of the two colors options by detecting if the developer has set a light or dark color scheme or the user has requested light or dark color theme - without needing to encase the theme colors within a prefers-color-scheme media feature query. Users are able to indicate their color-scheme preference through their operating system settings (e.g. light or dark mode) or their user agent settings. The light-dark() function enables providing two color values where any <color> value is accepted. The light-dark() CSS color function returns the first value if the user's preference is set to light or if no preference is set and the second value if the user's preference is set to dark. 
