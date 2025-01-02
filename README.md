@@ -3242,7 +3242,9 @@ https://www.caniemail.com
 - https://codepen.io/uiswarup/pen/RBByzW
 - https://codepen.io/littlesnippets/pen/oLajBa
 - Gradient Border: https://codepen.io/mike-schultz/pen/NgQvGO
-
+- https://codepen.io/pineappleSyrup/pen/gNdERJ **HOT**
+- https://codepen.io/ZachSaucier/pen/nMRbQN **HOT**
+- https://codepen.io/Huhtamaki/pen/GPzwPY **HOT**
 
 
 
