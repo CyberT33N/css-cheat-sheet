@@ -1965,6 +1965,106 @@ box-shadow: 0em 0em 0em 0.2em rgb(22 237 232 / 38%),
 2.25em 2.25em 0em 0em rgb(9 253 224 / 3%),
 2.75em 2.75em 0em 0em rgb(9 253 224 / 1%);
 ```   
+
+
+
+
+
+<br><br>
+
+# Animated gradient **HOT**
+``
+/* Pulsierende Border Animation - Light Mode */
+@keyframes shadowPulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1),
+                0 0 0 10px rgba(0, 0, 0, 0.1),
+                0 0 0 20px rgba(0, 0, 0, 0.05),
+                0 0 30px rgba(0, 0, 0, 0.05);
+  }
+  50% {
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1),
+                0 0 0 20px rgba(0, 0, 0, 0.1),
+                0 0 0 30px rgba(0, 0, 0, 0.05),
+                0 0 40px rgba(0, 0, 0, 0.05);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1),
+                0 0 0 10px rgba(0, 0, 0, 0.1),
+                0 0 0 20px rgba(0, 0, 0, 0.05),
+                0 0 30px rgba(0, 0, 0, 0.05);
+  }
+}
+
+/* Pulsierende Border Animation - Dark Mode mit Neon Effekt */
+@keyframes shadowPulseDark {
+  0% {
+    box-shadow: 0 0 0 0 rgba(236, 72, 153, 0.2),
+                0 0 0 10px rgba(236, 72, 153, 0.15),
+                0 0 0 20px rgba(147, 51, 234, 0.1),
+                0 0 30px rgba(236, 72, 153, 0.1);
+  }
+  50% {
+    box-shadow: 0 0 0 10px rgba(236, 72, 153, 0.2),
+                0 0 0 20px rgba(236, 72, 153, 0.15),
+                0 0 0 30px rgba(147, 51, 234, 0.1),
+                0 0 40px rgba(236, 72, 153, 0.1);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(236, 72, 153, 0.2),
+                0 0 0 10px rgba(236, 72, 153, 0.15),
+                0 0 0 20px rgba(147, 51, 234, 0.1),
+                0 0 30px rgba(236, 72, 153, 0.1);
+  }
+}
+
+/* Basis-Klasse für den Effekt */
+.ai-card-shadow {
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1),
+              0 0 0 10px rgba(0, 0, 0, 0.1),
+              0 0 0 20px rgba(0, 0, 0, 0.05),
+              0 0 30px rgba(0, 0, 0, 0.05);
+  transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateY(0) scale(1);
+  animation: shadowPulse 3s ease-in-out infinite;
+  position: relative;
+  z-index: 1;
+}
+
+/* Hover-Effekt */
+.ai-card-shadow:hover {
+  transform: translateY(-12px) scale(1.02);
+  box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.15),
+              0 0 0 20px rgba(0, 0, 0, 0.1),
+              0 0 0 30px rgba(0, 0, 0, 0.05),
+              0 0 40px rgba(0, 0, 0, 0.05);
+}
+
+/* Dark Mode Styles */
+:is(.dark) .ai-card-shadow {
+  box-shadow: 0 0 0 0 rgba(236, 72, 153, 0.2),
+              0 0 0 10px rgba(236, 72, 153, 0.15),
+              0 0 0 20px rgba(147, 51, 234, 0.1),
+              0 0 30px rgba(236, 72, 153, 0.1);
+  animation: shadowPulseDark 3s ease-in-out infinite;
+}
+
+/* Dark Mode Hover */
+:is(.dark) .ai-card-shadow:hover {
+  transform: translateY(-12px) scale(1.02);
+  box-shadow: 0 0 0 10px rgba(236, 72, 153, 0.25),
+              0 0 0 20px rgba(236, 72, 153, 0.2),
+              0 0 0 30px rgba(147, 51, 234, 0.15),
+              0 0 40px rgba(236, 72, 153, 0.15);
+}
+``
+- Einfach die Klasse ai-card-shadow auf ein Element anwenden und fertig! Die Animation startet automatisch und reagiert auf den Dark Mode.
+
+
+
+
+
+
     
    
     
