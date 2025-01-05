@@ -24,7 +24,40 @@ CSS Cheat Sheet with the most needed stuff..
 <details><summary>Click to expand..</summary>
 
 
+# view()
+- https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timeline/view
+- https://javascript.plainenglish.io/finally-a-better-way-to-handle-scroll-animations-ac3f4fc1bc1e
+```css
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+    scale: 0.5;
+    transform: translateX(100%);
+  }
+  50% {
+    opacity: 1;
+    scale: 1;
+    transform: translateX(0);
+  }
+  100% {
+    opacity: 0;
+    scale: 0.5;
+    transform: translateX(100%);
+  }
+}
 
+.fade-in-out {
+  animation: fadeInOut linear;
+  animation-timeline: view();
+  animation-range: entry exit;
+}
+```
+
+
+
+
+
+<br><br>
 
 # scroll-snap-type
 
