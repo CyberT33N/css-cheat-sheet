@@ -1972,8 +1972,8 @@ box-shadow: 0em 0em 0em 0.2em rgb(22 237 232 / 38%),
 
 <br><br>
 
-# Animated gradient **HOT**
-``
+# Animated gradient v1 **HOT**
+```
 /* Pulsierende Border Animation - Light Mode */
 @keyframes shadowPulse {
   0% {
@@ -2057,12 +2057,200 @@ box-shadow: 0em 0em 0em 0.2em rgb(22 237 232 / 38%),
               0 0 0 30px rgba(147, 51, 234, 0.15),
               0 0 40px rgba(236, 72, 153, 0.15);
 }
-``
+```
 - Einfach die Klasse ai-card-shadow auf ein Element anwenden und fertig! Die Animation startet automatisch und reagiert auf den Dark Mode.
 
 
 
+v2 **HOT**
+```
+/* Premium Glassmorphism Card with Pulsing Shadows */
 
+/* Base Card Styles */
+.base-card-shadow {
+  /* Glass Effect */
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(8px) saturate(110%);
+  -webkit-backdrop-filter: blur(8px) saturate(110%);
+  
+  /* Base Shadows */
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.12),
+              0 0 0 4px rgba(0, 0, 0, 0.08),
+              0 0 8px rgba(0, 0, 0, 0.06);
+  
+  transition: all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* Dark Mode */
+:is(.dark) .base-card-shadow {
+  border: 1px solid rgba(236, 72, 153, 0.4);
+  background: rgba(236, 72, 153, 0.06);
+  backdrop-filter: blur(8px) saturate(120%);
+  -webkit-backdrop-filter: blur(8px) saturate(120%);
+  box-shadow: 0 0 0 1px rgba(236, 72, 153, 0.4),
+              0 0 0 4px rgba(147, 51, 234, 0.3),
+              0 0 8px rgba(236, 72, 153, 0.2);
+}
+
+/* Pulsing Animation - Light Mode */
+@keyframes shadowPulseInner {
+  /* Base State */
+  0%, 45%, 100% {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.12),
+                0 0 0 4px rgba(0, 0, 0, 0.08),
+                0 0 8px rgba(0, 0, 0, 0.06);
+  }
+  
+  /* Build Up */
+  46.5% {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.12),
+                0 0 0 6px rgba(0, 0, 0, 0.08),
+                0 0 10px rgba(0, 0, 0, 0.06);
+  }
+  48% {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.12),
+                0 0 0 8px rgba(0, 0, 0, 0.08),
+                0 0 12px rgba(0, 0, 0, 0.06);
+  }
+  49.5% {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.12),
+                0 0 0 10px rgba(0, 0, 0, 0.08),
+                0 0 15px rgba(0, 0, 0, 0.06);
+  }
+  
+  /* Peak with Hold */
+  51%, 52% {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.02),
+                0 0 0 36px rgba(0, 0, 0, 0.015),
+                0 0 52px rgba(0, 0, 0, 0.01);
+  }
+  
+  /* Smooth Fade Out */
+  54% {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.015),
+                0 0 0 24px rgba(0, 0, 0, 0.01),
+                0 0 40px rgba(0, 0, 0, 0.008);
+  }
+  56% {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.01),
+                0 0 0 16px rgba(0, 0, 0, 0.008),
+                0 0 30px rgba(0, 0, 0, 0.005);
+  }
+  58% {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.008),
+                0 0 0 8px rgba(0, 0, 0, 0.005),
+                0 0 20px rgba(0, 0, 0, 0.003);
+  }
+  60% {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.005),
+                0 0 0 4px rgba(0, 0, 0, 0.003),
+                0 0 10px rgba(0, 0, 0, 0.002);
+  }
+}
+
+/* Pulsing Animation - Dark Mode */
+@keyframes shadowPulseInnerDark {
+  0%, 45%, 100% {
+    box-shadow: 0 0 0 1px rgba(236, 72, 153, 0.4),
+                0 0 0 4px rgba(147, 51, 234, 0.3),
+                0 0 8px rgba(236, 72, 153, 0.2);
+  }
+  46.5% {
+    box-shadow: 0 0 0 1px rgba(236, 72, 153, 0.4),
+                0 0 0 6px rgba(147, 51, 234, 0.3),
+                0 0 10px rgba(236, 72, 153, 0.2);
+  }
+  48% {
+    box-shadow: 0 0 0 1px rgba(236, 72, 153, 0.4),
+                0 0 0 8px rgba(147, 51, 234, 0.3),
+                0 0 12px rgba(236, 72, 153, 0.2);
+  }
+  49.5% {
+    box-shadow: 0 0 0 1px rgba(236, 72, 153, 0.4),
+                0 0 0 10px rgba(147, 51, 234, 0.3),
+                0 0 15px rgba(236, 72, 153, 0.2);
+  }
+  51%, 52% {
+    box-shadow: 0 0 0 1px rgba(236, 72, 153, 0.08),
+                0 0 0 36px rgba(147, 51, 234, 0.06),
+                0 0 52px rgba(236, 72, 153, 0.04);
+  }
+  54% {
+    box-shadow: 0 0 0 1px rgba(236, 72, 153, 0.06),
+                0 0 0 24px rgba(147, 51, 234, 0.04),
+                0 0 40px rgba(236, 72, 153, 0.03);
+  }
+  56% {
+    box-shadow: 0 0 0 1px rgba(236, 72, 153, 0.04),
+                0 0 0 16px rgba(147, 51, 234, 0.03),
+                0 0 30px rgba(236, 72, 153, 0.02);
+  }
+  58% {
+    box-shadow: 0 0 0 1px rgba(236, 72, 153, 0.03),
+                0 0 0 8px rgba(147, 51, 234, 0.02),
+                0 0 20px rgba(236, 72, 153, 0.01);
+  }
+  60% {
+    box-shadow: 0 0 0 1px rgba(236, 72, 153, 0.02),
+                0 0 0 4px rgba(147, 51, 234, 0.01),
+                0 0 10px rgba(236, 72, 153, 0.005);
+  }
+}
+
+/* Apply Animation */
+.element {
+  animation: shadowPulseInner 6s infinite;
+}
+
+/* Dark Mode Animation */
+:is(.dark) .element {
+  animation: shadowPulseInnerDark 6s infinite;
+}
+
+/* Glass Reflection Effect */
+.base-card-shadow::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.25) 0%,
+    rgba(255, 255, 255, 0.1) 50%,
+    transparent 100%
+  );
+  -webkit-mask: linear-gradient(#000 0 0) content-box,
+                linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+/* Dark Mode Reflection */
+:is(.dark) .base-card-shadow::before {
+  background: linear-gradient(
+    135deg,
+    rgba(236, 72, 153, 0.2) 0%,
+    rgba(147, 51, 234, 0.15) 50%,
+    transparent 100%
+  );
+}
+
+/* Hover Effects */
+.base-card-shadow:hover {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px) saturate(120%);
+  -webkit-backdrop-filter: blur(10px) saturate(120%);
+}
+
+:is(.dark) .base-card-shadow:hover {
+  background: rgba(236, 72, 153, 0.08);
+  backdrop-filter: blur(10px) saturate(130%);
+  -webkit-backdrop-filter: blur(10px) saturate(130%);
+}
+```
 
 
     
