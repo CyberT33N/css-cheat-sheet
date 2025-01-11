@@ -10,6 +10,167 @@ CSS Cheat Sheet with the most needed stuff..
 
 
 
+<br><br>
+ _____________________________________________________
+ _____________________________________________________
+<br><br>
+
+
+# API
+
+<br><br>
+
+<details><summary>Click to expand..</summary>
+
+
+# CSS Houdini: Was ist das? (+ Beispiele)
+
+CSS Houdini ist eine Sammlung von **APIs**, die Entwicklern ermöglichen, die Grenzen von CSS zu überschreiten, indem sie direkt in den Browser-Rendering-Prozess eingreifen. Damit kannst du eigene Stile, Layouts und Animationen erstellen, die nativ vom Browser verarbeitet werden.
+
+---
+
+## Beispiele für CSS Houdini
+
+### 1. **Paint API**: Benutzerdefinierte Hintergründe erstellen
+Mit der Paint API kannst du eigene Hintergrundmuster oder Grafiken zeichnen.
+
+#### Beispiel: Streifenmuster als Hintergrund
+```javascript
+// paint-worklet.js
+class StripedBackground {
+  paint(ctx, size, properties) {
+    const stripeWidth = 10;
+    ctx.fillStyle = 'blue';
+    for (let x = 0; x < size.width; x += stripeWidth * 2) {
+      ctx.fillRect(x, 0, stripeWidth, size.height);
+    }
+  }
+}
+registerPaint('striped-bg', StripedBackground);
+```
+
+In deinem CSS:
+```css
+/* CSS: Stripe-Background aktivieren */
+@paint-worklet addModule('paint-worklet.js');
+
+div {
+  background: paint(striped-bg);
+  width: 200px;
+  height: 100px;
+}
+```
+
+---
+
+### 2. **Properties and Values API**: Eigene CSS-Variablen definieren
+Hier kannst du benutzerdefinierte CSS-Eigenschaften mit Standardwerten und Typen erstellen.
+
+#### Beispiel: Benutzerdefinierte Eigenschaft "theme-color"
+```javascript
+CSS.registerProperty({
+  name: '--theme-color',
+  syntax: '<color>',
+  inherits: false,
+  initialValue: 'black',
+});
+```
+
+In deinem CSS:
+```css
+/* CSS: Verwende die registrierte Eigenschaft */
+div {
+  background-color: var(--theme-color);
+}
+```
+
+In deinem JavaScript:
+```javascript
+// Ändere die Eigenschaft dynamisch
+document.querySelector('div').style.setProperty('--theme-color', 'blue');
+```
+
+---
+
+### 3. **Animation Worklet**: Komplexe Animationen steuern
+Mit der Animation Worklet API kannst du benutzerdefinierte Animationen erstellen, die besser performen.
+
+#### Beispiel: Physik-basierte Animation
+```javascript
+// animation-worklet.js
+class BounceAnimation {
+  constructor() {
+    this.time = 0;
+  }
+  animate(currentTime, effect) {
+    this.time += 0.1;
+    const offset = Math.abs(Math.sin(this.time));
+    effect.localTime = offset * 1000; // Animationszeit steuern
+  }
+}
+registerAnimator('bounce', BounceAnimation);
+```
+
+In deinem CSS:
+```css
+/* Animation Worklet aktivieren */
+@keyframes bounce {
+  from { transform: translateY(0); }
+  to { transform: translateY(-50px); }
+}
+div {
+  animation: bounce 1s infinite alternate;
+}
+```
+
+---
+
+### 4. **Layout API**: Eigene Layouts erstellen
+Die Layout API erlaubt dir, komplett neue Layout-Methoden zu definieren.
+
+#### Beispiel: Ein einfaches "Stacked" Layout
+```javascript
+class StackedLayout {
+  *layout(children, edges, constraints, styleMap) {
+    let y = edges.inlineStart;
+    for (const child of children) {
+      const childFragment = yield child.layoutNextFragment();
+      childFragment.inlineOffset = edges.inlineStart;
+      childFragment.blockOffset = y;
+      y += childFragment.blockSize;
+    }
+  }
+}
+registerLayout('stacked', StackedLayout);
+```
+
+In deinem CSS:
+```css
+/* Layout aktivieren */
+@layout-worklet addModule('layout-worklet.js');
+
+.container {
+  display: layout(stacked);
+}
+```
+
+---
+
+## Fazit
+CSS Houdini gibt dir die Macht, Dinge zu erstellen, die mit normalem CSS nicht möglich sind. Egal ob benutzerdefinierte Hintergründe, bessere Animationen oder neue Layouts – Houdini bietet dir die nötigen Tools.
+
+Mehr Infos und Beispiele findest du [hier](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Houdini).
+
+
+</details>
+
+
+
+
+
+
+
+
 
 <br><br>
  _____________________________________________________
