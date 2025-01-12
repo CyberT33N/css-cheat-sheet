@@ -16,6 +16,115 @@ CSS Cheat Sheet with the most needed stuff..
 <br><br>
 
 
+# CSS-Referenz
+
+<br><br>
+
+<details><summary>Click to expand..</summary>
+
+
+#  @scope Regel
+
+## Überblick
+Die `@scope` Regel in CSS ermöglicht das Scoping von Stilen auf bestimmte Teile des DOMs. Sie ist nützlich, um Styles auf eine begrenzte Gruppe von Elementen anzuwenden, ohne dass diese Styles das gesamte Dokument beeinflussen.
+
+## Syntax
+```css
+@scope (<selector>) {
+  /* Styles für Elemente innerhalb des Scopes */
+}
+```
+
+
+Beispiel 1: Scoping innerhalb eines Containers
+```css
+
+@scope (.container) {
+  /* Alle <p>-Tags innerhalb des .container werden rot */
+  p {
+    color: red;
+  }
+}
+```
+
+Beispiel 2: Scoping mit einem Nachfolgenden Selektor
+```css
+
+@scope (.container) to (.content) {
+  /* Alle <p>-Tags innerhalb des .container, aber vor .content werden grün */
+  p {
+    color: green;
+  }
+}
+```
+
+Beispiel 3: Kombiniertes Scoping
+```css
+
+@scope (.container) {
+  @scope (.inner-box) {
+    /* Nur <p>-Tags innerhalb von .inner-box, das innerhalb von .container ist, werden blau */
+    p {
+      color: blue;
+    }
+  }
+}
+```
+
+Beispiel 4: Negation innerhalb des Scopes
+```css
+
+@scope (.container) {
+  /* Alles außer <p>-Tags innerhalb von .container wird gelb */
+  :not(p) {
+    color: yellow;
+  }
+}
+```
+
+Wichtige Punkte
+
+    Die @scope Regel ist experimentell und noch nicht in allen Browsern vollständig unterstützt.
+    to kann verwendet werden, um den Scope weiter einzugrenzen.
+    Der Scope kann verschachtelt werden, um noch spezifischere Stile zu definieren.
+
+
+Browserunterstützung
+
+    Chrome: Experimentelle Unterstützung aktivierbar via Flags.
+    Firefox: Noch keine Unterstützung.
+    Safari: Experimentelle Unterstützung aktivierbar via Flags.
+
+
+Hinweis: Überprüfe immer die aktuelle Browserunterstützung, da sich diese schnell ändern kann.
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+ _____________________________________________________
+ _____________________________________________________
+<br><br>
+
+
 # API
 
 <br><br>
