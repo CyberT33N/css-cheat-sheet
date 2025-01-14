@@ -606,6 +606,123 @@ https://dev.to/frehner/css-vh-dvh-lvh-svh-and-vw-units-27k4
 <br><br>
 
 
+
+# CSS Flexbox vs. Grid: Wann du was verwenden solltest
+
+CSS bietet zwei leistungsstarke Layout-Tools: **Flexbox** und **Grid**. Beide haben ihre Stärken, aber sie sind für unterschiedliche Zwecke optimiert. Hier ist ein Überblick, um zu entscheiden, wann du welches verwenden solltest.
+
+## CSS Grid: Zwei-dimensionale Layouts
+**Grid** ist ideal für **komplexe, zweidimensionale Layouts**, bei denen sowohl Reihen als auch Spalten gesteuert werden müssen.
+
+### Vorteile von Grid:
+- **Präzise Kontrolle** über Zeilen und Spalten.
+- **Überlappende Elemente** einfach gestalten.
+- **Komplexe Layouts** (Dashboards, Hauptinhaltsbereiche) einfach definieren.
+
+### Beispiel:
+```css
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 20px;
+}
+```
+
+Verwendung: Hauptlayouts wie Seitenraster, Galerien oder Dashboards.
+
+---
+
+## CSS Flexbox: Ein-dimensionale Layouts
+**Flexbox** ist für **einfache, ein-dimensionale Layouts** optimiert. Es hilft, Elemente in einer Zeile oder Spalte flexibel auszurichten.
+
+### Vorteile von Flexbox:
+- **Einfache Ausrichtung** entlang einer Achse.
+- **Dynamische Größen** und gleichmäßige Verteilung von Platz.
+- Perfekt für **Navigationen** oder **mobile Layouts**.
+
+### Beispiel:
+```css
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+```
+
+Verwendung: Navigationselemente, Button-Gruppen, Spaltenlayouts für mobile Geräte.
+
+---
+
+## Wann Grid, wann Flexbox?
+| **Szenario**                         | **Verwenden**  |
+|--------------------------------------|----------------|
+| Layout mit Reihen und Spalten        | **Grid**       |
+| Elemente in einer Linie ausrichten   | **Flexbox**    |
+| Genaue Platzierung von Elementen     | **Grid**       |
+| Dynamische Verteilung von Platz      | **Flexbox**    |
+
+---
+
+## Hybridansatz: Das Beste aus beiden Welten
+Manchmal lohnt es sich, **Grid** für die Struktur und **Flexbox** für die Ausrichtung innerhalb von Zellen zu kombinieren.
+
+### Best Practices:
+1. **Grid** für das Hauptlayout.
+2. **Flexbox** für die Ausrichtung von Elementen innerhalb der Zellen.
+3. **Kommentiere deinen Code**, um Klarheit zu bewahren.
+
+```css
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+```
+
+---
+
+## Fazit
+Verstehe die Stärken von Grid und Flexbox, um je nach Anforderung das passende Tool zu wählen. Für maximale Flexibilität kann eine Kombination beider Techniken die optimale Lösung sein.
+
+### Zusätzliche Ressourcen
+- [MDN: CSS Grid Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
+- [CSS-Tricks: A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Flex
 
 <details><summary>Click to expand..</summary>
