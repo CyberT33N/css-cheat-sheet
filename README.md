@@ -609,6 +609,8 @@ https://dev.to/frehner/css-vh-dvh-lvh-svh-and-vw-units-27k4
 
 # CSS Flexbox vs. Grid: Wann du was verwenden solltest
 
+<details><summary>Click to expand..</summary>
+
 CSS bietet zwei leistungsstarke Layout-Tools: **Flexbox** und **Grid**. Beide haben ihre Stärken, aber sie sind für unterschiedliche Zwecke optimiert. Hier ist ein Überblick, um zu entscheiden, wann du welches verwenden solltest.
 
 ## CSS Grid: Zwei-dimensionale Layouts
@@ -694,7 +696,7 @@ Verstehe die Stärken von Grid und Flexbox, um je nach Anforderung das passende 
 - [MDN: CSS Grid Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
 - [CSS-Tricks: A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
-
+</details>
 
 
 
