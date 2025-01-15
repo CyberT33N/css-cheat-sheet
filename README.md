@@ -3931,6 +3931,7 @@ https://www.caniemail.com
 - Multilayer with animation: https://codepen.io/jebbles/pen/MKoYya
 - Responsive card slider (https://codepen.io/JavaScriptJunkie/pen/WgRBxw)
 - Gradient **HOT** - https://codepen.io/kristen17/pen/NPKrxBd
+- Gradien Border **HOT** https://codepen.io/jh3y/pen/WNmQXyE
 
 ## Typing
 - Typing animation mimicking human behavior: https://codepen.io/Zhouzi/pen/JoRazP
