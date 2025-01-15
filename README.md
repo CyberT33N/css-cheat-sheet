@@ -1,4 +1,4 @@
-
+e
 # CSS Cheat Sheet   (つ◉益◉)つ  
 CSS Cheat Sheet with the most needed stuff..
 
@@ -4111,6 +4111,7 @@ https://www.caniemail.com
 
 ## Image Gallery
 - https://codepen.io/andata/pen/pEyAGj
+- Responsive Vertical Scrolling Parallax Gallery **HOT**  https://codepen.io/noirsociety/pen/NWJvgZg
 
 ## Image Transitions
 - https://codepen.io/sfi0zy/pen/OQOExE
