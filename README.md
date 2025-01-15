@@ -3677,6 +3677,7 @@ https://www.caniemail.com
 - Guide: https://css-tricks.com/using-css-cursors/
 - All avaible cursor: https://codepen.io/chriscoyier/pen/uCwfB
 - Animation following cursor: https://codepen.io/tamm/pen/LIFam
+- Sticky Cursor **HOT** https://codepen.io/dev_loop/pen/abxJMxL
 
 ## Mouse Cursor SVG Collection
 - https://mega.nz/file/y3pUUCZS#NPEm6f00U2VLweB0BXLL5yf5BUU53Ndd4f0b-TvW534
