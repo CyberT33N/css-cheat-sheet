@@ -132,7 +132,144 @@ Hinweis: Überprüfe immer die aktuelle Browserunterstützung, da sich diese sch
 <details><summary>Click to expand..</summary>
 
 
+
+#  CSS Anchor Positioning API
+
+<details><summary>Click to expand..</summary>
+
+The CSS Anchor Positioning API introduces **custom anchor points** for positioning elements relative to another element. This is especially useful for tooltips, popovers, and any UI component that needs precise placement without manual calculations.
+
+# Key Concepts
+
+## Anchor Points
+An **anchor** is a reference point on a target element used for positioning another element. The API allows defining anchors directly in CSS.
+
+## Syntax Overview
+The anchor is defined using the `anchor-name` property, and the element being positioned uses `anchor()` in the `top`, `left`, `right`, or `bottom` properties.
+
+---
+
+# Anchor-Defining Properties
+
+## `anchor-name`
+Defines an anchor point on an element that other elements can use as a reference.
+
+```css
+.element {
+  anchor-name: my-anchor;
+}
+```
+
+In this example, the `.element` has a named anchor point `my-anchor`.
+
+---
+
+# Anchor-Using Properties
+
+## `top`, `left`, `right`, `bottom` with `anchor()`
+The `anchor()` function references a defined anchor point and specifies its positioning.
+
+### Syntax
+```css
+anchor(anchor-name <alignment>? <fallback-position>?);
+```
+
+- **anchor-name**: Name of the target anchor.
+- **alignment**: Optional. Defines alignment along an axis (`start`, `center`, `end`).
+- **fallback-position**: Optional. Position to use if the anchor is not available.
+
+### Example
+```css
+.tooltip {
+  top: anchor(my-anchor center);
+  left: anchor(my-anchor start);
+}
+```
+
+In this example:
+- The tooltip is centered vertically relative to `my-anchor`.
+- It is aligned to the start (left) horizontally.
+
+---
+
+## Use Cases
+
+## Tooltips
+Position tooltips relative to buttons without manual offsets.
+
+```css
+button {
+  anchor-name: button-anchor;
+}
+
+.tooltip {
+  top: anchor(button-anchor end);
+  left: anchor(button-anchor center);
+}
+```
+
+## Popovers
+Ensure dropdowns or popovers align perfectly to their parent.
+
+```css
+.dropdown {
+  anchor-name: dropdown-anchor;
+}
+
+.menu {
+  top: anchor(dropdown-anchor start);
+  left: anchor(dropdown-anchor start);
+}
+```
+
+## Floating UI Elements
+Position floating elements like modals with full control over alignment.
+
+---
+
+# Fallbacks and Defaults
+
+- If the specified `anchor-name` does not exist, the fallback position or default alignment is used.
+- Use percentages or absolute positioning as a backup for older browsers.
+
+---
+
+# Browser Support
+Currently supported in **Google Chrome** and **Chromium-based browsers**. For non-supported browsers, implement fallback styles.
+
+---
+
+# Tips
+- Use meaningful `anchor-name` values to keep your code organized.
+- Combine `anchor()` with modern layout methods (e.g., `flexbox`, `grid`) for optimal results.
+- Test for browser compatibility if you're targeting non-Chromium browsers.
+
+The Anchor Positioning API simplifies UI alignment, making CSS layouts more intuitive and powerful. 🚀
+
+ 
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br
+<br><br
+
+
 # CSS Houdini: Was ist das? (+ Beispiele)
+
+<details><summary>Click to expand..</summary>
+
 
 CSS Houdini ist eine Sammlung von **APIs**, die Entwicklern ermöglichen, die Grenzen von CSS zu überschreiten, indem sie direkt in den Browser-Rendering-Prozess eingreifen. Damit kannst du eigene Stile, Layouts und Animationen erstellen, die nativ vom Browser verarbeitet werden.
 
@@ -269,6 +406,9 @@ In deinem CSS:
 CSS Houdini gibt dir die Macht, Dinge zu erstellen, die mit normalem CSS nicht möglich sind. Egal ob benutzerdefinierte Hintergründe, bessere Animationen oder neue Layouts – Houdini bietet dir die nötigen Tools.
 
 Mehr Infos und Beispiele findest du [hier](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Houdini).
+
+</details>
+
 
 
 </details>
