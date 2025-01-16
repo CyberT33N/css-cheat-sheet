@@ -577,14 +577,83 @@ div {
 # Units
 
 
-# dvh, lvh & svh
-https://dev.to/frehner/css-vh-dvh-lvh-svh-and-vw-units-27k4
+<details><summary>Click to expand..</summary>
+
+
+
+
+
+# Absolute Units
+Absolute units are fixed and not relative to any other element. They are based on physical measurements or standard browser defaults.
+
+- **cm**: Centimeters (1cm = 96px/2.54)
+- **mm**: Millimeters (1mm = 1/10th of a cm)
+- **Q**: Quarter-millimeters (1Q = 1/4th of 1mm)
+- **in**: Inches (1in = 2.54cm = 96px)
+- **pc**: Picas (1pc = 1/6th of 1in = 16px)
+- **pt**: Points (1pt = 1/72nd of 1in = ~1.33px)
+- **px**: Pixels (1px = 1/96th of 1in, standard unit in digital screens)
+
+# Relative Units
+Relative units are dynamic and depend on the size or context of other elements.
+
+## Font-relative Units
+- **em**: Relative to the font size of the element. (e.g., `2em` = 2 × the font size)
+- **rem**: Relative to the font size of the root element (usually `<html>`).
+- **ex**: The x-height of the current font (height of lowercase "x").
+- **cap**: Height of the capital letters in the current font.
+  ```css
+  margin-top: 2cap;
+  font-size: 16px;
+  ```
+  The margin-top equals twice the height of the capital letters in the current font.
+
+- **ch**: Width of the "0" character in the current font.
+  ```css
+  width: 20ch;
+  ```
+  This sets the width to fit approximately 20 "0" characters.
+
+- **ic**: Width of the ideographic character "水" in the current font.
+- **lh**: Line height of the element.
+- **rlh**: Line height of the root element.
+
+## Viewport-relative Units
+These units are relative to the size of the viewport.
+
+- **vw**: 1% of the viewport width.
+- **vh**: 1% of the viewport height.
+- **vmin**: 1% of the smaller of the viewport's width or height.
+- **vmax**: 1% of the larger of the viewport's width or height.
+- **lvw**/**lvh**/**lvmin**/**lvmax**: Large viewport dimensions.
+- **svw**/**svh**/**svmin**/**svmax**: Small viewport dimensions.
+- **dvw**/**dvh**/**dvmin**/**dvmax**: Dynamic viewport dimensions.
+
+## Container-relative Units (CSS Containment)
+These units are based on the size of a containing element.
+- **cqw**: 1% of the container's inline axis size.
+- **cqh**: 1% of the container's block axis size.
+- **cqmin**: 1% of the smaller of `cqw` or `cqh`.
+- **cqmax**: 1% of the larger of `cqw` or `cqh`.
+
+# Other Units
+- **%**: Percentage relative to the parent element or specified context.
+
+# Use Cases
+- **cap**: Align elements with uppercase text.
+- **ch**: Set widths for text-based elements like input fields.
+- **vw/vh**: Create layouts that adapt to screen size.
+- **rem/em**: Maintain consistent typography that scales with user settings.
+- **lh**: Vertically align elements based on text spacing.
 
 
 
 
 
 
+
+
+</details>
 
 
 
