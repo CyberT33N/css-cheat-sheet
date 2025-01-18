@@ -622,6 +622,8 @@ article :is(h1, h2, h3) {
 
 # scroll-snap-type
 
+<details><summary>Click to expand..</summary>
+
 
 So first, you need to set up a scroll-snap-type for the parent container. To make it work like in YouTube Shorts, we will set it to y mandatory.
 ```css
@@ -653,6 +655,18 @@ Take a look at the demo, it’s really very cool feature and using CSS only:
 - https://codepen.io/bogdanfromkyiv/pen/zYVjwme
 
 
+</details>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -663,7 +677,19 @@ Take a look at the demo, it’s really very cool feature and using CSS only:
 
 # light-dark()
 - https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/light-dark
+
+<details><summary>Click to expand..</summary>
+
 - The light-dark() CSS <color> function enables setting two colors for a property - returning one of the two colors options by detecting if the developer has set a light or dark color scheme or the user has requested light or dark color theme - without needing to encase the theme colors within a prefers-color-scheme media feature query. Users are able to indicate their color-scheme preference through their operating system settings (e.g. light or dark mode) or their user agent settings. The light-dark() function enables providing two color values where any <color> value is accepted. The light-dark() CSS color function returns the first value if the user's preference is set to light or if no preference is set and the second value if the user's preference is set to dark. 
+
+</details>
+
+
+
+
+
+
+
 
 
 
@@ -672,6 +698,8 @@ Take a look at the demo, it’s really very cool feature and using CSS only:
 
 # align-content
 - https://www.w3schools.com/cssref/css3_pr_align-content.php
+
+<details><summary>Click to expand..</summary>
 
 The align-content property specifies how flex lines are distributed along the cross axis in a flexbox container.
 
@@ -690,6 +718,88 @@ div {
   align-content: center;
 }
 ```
+</details>
+
+
+
+
+
+<br><br>
+
+
+# resize
+
+<details><summary>Click to expand..</summary>
+
+Die CSS-Eigenschaft resize ermöglicht es, die Größe von Elementen wie <textarea> oder Elementen mit overflow dynamisch durch den Benutzer zu ändern. Hier sind die Details:
+
+Verwendung
+
+    Syntax: resize: <value>;
+    Werte:
+        none - Der Benutzer kann die Größe des Elements nicht ändern.
+        both - Der Benutzer kann die Größe in beide Richtungen (horizontal und vertikal) ändern.
+        horizontal - Größenänderung nur horizontal.
+        vertical - Größenänderung nur vertikal.
+        block - Größenänderung entlang des Block-Achs (typischerweise vertikal, aber abhängig vom writing-mode).
+        inline - Größenänderung entlang der Inline-Achse (typischerweise horizontal, aber abhängig vom writing-mode).
+
+
+Anwendung
+
+    Elemente: Die resize-Eigenschaft kann auf <textarea>-Elemente oder auf Elemente angewendet werden, die overflow anders als visible haben (z.B. auto oder scroll).
+    Verhalten: Ein kleiner Größenänderungs-Handle wird in der Ecke des Elements angezeigt, das den Wert resize unterstützt.
+
+
+Beispiel
+```html
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resize Beispiel</title>
+    <style>
+        textarea {
+            resize: both;  /* Benutzer kann Größe in beide Richtungen ändern */
+            width: 200px;
+            height: 100px;
+        }
+        .resizable-box {
+            width: 200px;
+            height: 200px;
+            overflow: auto;
+            resize: horizontal;  /* Nur horizontal veränderbar */
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <textarea>Ändern Sie meine Größe!</textarea>
+    <br>
+    <div class="resizable-box">
+        <p>Dieser Div kann horizontal vergrößert werden.</p>
+    </div>
+</body>
+</html>
+```
+
+Browserunterstützung
+
+    Unterstützung: Die resize-Eigenschaft wird von den meisten modernen Browsern unterstützt. Es gibt jedoch einige Unterschiede bei der Darstellung und dem Verhalten des Größenänderungs-Handles zwischen verschiedenen Browsern.
+
+
+Hinweis: Die resize-Eigenschaft ist nützlich für Benutzerfreundlichkeit, indem sie den Benutzern ermöglicht, die Darstellung von Inhalten nach ihren Bedürfnissen anzupassen. Dennoch sollte sie mit Bedacht angewendet werden, um zu vermeiden, dass das Layout der Seite zu stark beeinflusst wird.
+ 
+</details>
+
+
+
+
+
+
+
 
 
 
