@@ -1,4 +1,3 @@
-e
 # CSS Cheat Sheet   (つ◉益◉)つ  
 CSS Cheat Sheet with the most needed stuff..
 
