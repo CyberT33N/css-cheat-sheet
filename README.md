@@ -1133,6 +1133,8 @@ Verstehe die Stärken von Grid und Flexbox, um je nach Anforderung das passende 
 
 # Build Dynamic, Responsive Grids with `repeat()` and `minmax()`
 
+<details><summary>Click to expand..</summary>
+
 Mit den Funktionen **`repeat()`** und **`minmax()`** kannst du **responsive** und **dynamische Grids** erstellen, die sich automatisch an den verfügbaren Platz anpassen.
 
 ## Erklärung:
@@ -1198,6 +1200,15 @@ grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
 ## Fazit:
 Mit **`repeat()`** und **`minmax()`** kannst du moderne, anpassungsfähige Grids erstellen, die sowohl ästhetisch ansprechend als auch funktional sind. Sie sind ein Must-Have-Tool für responsives Webdesign!
 
+</details>
+
+
+
+
+
+
+
+
 
 
 
@@ -1207,6 +1218,9 @@ Mit **`repeat()`** und **`minmax()`** kannst du moderne, anpassungsfähige Grids
 
 
 ## seamless responsive photo grid (https://css-tricks.com/seamless-responsive-photo-grid/)
+
+<details><summary>Click to expand..</summary>
+
 ```html
 <section id="photos">
   <img src="images/cat-1.jpg" alt="Cute cat">
@@ -1265,9 +1279,27 @@ Mit **`repeat()`** und **`minmax()`** kannst du moderne, anpassungsfähige Grids
 }
 ```
 
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
 <br><br>
 
 ## 3 columns
+
+<details><summary>Click to expand..</summary>
+
 ```css
 .grid-container {
   display: grid;
@@ -1298,6 +1330,30 @@ Mit **`repeat()`** und **`minmax()`** kannst du moderne, anpassungsfähige Grids
   <div class="grid-item">9</div>  
 </div>
 ```
+
+</details>
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+
+
+
+# center item
+```
+.box {
+  display: grid;
+  place-items: center;
+}
+```
+
+
 
 
 </details>
