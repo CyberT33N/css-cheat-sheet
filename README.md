@@ -24,6 +24,8 @@ CSS Cheat Sheet with the most needed stuff..
 
 #  @scope Regel
 
+<details><summary>Click to expand..</summary>
+
 ## Überblick
 Die `@scope` Regel in CSS ermöglicht das Scoping von Stilen auf bestimmte Teile des DOMs. Sie ist nützlich, um Styles auf eine begrenzte Gruppe von Elementen anzuwenden, ohne dass diese Styles das gesamte Dokument beeinflussen.
 
@@ -96,6 +98,86 @@ Browserunterstützung
 
 
 Hinweis: Überprüfe immer die aktuelle Browserunterstützung, da sich diese schnell ändern kann.
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+
+
+# @supports
+
+<details><summary>Click to expand..</summary>
+
+## Grundlegende Syntax
+```css
+@supports (property: value) {
+  /* CSS-Regeln */
+}
+```
+
+## Verwendungszwecke
+- Feature-Detection für CSS-Eigenschaften
+- Fallback-Lösungen für nicht unterstützte Eigenschaften
+- Progressive Enhancement von Styles
+
+## Logische Operatoren
+```css
+/* AND */
+@supports (display: grid) and (display: flex) {
+  /* Beide Features müssen unterstützt werden */
+}
+
+/* OR */
+@supports (display: -webkit-box) or (display: flex) {
+  /* Mindestens eines der Features muss unterstützt werden */
+}
+
+/* NOT */
+@supports not (display: grid) {
+  /* Wird angewendet, wenn grid NICHT unterstützt wird */
+}
+```
+
+## Beispiel mit mehreren Bedingungen
+```css
+@supports ((display: grid) and (not (display: inline-grid))) or (display: flex) {
+  .container {
+    /* Styles werden angewendet wenn:
+       - grid unterstützt wird UND inline-grid nicht unterstützt wird
+       ODER
+       - flex unterstützt wird */
+  }
+}
+```
+
+## Browser-Unterstützung
+- Wird von allen modernen Browsern unterstützt
+- IE11 und älter unterstützen @supports nicht
+
+## Best Practices
+- Als zusätzliche Absicherung für moderne CSS-Features verwenden
+- Basis-Styles außerhalb von @supports definieren
+- Komplexere/moderne Styles innerhalb von @supports schreiben
+
+
+</details>
+
+
 
 </details>
 
@@ -435,9 +517,88 @@ Mehr Infos und Beispiele findest du [hier](https://developer.mozilla.org/en-US/d
 
 
 
+# aspect-ratio
+
+<details><summary>Click to expand..</summary>
+
+## Grundlegende Syntax
+```css
+.element {
+  aspect-ratio: width / height;
+}
+```
+
+## Beispielwerte
+```css
+/* Basis-Formate */
+aspect-ratio: 1 / 1;    /* Quadrat */
+aspect-ratio: 16 / 9;   /* Typisches Videoformat */
+aspect-ratio: 4 / 3;    /* Klassisches Bildformat */
+aspect-ratio: auto;     /* Ursprüngliches Seitenverhältnis */
+```
+
+## Anwendungsfälle
+- Responsive Bilder mit festem Seitenverhältnis
+- Video-Container
+- Cards und Layout-Elemente
+- Vermeidung von Layout-Shifts beim Laden
+
+## Praktische Beispiele
+```css
+/* Responsive Video Container */
+.video-container {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+
+/* Quadratische Bildkacheln */
+.image-tile {
+  width: 200px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+```
+
+## Fallback für ältere Browser
+```css
+.element {
+  /* Fallback für Browser ohne aspect-ratio Support */
+  padding-bottom: 56.25%; /* Für 16:9 */
+  height: 0;
+  
+  /* Moderne Browser */
+  @supports (aspect-ratio: 1 / 1) {
+    padding-bottom: 0;
+    aspect-ratio: 16 / 9;
+  }
+}
+```
+
+## Browser-Unterstützung
+- Wird von allen modernen Browsern unterstützt
+- Safari ab Version 15
+- Chrome ab Version 88
+- Firefox ab Version 89
+
+## Best Practices
+- Immer einen Fallback für ältere Browser bereitstellen
+- Mit object-fit kombinieren bei Bildern
+- Bei Responsive Layouts beachten, dass width oder height definiert sein muss**
+ 
+</details>
 
 
 
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
 
 
 
