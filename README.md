@@ -871,6 +871,248 @@ Mehr Infos und Beispiele findest du [hier](https://developer.mozilla.org/en-US/d
 
 
 
+
+
+# white-space-collapse
+
+
+
+<details><summary>Click to expand..</summary>
+
+## Grundlegende Syntax
+```css
+white-space-collapse: collapse | preserve | preserve-breaks | preserve-spaces | break-spaces | discard;
+```
+
+## Werte und ihre Bedeutung
+
+### collapse (Standard)
+```css
+.element {
+  white-space-collapse: collapse;  /* Mehrfache Leerzeichen werden zu einem zusammengefasst */
+}
+```
+
+### preserve
+```css
+.element {
+  white-space-collapse: preserve;  /* Behält alle Leerzeichen und Umbrüche bei */
+}
+```
+
+### preserve-breaks
+```css
+.element {
+  white-space-collapse: preserve-breaks;  /* Behält Zeilenumbrüche, kollabiert Leerzeichen */
+}
+```
+
+### preserve-spaces
+```css
+.element {
+  white-space-collapse: preserve-spaces;  /* Behält Leerzeichen, kollabiert Zeilenumbrüche */
+}
+```
+
+### break-spaces
+```css
+.element {
+  white-space-collapse: break-spaces;  /* Wie preserve, aber mit Umbrüchen bei overflow */
+}
+```
+
+### discard
+```css
+.element {
+  white-space-collapse: discard;  /* Entfernt alle Whitespaces am Anfang und Ende */
+}
+```
+
+## Praktische Beispiele
+
+### Code-Blöcke
+```css
+pre {
+  white-space-collapse: preserve;
+  font-family: monospace;
+}
+```
+
+### Formatierter Text
+```css
+.formatted-text {
+  white-space-collapse: preserve-breaks;
+  max-width: 60ch;
+}
+```
+
+## Kombinationen mit anderen Eigenschaften
+```css
+/* Mit text-wrap */
+.element {
+  white-space-collapse: preserve-breaks;
+  text-wrap: pretty;
+}
+
+/* Mit white-space */
+.element {
+  white-space-collapse: preserve;
+  white-space: pre-wrap;
+}
+```
+
+## Browser-Unterstützung
+- Relativ neue Eigenschaft (2023/2024)
+- Chrome: ab Version 115
+- Firefox: noch keine volle Unterstützung
+- Safari: noch keine volle Unterstützung
+
+## Best Practices
+- Fallback für ältere Browser bereitstellen
+- Mit @supports testen
+- Für Code-Blöcke und vorformatierte Texte `preserve` verwenden
+- Für normale Texte beim Standard `collapse` bleiben
+
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+
+
+
+
+
+
+# text-wrap
+
+<details><summary>Click to expand..</summary>
+
+## Grundlegende Syntax
+```css
+text-wrap: wrap | nowrap | balance | stable | pretty;
+```
+
+## Werte und ihre Bedeutung
+
+### wrap (Standard)
+```css
+.element {
+  text-wrap: wrap;  /* Normales Textumbruchverhalten */
+}
+```
+
+### nowrap
+```css
+.element {
+  text-wrap: nowrap;  /* Verhindert Zeilenumbrüche */
+}
+```
+
+### balance
+```css
+.element {
+  text-wrap: balance;  /* Balanciert Textblöcke für bessere Lesbarkeit */
+}
+```
+
+### stable
+```css
+.element {
+  text-wrap: stable;  /* Verhindert Layout-Shifts durch Umbrüche */
+}
+```
+
+### pretty
+```css
+.element {
+  text-wrap: pretty;  /* Optimiert Umbrüche für Ästhetik */
+}
+```
+
+## Praktische Beispiele
+
+### Ausbalancierte Überschriften
+```css
+h1, h2 {
+  text-wrap: balance;
+  max-width: 60ch;
+}
+```
+
+### Stabile Navigationselemente
+```css
+.nav-item {
+  text-wrap: stable;
+  padding: 0.5rem;
+}
+```
+
+## Browser-Unterstützung
+- Chrome: ab Version 117
+- Firefox: ab Version 119
+- Safari: teilweise Unterstützung
+
+## Best Practices
+- `balance` für kurze Textblöcke wie Headlines
+- `stable` für UI-Elemente, die nicht springen sollen
+- Fallbacks für ältere Browser bereitstellen
+- Mit max-width kombinieren für optimale Lesbarkeit
+
+## Verwandte Eigenschaften
+- overflow-wrap
+- white-space
+- word-break
+- hyphens
+
+## Performance-Hinweise
+- `balance` kann bei langen Texten performance-intensiv sein
+- `stable` hat geringere Performance-Auswirkungen
+- Bei großen Textmengen vorsichtig einsetzen
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+
+
+
 # CSS Motion Path (offset-path & offset-position)
 
 <details><summary>Click to expand..</summary>
