@@ -606,6 +606,139 @@ Mehr Infos und Beispiele findest du [hier](https://developer.mozilla.org/en-US/d
 
 
 
+# CSS Motion Path (offset-path & offset-position)
+
+<details><summary>Click to expand..</summary>
+
+
+## offset-path
+Definiert einen Bewegungspfad für Elemente.
+
+### Syntax
+```css
+offset-path: none | ray() | path() | url();
+```
+
+### Werte & Beispiele
+```css
+/* Basic Path */
+offset-path: path("M 0 0 L 100 100");
+
+/* Komplexere Pfade */
+offset-path: path("M 0 0 H 100 V 100 H 0 Z");  /* Quadrat */
+offset-path: path("M 0 0 Q 50 100 100 0");     /* Kurve */
+
+/* Mit Ray */
+offset-path: ray(45deg closest-side);
+
+/* Mit URL zu SVG */
+offset-path: url(#path);
+
+/* Geometrische Formen */
+offset-path: circle(50px);
+offset-path: ellipse(50px 60px);
+```
+
+### Animation Beispiel
+```css
+.moving-element {
+  offset-path: path("M 0 0 L 100 100 L 200 0");
+  animation: move 3s linear infinite;
+}
+
+@keyframes move {
+  0% {
+    offset-distance: 0%;
+  }
+  100% {
+    offset-distance: 100%;
+  }
+}
+```
+
+## offset-position
+Definiert den Ursprungspunkt für offset-path.
+
+### Syntax
+```css
+offset-position: auto | <position>;
+```
+
+### Werte & Beispiele
+```css
+/* Grundlegende Werte */
+offset-position: auto;
+offset-position: 50% 50%;
+offset-position: center;
+offset-position: top right;
+
+/* Mit spezifischen Werten */
+offset-position: 100px 200px;
+offset-position: right 30px top 45px;
+```
+
+## Kombinierte Verwendung
+```css
+.element {
+  offset-path: path("M 0 0 L 100 100 L 200 0");
+  offset-position: 50% 50%;
+  offset-distance: 0%;
+  offset-rotate: auto;
+  animation: moveAlong 2s linear infinite;
+}
+```
+
+## Browser-Unterstützung
+- Chrome: Volle Unterstützung
+- Firefox: Teilweise Unterstützung
+- Safari: Teilweise Unterstützung (mit Präfix)
+
+## Best Practices
+- Fallback für Browser ohne Unterstützung bereitstellen
+- Performance durch `will-change` optimieren bei Animationen
+- SVG-Pfade für komplexe Bewegungen verwenden
+- Mit `@supports` testen
+
+## Verwandte Eigenschaften
+- offset-distance
+- offset-rotate
+- offset-anchor
+
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+
+
+
 # aspect-ratio
 
 <details><summary>Click to expand..</summary>
