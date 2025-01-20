@@ -7,105 +7,156 @@ CSS Cheat Sheet with the most needed stuff..
 
 
 
-
-
 <br><br>
  _____________________________________________________
  _____________________________________________________
 <br><br>
 
 
-# CSS-Referenz
 
-<br><br>
+# CSS At-rules Reference
+- https://www.w3schools.com/cssref/css_ref_atrules.php
+
+
+
+<details><summary>Click to expand..</summary>
+
+
+
+
+
+
+
+
+
+
+
+# @property
 
 <details><summary>Click to expand..</summary>
 
-
-# @starting-style
-
-<details><summary>Click to expand..</summary>
 
 ## Grundlegende Syntax
 ```css
-@starting-style {
-  /* Styles die während Seiten-/Element-Initialisierung gelten */
+@property --propertyName {
+  syntax: '<type>';
+  inherits: true | false;
+  initial-value: <value>;
 }
 ```
 
-## Hauptzweck
-- Definition von Anfangszuständen für Animationen und Transitionen
-- Vermeidung von FOUC (Flash of Unstyled Content)
-- Kontrolle über das initiale Rendering
+## Typen (syntax)
+```css
+/* Verfügbare Syntax-Typen */
+syntax: '<color>';            /* Farb-Werte */
+syntax: '<length>';           /* Längen-Werte wie px, rem */
+syntax: '<number>';           /* Zahlen */
+syntax: '<percentage>';       /* Prozent-Werte */
+syntax: '<angle>';           /* Winkel-Werte */
+syntax: '<time>';            /* Zeit-Werte */
+syntax: '*';                 /* Beliebiger Wert */
+```
 
 ## Beispiele
 
-### Einfache Verwendung
+### Eigene Animation-Variable
 ```css
-.fade-in {
-  opacity: 1;
-  transition: opacity 1s;
+@property --rotation {
+  syntax: '<angle>';
+  inherits: false;
+  initial-value: 0deg;
 }
 
-@starting-style {
-  .fade-in {
-    opacity: 0;
+.spinner {
+  transform: rotate(var(--rotation));
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    --rotation: 360deg;
   }
 }
 ```
 
-### Mit Animationen
+### Eigene Farb-Transition
 ```css
-.slide-in {
-  transform: translateX(0);
-  transition: transform 0.3s;
+@property --myColor {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: #000000;
 }
 
-@starting-style {
-  .slide-in {
-    transform: translateX(-100%);
-  }
+.button {
+  background: var(--myColor);
+  transition: --myColor 0.3s;
+}
+
+.button:hover {
+  --myColor: #ff0000;
 }
 ```
 
-### Komplexeres Beispiel
+### Numerischer Wert
 ```css
-.modal {
-  opacity: 1;
-  transform: scale(1);
-  transition: all 0.3s ease-out;
-}
-
-@starting-style {
-  .modal {
-    opacity: 0;
-    transform: scale(0.8);
-  }
+@property --scale {
+  syntax: '<number>';
+  inherits: false;
+  initial-value: 1;
 }
 ```
-
-## Besonderheiten
-- Styles gelten nur beim initialen Rendering
-- Wird nur einmal beim ersten Erscheinen des Elements angewendet
-- Kann mit CSS-Animationen und Transitionen kombiniert werden
 
 ## Browser-Unterstützung
-- Relativ neue Funktion (2023)
-- Chrome ab Version 115
-- Firefox ab Version 115
-- Safari noch keine Unterstützung (Stand: April 2024)
+- Chrome: ab Version 85
+- Edge: ab Version 85
+- Firefox: ab Version 111
+- Safari: ab Version 15
+
+## JavaScript API Äquivalent
+```javascript
+CSS.registerProperty({
+  name: '--propertyName',
+  syntax: '<type>',
+  inherits: false,
+  initialValue: 'value'
+});
+```
 
 ## Best Practices
-- Fallback für Browser ohne Unterstützung bereitstellen
-- Vor allem für Einstiegsanimationen verwenden
-- Mit `@supports` kombinieren für bessere Browser-Kompatibilität
-  
+- Fallback für nicht unterstützende Browser bereitstellen
+- Mit @supports testen
+- Sinnvolle Standardwerte (initial-value) setzen
+- Beschreibende Namen verwenden
+- Dokumentation der eigenen Properties pflegen
+
+## Anwendungsfälle
+- Animierbare Custom Properties
+- Typsichere CSS-Variablen
+- Komplexe Animationen und Transitionen
+- Design-System-Variablen
+
+
+
+
+
 </details>
 
 
 
+
+
+
+
+
+
+
+
+
+
 <br><br>
 <br><br>
+
+
 
 
 
@@ -194,11 +245,92 @@ Hinweis: Überprüfe immer die aktuelle Browserunterstützung, da sich diese sch
 
 
 
+<br><br>
+<br><br>
 
 
 
 
 
+# @starting-style
+
+<details><summary>Click to expand..</summary>
+
+## Grundlegende Syntax
+```css
+@starting-style {
+  /* Styles die während Seiten-/Element-Initialisierung gelten */
+}
+```
+
+## Hauptzweck
+- Definition von Anfangszuständen für Animationen und Transitionen
+- Vermeidung von FOUC (Flash of Unstyled Content)
+- Kontrolle über das initiale Rendering
+
+## Beispiele
+
+### Einfache Verwendung
+```css
+.fade-in {
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+@starting-style {
+  .fade-in {
+    opacity: 0;
+  }
+}
+```
+
+### Mit Animationen
+```css
+.slide-in {
+  transform: translateX(0);
+  transition: transform 0.3s;
+}
+
+@starting-style {
+  .slide-in {
+    transform: translateX(-100%);
+  }
+}
+```
+
+### Komplexeres Beispiel
+```css
+.modal {
+  opacity: 1;
+  transform: scale(1);
+  transition: all 0.3s ease-out;
+}
+
+@starting-style {
+  .modal {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+}
+```
+
+## Besonderheiten
+- Styles gelten nur beim initialen Rendering
+- Wird nur einmal beim ersten Erscheinen des Elements angewendet
+- Kann mit CSS-Animationen und Transitionen kombiniert werden
+
+## Browser-Unterstützung
+- Relativ neue Funktion (2023)
+- Chrome ab Version 115
+- Firefox ab Version 115
+- Safari noch keine Unterstützung (Stand: April 2024)
+
+## Best Practices
+- Fallback für Browser ohne Unterstützung bereitstellen
+- Vor allem für Einstiegsanimationen verwenden
+- Mit `@supports` kombinieren für bessere Browser-Kompatibilität
+  
+</details>
 
 
 
@@ -266,9 +398,142 @@ Hinweis: Überprüfe immer die aktuelle Browserunterstützung, da sich diese sch
 
 </details>
 
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+ _____________________________________________________
+ _____________________________________________________
+<br><br>
+
+
+# CSS Functions
+- https://www.w3schools.com/cssref/css_functions.php
+
+<br><br>
+
+
+<details><summary>Click to expand..</summary>
+
+
+
+
+
+
+# image-set()
+
+<details><summary>Click to expand..</summary>
+
+## Grundlegende Syntax
+```css
+background-image: image-set();
+content: image-set();
+```
+
+## Verwendungszwecke
+- Responsive Bildauswahl basierend auf Display-Eigenschaften
+- Optimierung für verschiedene Pixeldichten (DPI/DPR)
+- Berücksichtigung von Bildformaten
+
+## Syntax-Varianten
+```css
+/* Basis-Syntax */
+image-set(
+  "image.jpg" 1x,
+  "image-2x.jpg" 2x
+)
+
+/* Mit Bildtyp */
+image-set(
+  "image.avif" type("image/avif"),
+  "image.webp" type("image/webp"),
+  "image.jpg" type("image/jpeg")
+)
+
+/* Kombiniert mit Auflösung */
+image-set(
+  "image.avif" type("image/avif") 1x,
+  "image-2x.avif" type("image/avif") 2x,
+  "image.jpg" type("image/jpeg") 1x
+)
+```
+
+## Praxisbeispiele
+```css
+/* Background mit verschiedenen Auflösungen */
+.hero {
+  background-image: image-set(
+    "hero.jpg" 1x,
+    "hero-2x.jpg" 2x,
+    "hero-3x.jpg" 3x
+  );
+}
+
+/* Mit Format-Fallbacks */
+.header {
+  background-image: image-set(
+    "header.avif" type("image/avif"),
+    "header.webp" type("image/webp"),
+    "header.jpg" type("image/jpeg")
+  );
+}
+```
+
+## Browser-Unterstützung
+- Chrome: Unterstützt (teilweise mit -webkit- Prefix)
+- Firefox: Unterstützt
+- Safari: Unterstützt mit -webkit- Prefix
+
+## Best Practices
+- Immer einen Fallback ohne image-set bereitstellen
+- Moderne Bildformate zuerst nennen
+- Auflösungsvarianten von klein nach groß ordnen
+- Dateigröße vs. Qualität abwägen
+
+## Fallback-Beispiel
+```css
+.element {
+  /* Fallback für ältere Browser */
+  background-image: url("image.jpg");
+  
+  /* Moderne Browser */
+  background-image: image-set(
+    "image.avif" type("image/avif"),
+    "image.webp" type("image/webp"),
+    "image.jpg" type("image/jpeg")
+  );
+}
+```
+
 
 
 </details>
+
+
+</details>
+
+
+
+
+
+
+
 
 
 
