@@ -22,6 +22,95 @@ CSS Cheat Sheet with the most needed stuff..
 <details><summary>Click to expand..</summary>
 
 
+# @starting-style
+
+<details><summary>Click to expand..</summary>
+
+## Grundlegende Syntax
+```css
+@starting-style {
+  /* Styles die während Seiten-/Element-Initialisierung gelten */
+}
+```
+
+## Hauptzweck
+- Definition von Anfangszuständen für Animationen und Transitionen
+- Vermeidung von FOUC (Flash of Unstyled Content)
+- Kontrolle über das initiale Rendering
+
+## Beispiele
+
+### Einfache Verwendung
+```css
+.fade-in {
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+@starting-style {
+  .fade-in {
+    opacity: 0;
+  }
+}
+```
+
+### Mit Animationen
+```css
+.slide-in {
+  transform: translateX(0);
+  transition: transform 0.3s;
+}
+
+@starting-style {
+  .slide-in {
+    transform: translateX(-100%);
+  }
+}
+```
+
+### Komplexeres Beispiel
+```css
+.modal {
+  opacity: 1;
+  transform: scale(1);
+  transition: all 0.3s ease-out;
+}
+
+@starting-style {
+  .modal {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+}
+```
+
+## Besonderheiten
+- Styles gelten nur beim initialen Rendering
+- Wird nur einmal beim ersten Erscheinen des Elements angewendet
+- Kann mit CSS-Animationen und Transitionen kombiniert werden
+
+## Browser-Unterstützung
+- Relativ neue Funktion (2023)
+- Chrome ab Version 115
+- Firefox ab Version 115
+- Safari noch keine Unterstützung (Stand: April 2024)
+
+## Best Practices
+- Fallback für Browser ohne Unterstützung bereitstellen
+- Vor allem für Einstiegsanimationen verwenden
+- Mit `@supports` kombinieren für bessere Browser-Kompatibilität
+  
+</details>
+
+
+
+<br><br>
+<br><br>
+
+
+
+
+
 #  @scope Regel
 
 <details><summary>Click to expand..</summary>
