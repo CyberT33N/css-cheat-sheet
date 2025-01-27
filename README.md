@@ -526,6 +526,105 @@ image-set(
 </details>
 
 
+
+
+
+
+
+
+
+
+
+
+
+# attr()
+- https://developer.mozilla.org/de/docs/Web/CSS/attr
+
+<details><summary>Click to expand..</summary>
+
+
+ Die `attr()`-Funktion in CSS ermöglicht den Zugriff auf HTML-Attribute eines Elements und deren Verwendung im Stylesheet. Sie eignet sich hervorragend für dynamische Inhalte.
+
+## Syntax
+
+```css
+attr(attribute-name [type-or-unit]?)
+```
+
+### Parameter:
+- **`attribute-name`**: Der Name des HTML-Attributs, dessen Wert verwendet werden soll.
+- **`type-or-unit`** *(optional)*: Ein optionaler Datentyp oder eine Einheit wie `px`, `em`, `%`, usw.
+
+---
+
+## Beispiel: Inhalt dynamisch anpassen
+
+Mit `attr()` kann der Wert eines HTML-Attributs direkt im Inhalt (`content`) genutzt werden.
+
+```html
+<p data-info="Dieses Beispiel ist dynamisch."></p>
+
+<style>
+p::after {
+  content: attr(data-info);
+}
+</style>
+```
+
+**Ergebnis:**  
+Der Inhalt des Attributs `data-info` wird nach dem `<p>`-Element angezeigt.
+
+---
+
+## Beispiel: Werte mit Einheiten
+
+`attr()` unterstützt die Verwendung von Einheiten, um numerische Werte in CSS dynamisch anzupassen.
+
+```html
+<div data-width="100"></div>
+
+<style>
+div {
+  width: attr(data-width px);
+  height: 50px;
+  background-color: lightblue;
+}
+</style>
+```
+
+**Ergebnis:**  
+Das `<div>`-Element hat eine Breite von `100px`, basierend auf dem Wert des `data-width`-Attributs.
+
+---
+
+## Typische Anwendungsfälle
+1. **Tooltips**: Text aus einem `title`-Attribut anzeigen.
+2. **Dynamische Größen**: HTML-Attribute wie `data-width` oder `data-height` nutzen.
+3. **Barrierefreiheit**: Dynamische Inhalte basierend auf Attributwerten.
+
+---
+
+## Einschränkungen
+- `attr()` funktioniert nur in **Pseudo-Elementen** (`::before`, `::after`), **nicht direkt in anderen CSS-Eigenschaften** (außer mit experimentellen Features wie `CSS Typed OM`).
+- Einige Browser haben nur eingeschränkten Support.
+
+---
+
+## Kompatibilität
+
+Die Funktion ist weitgehend unterstützt, jedoch sollte die Browserkompatibilität geprüft werden. Siehe MDN: [attr()](https://developer.mozilla.org/de/docs/Web/CSS/attr).
+
+
+</details>
+
+
+
+
+
+
+
+
+
 </details>
 
 
