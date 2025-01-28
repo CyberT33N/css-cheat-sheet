@@ -436,6 +436,80 @@ Hinweis: Überprüfe immer die aktuelle Browserunterstützung, da sich diese sch
 
 
 
+# clamp()
+- https://developer.mozilla.org/en-US/docs/Web/CSS/clamp
+
+<details><summary>Click to expand..</summary>
+	
+```css
+.fluid-text { font-size: clamp(1rem, 2vw + 1rem, 3rem); }
+```
+- If you’ve ever struggled with text that’s too big on small screens or too small on large ones, clamp() is here to save the day.
+
+This one-liner makes your text size fluid, scaling beautifully between a minimum and maximum size as the viewport changes.
+
+Die `clamp()`-Funktion in CSS ermöglicht es dir, eine dynamische Wertzuweisung zu erstellen, die zwischen einem minimalen und maximalen Wert variiert. Das ist besonders nützlich für responsive Designs, um Werte wie Schriftgrößen oder Abstände flexibel und dennoch kontrolliert anzupassen.
+
+### Syntax
+
+```css
+clamp(min, preferred, max)
+```
+
+- **`min`**: Der kleinste erlaubte Wert.  
+- **`preferred`**: Der bevorzugte Wert (oft ein relativer Wert wie `2vw`).  
+- **`max`**: Der größte erlaubte Wert.  
+
+### Funktionsweise
+Die Funktion evaluiert den bevorzugten Wert und begrenzt ihn auf die definierten Minimum- und Maximum-Werte:
+- Wenn der bevorzugte Wert kleiner als `min` ist, wird `min` verwendet.
+- Ist der bevorzugte Wert größer als `max`, wird `max` verwendet.
+- Liegt der bevorzugte Wert dazwischen, wird dieser verwendet.
+
+### Beispiele
+
+#### Responsive Schriftgröße
+```css
+font-size: clamp(1rem, 2.5vw, 2rem);
+```
+- **Min**: `1rem` – Die Schriftgröße wird niemals kleiner als 1rem.  
+- **Preferred**: `2.5vw` – Dynamisch basierend auf der Viewport-Breite.  
+- **Max**: `2rem` – Die Schriftgröße überschreitet nicht 2rem.
+
+#### Padding-Begrenzung
+```css
+padding: clamp(10px, 5%, 50px);
+```
+- **Min**: `10px` – Das Padding wird nicht kleiner als 10px.  
+- **Preferred**: `5%` – Dynamisch basierend auf der Größe des Containers.  
+- **Max**: `50px` – Das Padding bleibt unter 50px.
+
+### Vorteile
+- Vermeidet übermäßig große oder kleine Werte bei responsiven Layouts.
+- Reduziert die Notwendigkeit für komplexe Media Queries.
+- Bietet eine elegante Lösung für dynamische Designs.
+
+### Browser-Unterstützung
+Die `clamp()`-Funktion wird von allen modernen Browsern unterstützt, einschließlich:
+- Chrome: ab Version 79
+- Edge: ab Version 79
+- Firefox: ab Version 75
+- Safari: ab Version 13.1
+
+👉 [Mehr Details auf MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/clamp)
+
+
+</details>
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+
 # image-set()
 
 <details><summary>Click to expand..</summary>
