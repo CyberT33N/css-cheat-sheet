@@ -643,6 +643,41 @@ Hinweis: Überprüfe immer die aktuelle Browserunterstützung, da sich diese sch
 
 
 
+
+# color-mix()
+- https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/color-mix
+
+<details><summary>Click to expand..</summary>
+
+- The color-mix() functional notation takes two <color> values and returns the result of mixing them in a given colorspace by a given amount.
+
+```css
+/* color-mix(in <polar-color-space>, <color>, <color> <percentage>) */
+color-mix(in hsl, hsl(200 50 80), coral 80%)
+/* color-mix(in <polar-color-space> <hue-interpolation-method>, <color>, <color>) */
+color-mix(in lch longer hue, hsl(200deg 50% 80%), coral)
+
+/* color-mix(in <rectangular-color-space>, <color>, <color>) */
+color-mix(in srgb, plum, #f00)
+/* color-mix(in <rectangular-color-space>, <color> <percentage>, <color> <percentage> */
+color-mix(in lab, plum 60%, #f00 50%)
+
+/* color-mix(in <custom-color-space>, <color>, <color>) */
+color-mix(in --swop5c, red, blue)
+
+```
+ 
+</details>
+
+
+
+
+
+
+<br><br>
+<br><br>
+
+
 # clamp()
 - https://developer.mozilla.org/en-US/docs/Web/CSS/clamp
 
