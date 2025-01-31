@@ -7,6 +7,213 @@ CSS Cheat Sheet with the most needed stuff..
 
 
 
+
+
+<br><br>
+<br><br>
+
+
+
+# Pseudo Class
+
+<details><summary>Click to expand..</summary>
+
+
+
+
+# :state
+- https://developer.mozilla.org/en-US/docs/Web/CSS/:state
+
+<details><summary>Click to expand..</summary>
+	
+## Beschreibung
+Die `:state` Pseudo-Klasse wird verwendet, um Elemente basierend auf ihrem internen Zustand zu stylen. Sie vereinfacht die Arbeit mit interaktiven UI-Elementen.
+
+## Beispiel
+```css
+button:state(open) {
+  background-color: green;
+}
+```
+
+## Nutzung
+- Funktioniert mit interaktiven Elementen wie `<details>` oder Custom Elements.
+- Ermöglicht das Stylen von Elementen, wenn sie sich in einem bestimmten Zustand befinden (z. B. geöffnet oder aktiv).
+
+## Kompatibilität
+Aktuell noch **experimentell** und nicht in allen Browsern verfügbar. Prüfe [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/:state) für aktuelle Unterstützung.
+
+Quelle: [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/:state)
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+
+
+
+## :has
+- The functional :has() CSS pseudo-class represents an element if any of the relative selectors that are passed as an argument match at least one element when anchored against this element. This pseudo-class presents a way of selecting a parent element or a previous sibling element with respect to a reference element by taking a relative selector list as an argument.
+- https://developer.mozilla.org/en-US/docs/Web/CSS/:has
+```css
+/* Selects an h1 heading with a
+paragraph element that immediately follows
+the h1 and applies the style to h1 */
+h1:has(+ p) {
+  margin-bottom: 0;
+}
+
+```
+
+
+
+<br><br>
+<br><br>
+
+
+
+## :nth-child()
+- https://www.w3schools.com/cssref/sel_nth-child.asp
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+
+## ::before & ::after
+
+<br><br>
+
+### Access via JS
+```javascript
+getComputedStyle(document.querySelector('span.search-box'), '::after').getPropertyValue('content');
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+
+# :is()
+- https://github.com/CyberT33N/css-cheat-sheet/edit/master/README.md
+- Helps simplify complex selectors. It accepts a list of selectors and applies styles if any match. It's specificity-aware.
+- **Was es macht:** Vereinfacht komplexe Selektoren. Es akzeptiert eine Liste von Selektoren und fügt die Styles an jedes Element an, das mit einem der Selektoren übereinstimmt.  
+- **Besonderheit:** Die **Spezifität** von `:is()` wird von dem **spezifischsten Selektor** in der Liste bestimmt.
+
+#### Beispiel:
+```css
+:is(h1, h2, h3) {
+  color: red;
+}
+```
+- **Wirkung:** Alle `h1`, `h2` und `h3` werden rot.  
+- **Spezifität:** Die Spezifität ist so hoch wie der spezifischste Selektor in der Liste (in diesem Fall `h1`, `h2`, `h3`).
+
+##### Anwendung bei verschachtelten Selektoren:
+```css
+article :is(h1, h2, h3) {
+  text-transform: uppercase;
+}
+```
+- **Wirkung:** Wandelt alle Überschriften (`h1`, `h2`, `h3`) **innerhalb** eines `<article>` in Großbuchstaben um.
+
+
+
+
+
+
+<br><br>
+<br><br>
+
+# :where()
+- https://developer.mozilla.org/de/docs/Web/CSS/:where
+- Die :where() CSS Pseudoklasse Funktion nimmt eine Selektorliste als Argument und wählt jedes Element aus, das durch einen der Selektoren in dieser Liste ausgewählt werden kann.
+- **Was es macht:** Funktioniert ähnlich wie `:is()`, aber **ohne Spezifität**. Die Selektoren in `:where()` haben immer eine Spezifität von `0`.  
+- **Nutzen:** Es eignet sich besonders gut, um Standard-Styling zu definieren, das leicht überschrieben werden kann.
+
+#### Beispiel:
+```css
+:where(h1, h2, h3) {
+  margin: 0;
+  color: gray;
+}
+```
+- **Wirkung:** Entfernt den Außenabstand (margin) und macht die Schrift grau für alle `h1`, `h2`, und `h3`.  
+- **Spezifität:** Kann durch **jede andere Regel** leicht überschrieben werden.
+
+##### Anwendung bei komplexen Strukturen:
+```css
+:where(nav, header, footer) :where(a) {
+  color: blue;
+  text-decoration: none;
+}
+```
+- **Wirkung:** Alle Links (`<a>`) **innerhalb von `nav`, `header`, oder `footer`** bekommen eine blaue Schrift und keine Unterstreichung.  
+
+
+
+# **Vergleich von `:is()` und `:where()`**
+| Eigenschaft        | `:is()`                                   | `:where()`                                |
+|--------------------|-------------------------------------------|-------------------------------------------|
+| **Spezifität**     | Von dem **spezifischsten Selektor** abhängig | Immer **0**                              |
+| **Überschreibbarkeit** | Schwerer zu überschreiben                | Leicht zu überschreiben                   |
+| **Nutzen**         | Für komplexe, spezifische Selektoren       | Für Standard-Styling ohne Konflikte       |
+
+---
+
+### Kombinierte Verwendung:
+```css
+:is(section, article) :where(h1, h2, h3) {
+  font-size: 2rem;
+  color: green;
+}
+```
+- **Wirkung:** Überschriften (`h1`, `h2`, `h3`) **innerhalb von `section` oder `article`** bekommen grüne Farbe und eine Schriftgröße von 2rem.
+- **Spezifität:** Wird von `:is()` bestimmt, aber `:where()` selbst trägt nichts zur Spezifität bei.
+
+
+
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
 <br><br>
  _____________________________________________________
  _____________________________________________________
@@ -2393,17 +2600,6 @@ Mit **`repeat()`** und **`minmax()`** kannst du moderne, anpassungsfähige Grids
 
 
 
-
-
-
-
-<br><br>
- _____________________________________________________
- _____________________________________________________
-<br><br>
-
-# :nth-child()
-https://www.w3schools.com/cssref/sel_nth-child.asp
 
 
 
