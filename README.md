@@ -1045,6 +1045,85 @@ Mehr Infos und Beispiele findest du [hier](https://developer.mozilla.org/en-US/d
 
 
 
+# animation
+
+
+
+<details><summary>Click to expand..</summary>
+
+
+# animation-composition
+- https://developer.mozilla.org/en-US/docs/Web/CSS/animation-composition
+  
+<details><summary>Click to expand..</summary>
+
+## Beschreibung
+`animation-composition` bestimmt, wie mehrere Animationen kombiniert werden, wenn sie dieselbe CSS-Eigenschaft beeinflussen.
+
+## Mögliche Werte
+- `replace`: Neue Animation überschreibt vorherige (Standardverhalten).
+- `add`: Werte werden addiert (z. B. Skalierung von 1.2 + 1.3 ergibt 1.5).
+- `accumulate`: Werte bauen aufeinander auf.
+
+## Beispiel
+```css
+@keyframes move {
+  from { transform: translateX(0px); }
+  to { transform: translateX(100px); }
+}
+@keyframes scale {
+  from { transform: scale(1); }
+  to { transform: scale(1.5); }
+}
+
+div {
+  animation: move 2s linear infinite, scale 2s linear infinite;
+  animation-composition: add;
+}
+```
+
+## Kompatibilität
+Unterstützt in **modernen Browsern**, aber nicht in allen Versionen. Prüfe MDN für aktuelle Unterstützung.
+
+Quelle: [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-composition)
+
+ 
+</details>
+
+
+ 
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+
+
 
 # white-space-collapse
 
