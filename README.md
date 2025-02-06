@@ -2482,6 +2482,124 @@ Verstehe die Stärken von Grid und Flexbox, um je nach Anforderung das passende 
 <details><summary>Click to expand..</summary>
 
 
+
+
+# subgrid
+
+<details><summary>Click to expand..</summary>
+
+### CSS Grid: Subgrid – Cheat Sheet  
+
+#### **Was ist Subgrid?**  
+`subgrid` ermöglicht es, dass ein verschachteltes Grid-Element die Spalten- und/oder Zeilen-Definitionen seines übergeordneten Grids erbt. Dadurch bleiben Layouts konsistent, ohne dass verschachtelte Elemente eigene Spalten oder Zeilen definieren müssen.
+
+---
+
+#### **Grundsätzliche Syntax**  
+```css
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 10px;
+}
+
+.sub-container {
+  display: grid;
+  grid-template-columns: subgrid; /* Erbt Spalten vom Parent */
+}
+```
+
+---
+
+#### **Beispiel: Spalten erben**
+```html
+<div class="container">
+  <div class="sub-container">
+    <div>Item 1</div>
+    <div>Item 2</div>
+    <div>Item 3</div>
+  </div>
+</div>
+```
+```css
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 10px;
+}
+
+.sub-container {
+  display: grid;
+  grid-template-columns: subgrid;
+  grid-column: 1 / span 3; /* Passt sich der Grid-Struktur des Parents an */
+}
+```
+🔹 **Ergebnis:** `sub-container` übernimmt die 3 Spalten des Eltern-Containers.
+
+---
+
+#### **Beispiel: Zeilen erben**
+```css
+.container {
+  display: grid;
+  grid-template-rows: 100px 200px;
+}
+
+.sub-container {
+  display: grid;
+  grid-template-rows: subgrid;
+  grid-row: span 2; /* Dehnt sich über 2 Zeilen */
+}
+```
+🔹 **Ergebnis:** `sub-container` verwendet exakt die Zeilenhöhen des Eltern-Containers.
+
+---
+
+#### **Wichtige Regeln & Einschränkungen**
+✔ `subgrid` kann nur in `grid-template-columns` oder `grid-template-rows` verwendet werden, nicht gleichzeitig für beides.  
+✔ Das Eltern-Element **muss** `display: grid;` sein.  
+✔ `subgrid` ist nicht mit `gap` des übergeordneten Grids kompatibel – man muss Lücken manuell definieren.  
+
+---
+
+💡 **Wann verwenden?**  
+- Wenn verschachtelte Elemente sich exakt an das Grid-Layout des übergeordneten Containers halten sollen.  
+- Ideal für Layouts mit gleichmäßigen Spalten-/Zeilenhöhen in tiefen Strukturen.  
+
+🔥 **Browser-Support**  
+✅ **Unterstützt in**: Chrome, Edge, Firefox, Safari  
+❌ **Nicht in**: Internet Explorer (RIP)  
+
+---
+
+Brauchst du noch was Spezielles? 🚀
+ 
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+
 # Build Dynamic, Responsive Grids with `repeat()` and `minmax()`
 
 <details><summary>Click to expand..</summary>
