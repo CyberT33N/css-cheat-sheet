@@ -543,6 +543,114 @@ Hinweis: Überprüfe immer die aktuelle Browserunterstützung, da sich diese sch
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+
+
+# @supports
+
+<details><summary>Click to expand..</summary>
+
+# CSS Container Queries Cheat Sheet
+
+## Was sind Container Queries?
+Container Queries ermöglichen es, CSS-Regeln basierend auf der Größe eines Containers (statt des Viewports) anzuwenden. Dies verbessert die Modularität von Komponenten, da sie sich an ihren umgebenden Container anpassen.
+
+## Container definieren
+Ein Element muss als Container deklariert werden, bevor darauf Container Queries angewendet werden können.
+
+```css
+.container {
+  container-type: inline-size; /* Nur Breite berücksichtigen */
+  container-name: main-container;
+}
+```
+
+### Container-Typen:
+- `size` → Bezieht Breite und Höhe ein
+- `inline-size` → Bezieht nur die Breite ein (häufiger)
+
+## Media Queries vs. Container Queries
+**Media Query:** basiert auf dem Viewport:
+```css
+@media (min-width: 600px) {
+  .card { font-size: 1.5rem; }
+}
+```
+
+**Container Query:** basiert auf dem Container:
+```css
+@container (min-width: 400px) {
+  .card { font-size: 1.5rem; }
+}
+```
+
+## Container Queries verwenden
+```css
+@container (min-width: 500px) {
+  .card {
+    background-color: lightblue;
+    padding: 20px;
+  }
+}
+```
+
+## Container Queries mit Container-Name
+```css
+@container main-container (min-width: 600px) {
+  .card {
+    font-size: 2rem;
+  }
+}
+```
+
+## Kombination mit Flexbox/Grid
+```css
+.container {
+  display: flex;
+  container-type: inline-size;
+}
+
+@container (min-width: 600px) {
+  .item {
+    flex-direction: row;
+  }
+}
+```
+
+## Vorteile von Container Queries
+✅ Bessere Modularität und Wiederverwendbarkeit von Komponenten  
+✅ Ideal für responsive Komponenten  
+✅ Funktioniert unabhängig von der Gesamtseitenbreite  
+
+**Browser-Support:** Chrome 105+, Edge 105+, Firefox 110+, Safari 16+
+
+### Nützliche Links
+🔗 [MDN Container Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_containment/Container_queries)
+
+
+ 
+</details>
+
+
+
+
+
+
+
+
+
 <br><br>
 <br><br>
 
