@@ -1220,8 +1220,148 @@ The Anchor Positioning API simplifies UI alignment, making CSS layouts more intu
 
 
 
-<br><br
-<br><br
+
+
+
+
+
+
+<br><br>
+<br><br>
+
+
+
+# View Transition API
+- https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API
+  
+<details><summary>Click to expand..</summary>
+
+### **Was ist die View Transition API?**  
+Die **View Transition API** ermöglicht sanfte Übergänge zwischen DOM-Änderungen, ohne dass man auf CSS-Animationen oder JavaScript-Hacks zurückgreifen muss. Perfekt für **Single Page Applications (SPAs)** oder UI-Updates mit flüssigen Animationen.  
+
+---
+
+### **Grundlegende Syntax**  
+```js
+if (document.startViewTransition) {
+  document.startViewTransition(() => {
+    // DOM-Änderungen hier
+  });
+}
+```
+👉 **Funktioniert nur, wenn `startViewTransition` im Browser unterstützt wird!**  
+
+---
+
+### **Einfaches Beispiel: Sanfter Wechsel zwischen zwei Elementen**
+```html
+<button onclick="changeContent()">Wechsel</button>
+<div id="box">Alt</div>
+```
+```js
+function changeContent() {
+  if (!document.startViewTransition) {
+    document.getElementById("box").textContent = "Neu";
+    return;
+  }
+
+  document.startViewTransition(() => {
+    document.getElementById("box").textContent = "Neu";
+  });
+}
+```
+🔹 **Ergebnis:** Der Text in `#box` ändert sich sanft mit einer flüssigen Animation.
+
+---
+
+### **Übergang zwischen zwei Seiten (SPA-Navigation)**
+```js
+function navigateTo(page) {
+  document.startViewTransition(() => {
+    document.body.innerHTML = `<h1>${page}</h1>`;
+  });
+}
+```
+🔹 **Ergebnis:** Die komplette Seite wechselt mit einem sanften Übergang.
+
+---
+
+### **CSS-Anpassungen für die Übergänge**
+```css
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 0.5s;
+}
+```
+🔹 **`::view-transition-old(root)`** – Definiert, wie das alte Element verschwindet.  
+🔹 **`::view-transition-new(root)`** – Definiert, wie das neue Element erscheint.  
+
+---
+
+### **Custom Transitions für einzelne Elemente**
+```css
+::view-transition-old(.box),
+::view-transition-new(.box) {
+  opacity: 0;
+}
+```
+🔹 **Ergebnis:** Elemente mit der Klasse `.box` werden sanft ausgeblendet und eingeblendet.
+
+---
+
+### **Wichtige Regeln & Einschränkungen**
+✔ Funktioniert nur in **Chromium-basierten Browsern** (Chrome, Edge, Opera, etc.).  
+✔ **Nur für sichtbare DOM-Änderungen** – Keine Animationen für `display: none` oder `visibility: hidden`.  
+✔ Unterstützt keine Übergänge zwischen verschiedenen Websites (nur innerhalb einer Seite oder SPA).  
+
+---
+
+### **🔥 Wann verwenden?**
+✅ Sanfte Animationen in SPAs  
+✅ UI-Updates mit flüssigen Effekten  
+✅ Übergänge ohne komplizierte CSS-Animationen  
+
+---
+
+### **💡 Browser-Support**  
+✅ **Chrome, Edge, Opera** (ab Chrome 111)  
+❌ **Kein Support in Firefox & Safari (noch nicht)**  
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
 
 
 # CSS Houdini: Was ist das? (+ Beispiele)
