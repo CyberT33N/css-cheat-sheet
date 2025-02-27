@@ -5365,29 +5365,56 @@ font-family: 'Days One', sans-serif;
 
 
 
-<br>
-<br>
 
+<br><br>
+<br><br>
+___
+<br><br>
+<br><br>
 
- _____________________________________________________
- _____________________________________________________
-
-
-<br>
-<br>
-
-
-
-
-<br>
-<br>
 
 # Cross Browser/Cross Devices
 
 <details><summary>Click to expand..</summary>
 
 
+# Utils
+
+<details><summary>Click to expand..</summary>
+
+# modern-normalize
+- https://github.com/sindresorhus/modern-normalize
+ 
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Chrome Inspector Custom Devices 
+
+
+
+<details><summary>Click to expand..</summary>
+
+
+
+
 As example on windows you can find this file:
 - AppData\Local\Chromium\User Data\Your profile here
 
@@ -5406,33 +5433,47 @@ Then you can add this here for custom devices:
 More viewports can be found here:
 - https://viewportsizes.com/
 
-<br>
-<br>
+
+</details>
+
+
+
+
+
+
+
+<br><br>
 
 
 ## Cross Browser Support
 - http://caniuse.com
+
+<br><br>
 
 ## Cross Browser Testing - VIEWPORT
 - https://bluetree.ai/screenfly/?u=https%3A//bing.com&a=20&b=10 ★ **FREE - ONLINE** ★
 - http://www.responsinator.com/?url=bing.com ★ **FREE - ONLINE - Only iphone as it seems** ★
 - http://browsershots.org/http://www.bing.com/ ★ **FREE - ONLINE - Only screenshots of desktop browser** ★
 
+<br><br>
+
 ## Cross Browser Testing - EMULATED DEVICES
 - https://www.browserstack.com/ ★ **PREMIUM - ONLINE** ★
 - https://developer.android.com/studio ★ **FREE - OFFLINE** ★
 - https://visualstudio.microsoft.com/vs/msft-android-emulator/  ★ **FREE - OFFLINE** ★
 
+<br><br>
+
 ## Responsive Scale
 - https://codepen.io/cRckls/pen/mcGCL
 
+<br><br>
 
 ## Remote Debugging on own smartphones
 - https://developers.google.com/web/tools/chrome-devtools/remote-debugging
 
 
-<br>
-<br>
+<br><br>
 
 ## Use Inspector on smartphones
 
@@ -5442,10 +5483,21 @@ Create bookmark and replace site link with this code (https://www.youtube.com/wa
 javascript:(function () { var script = document.createElement('script'); script.src="//cdn.jsdelivr.net/npm/eruda"; document.body.appendChild(script); script.onload = function () { eruda.init() } })();
 ```
 
-<br>
-<br>
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
 
 # Android Studio
+
+
 
 ## Cant install HXAM
 - Download HAXM manually from here: https://github.com/intel/haxm/releases/tag/v7.6.1
