@@ -21,6 +21,116 @@ CSS Cheat Sheet with the most needed stuff..
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# :target
+- https://developer.mozilla.org/de/docs/Web/CSS/:target
+
+<details><summary>Click to expand..</summary>
+
+
+## Was ist `:target`?
+Der `:target`-Selektor in CSS ermöglicht es, ein Element zu stylen, wenn dessen `id` mit der Fragment-URL (`#id`) der Seite übereinstimmt.
+
+## Syntax
+```css
+:target {
+    /* CSS-Stile für das angesprochene Element */
+}
+```
+
+## Beispiel
+### HTML
+```html
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>:target Beispiel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="#section1">Springe zu Abschnitt 1</a>
+    <a href="#section2">Springe zu Abschnitt 2</a>
+    
+    <div id="section1" class="target-box">Abschnitt 1</div>
+    <div id="section2" class="target-box">Abschnitt 2</div>
+</body>
+</html>
+```
+
+### CSS
+```css
+.target-box {
+    padding: 20px;
+    margin: 10px;
+    background-color: lightgray;
+    border: 2px solid gray;
+    transition: all 0.3s ease;
+}
+
+:target {
+    background-color: yellow;
+    border-color: red;
+}
+```
+
+## Erklärung
+- Jedes `div` mit einer ID (`section1`, `section2`) ist eine mögliche Sprungmarke.
+- Wenn ein Nutzer auf den Link `#section1` klickt, erhält das Element `<div id="section1">` die `:target`-Stile.
+- Das bedeutet, dass sich Hintergrundfarbe und Randfarbe nur für das Element ändern, das gerade per URL-Fragment (`#id`) aktiviert wurde.
+
+## Anwendungsfälle
+- Hervorhebung von Sprungzielen auf einer Seite
+- Tabs oder Akkordeon-Menüs ohne JavaScript
+- Interaktive Single-Page-Navigation
+
+---
+### Weitere Infos
+[MDN Web Docs - `:target`](https://developer.mozilla.org/de/docs/Web/CSS/:target)
+
+
+ 
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+
+
+
+
+
+
+
 # :state
 - https://developer.mozilla.org/en-US/docs/Web/CSS/:state
 
