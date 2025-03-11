@@ -1724,6 +1724,87 @@ Quelle: [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-co
 <br><br>
 
 
+# font-size-adjust
+
+
+<details><summary>Click to expand..</summary>
+
+
+## Warum `font-size-adjust`?
+Beim Setzen einer Schriftgröße kann die tatsächliche Darstellung je nach Schriftart variieren. `font-size-adjust` sorgt für eine einheitlichere visuelle Größe über verschiedene Schriftarten hinweg.
+
+## Grundlegende Syntax
+```css
+font-size-adjust: none;
+font-size-adjust: 0.5;
+font-size-adjust: from-font;
+font-size-adjust: ex-height 0.5;
+font-size-adjust: ch-width from-font;
+```
+
+- `none`: Standardwert, keine Anpassung.
+- `0.5`: Direktwert, basiert auf `ex-height`.
+- `from-font`: Nutzt die Standardwerte der aktuellen Schriftart.
+- `ex-height 0.5`: Passt die Schriftgröße anhand der Höhe von Kleinbuchstaben `x` an.
+- `ch-width from-font`: Passt die Schriftgröße anhand der Breite des Zeichens `0` an.
+
+## Beispielcode
+```css
+p {
+  font-size-adjust: 0.545;
+}
+```
+Dieser Wert sorgt dafür, dass die Kleinbuchstabenhöhe über verschiedene Schriftarten hinweg konsistent bleibt.
+
+## Font-Metriken
+`font-size-adjust` unterstützt verschiedene Metriken:
+- `ex-height`: Höhe des Kleinbuchstabens „x“.
+- `cap-height`: Höhe der Großbuchstaben.
+- `ch-width`: Breite des Zeichens „0“.
+- `ic-width`: Breite des chinesischen Zeichens für „Wasser“ (kaum genutzt).
+- `ic-height`: Höhe des chinesischen Zeichens für „Wasser“.
+
+## Vergleich mit `size-adjust`
+`size-adjust` ist eine ähnliche Eigenschaft, aber muss innerhalb von `@font-face` definiert werden. `font-size-adjust` ist flexibler und benötigt keine benutzerdefinierten Schriftarten.
+
+## Vergleich mit `text-size-adjust`
+```css
+body {
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+```
+Verhindert automatische Schriftgrößenanpassungen auf mobilen Geräten.
+
+## Browser-Unterstützung
+`font-size-adjust` wird von modernen Browsern unterstützt (Chrome seit Juli 2024). In älteren Browsern kann `size-adjust` als Alternative genutzt werden.
+
+## Fazit
+`font-size-adjust` ist ein mächtiges CSS-Tool für konsistente Schriftgrößen über verschiedene Schriftarten hinweg. Ideal für UI-Designs, die optische Konsistenz benötigen.
+
+ 
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+
+
 
 # white-space-collapse
 
