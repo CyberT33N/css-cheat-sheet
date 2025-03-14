@@ -347,6 +347,137 @@ article :is(h1, h2, h3) {
 
 
 
+# @function
+
+<details><summary>Click to expand..</summary>
+
+## Funktionen in CSS?!
+CSS unterstützt nun (experimentell) Funktionen! Diese erlauben es, wiederverwendbare, parameterisierte Werte direkt in CSS zu definieren.
+
+## Grundlagen
+
+### Syntax
+```css
+@function --dashed-border(--color) {
+   result: 2px dashed var(--color);
+}
+
+div {
+   border: --dashed-border(blue); /* 2px dashed blue */
+}
+```
+
+### Standardwerte für Argumente
+```css
+@function --dashed-border(--color: red) {
+   result: 2px dashed var(--color);
+}
+
+div {
+  border: --dashed-border(); /* 2px dashed red */
+}
+```
+
+## Typ-Überprüfung
+Argumente können einen bestimmten Typ erfordern:
+```css
+@function --custom-spacing(--a <length>) {
+  /* Verarbeitung */
+}
+```
+
+Mehrere Werte möglich:
+```css
+@function --custom-margin(--c <length>+) {
+  /* Verarbeitung */
+}
+```
+
+Rückgabewert definieren:
+```css
+@function --progression(--current, --total) returns <percentage> {
+  result: calc(var(--current) / var(--total) * 100%);
+}
+```
+
+## Listen als Argumente
+Bald möglich: Listen als Argumente nutzen.
+```css
+@function --max-plus-x(--list, --x) {
+  result: calc(max(var(--list)) + var(--x));
+}
+
+div {
+  width: --max-plus-x({ 1px, 7px, 2px }, 3px); /* 10px */
+}
+```
+
+## Early Returns nicht möglich
+CSS-Funktionen folgen der Kaskade:
+```css
+@function --suitable-font-size() {
+  result: 16px;
+  @media (width > 1000px) {
+    result: 20px;
+  }
+}
+```
+
+## Anwendungsfälle
+### Dynamische Schriftgrößen
+```css
+@function --fluid-type(--font-min, --font-max) {
+  result: clamp(var(--font-min), 4vw + 1rem, var(--font-max));
+}
+
+h2 {
+  font-size: --fluid-type(24px, 36px);
+}
+```
+
+### Adaptive Containergrößen
+```css
+@function --intrinsic-container(--inline-margin: 1rem, --max-width: 60ch) {
+  result: min(100% - var(--inline-margin), var(--max-width));
+}
+```
+
+### Dynamische Layouts
+```css
+@function --layout-sidebar(--sidebar-width: 10ch) {
+  result: 1fr;
+  @media (width > 640px) {
+    result: fit-content(var(--sidebar-width)) minmax(min(50vw, 30ch), 1fr);
+  }
+}
+```
+
+## Einschränkungen
+- Keine rekursiven Funktionen
+- Keine lokalen Variablen (noch nicht offiziell, aber experimentell nutzbar)
+- Keine Listen-Argumente (noch nicht vollständig implementiert)
+- Keine Nutzung in CSSOM oder Cascade Layers
+
+## Fazit
+CSS-Funktionen sind eine Revolution für die Stylesheet-Welt. Sie reduzieren Redundanz, verbessern Wartbarkeit und erlauben neue dynamische Designs. Noch sind sie experimentell, aber die Zukunft sieht vielversprechend aus!
+
+---
+*Stand: März 2025 – Funktionalität kann sich ändern!*
+
+
+ 
+</details>
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
 
 # @property
 
