@@ -1846,6 +1846,65 @@ Quelle: [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/animation-co
 
 
 
+<br><br>
+<br><br>
+
+
+# field-sizing
+- https://developer.mozilla.org/en-US/docs/Web/CSS/field-sizing
+
+
+<details><summary>Click to expand..</summary>
+
+Hier ist eine ausführliche, aber kompakte Erklärung für dein Cheatsheet:  
+
+
+### `field-sizing` (CSS) 🚀  
+**Experimentell! Prüfe die Browser-Kompatibilität vor dem Einsatz in Produktion.**  
+
+Das `field-sizing`-Property bestimmt, wie Elemente mit einer standardmäßigen bevorzugten Größe (z. B. Formulareingaben) skaliert werden.  
+
+#### 🔹 Werte  
+- **`content`** → Passt die Größe dynamisch an den Inhalt an.  
+- **`fixed`** (Standard) → Beibehaltung der Standardgröße.  
+
+#### 🛠️ Verwendet für  
+✅ Text-Inputs (`text`, `email`, `password`, `search`, `tel`, `url`, `number`)  
+✅ `file`-Inputs (passt sich an die Dateinamenlänge an)  
+✅ `textarea` (wächst in Breite/Höhe, bis ein Limit erreicht wird)  
+✅ `select` (Drop-downs passen sich an ausgewählten Wert an)  
+
+#### ⚡ Beispiel  
+```css
+input, textarea {
+  field-sizing: content;
+  min-width: 50px;
+  max-width: 350px;
+}
+```
+👉 Die Eingabefelder wachsen mit dem Inhalt, aber bleiben zwischen `50px` und `350px`.  
+
+#### 🏆 Vorteile  
+✅ Kein manuelles Setzen von `width` oder `resize` mehr nötig  
+✅ Platzsparend & verbessert UX  
+✅ Funktioniert mit `min-width` & `max-width` für mehr Kontrolle  
+
+**⚠️ Einschränkungen:**  
+❌ Kann durch `width`, `height` überschrieben werden  
+❌ Noch nicht in allen Browsern unterstützt  
+
+🔥 **Verwenden, wenn Felder sich dynamisch anpassen sollen!**  
+
+
+</details>
+
+
+
+
+
+
+
+
 
 
 
